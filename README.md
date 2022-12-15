@@ -1,1 +1,1 @@
-Expectancy Strategy Performance[https://nickforneris.github.io/expectancy-strategy/]
+(Expectancy Strategy Performance)[https://nickforneris.github.io/expectancy-strategy/]
