@@ -4,45 +4,98 @@ import {
   Container,
   Table,
   Col,
-  Row
+  Row,
+  Button
 } from 'react-bootstrap';
+import './App.css';
+import moment from 'moment';
 
 
 function App() {
 
   const [botData, setBotData] = useState()
-  const url = process.env.PUBLIC_URL + '/botdata/bots.json'
+  const [posData, setPosData] = useState()
+
+  const bots = process.env.PUBLIC_URL + '/botdata/bots.json'
+  const positions = process.env.PUBLIC_URL + '/botdata/positions.json'
+
+  let dollarUS = Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+  });
 
   useEffect(() => {
-    fetch(url)
+    fetch(bots)
       .then((response) => response.json())
       .then((data) =>
         setBotData(data)
+      ).then(
+        fetch(positions)
+          .then((response) => response.json())
+          .then((data) =>
+            setPosData(data)
+          )
       )
-  }, [url])
+  }, [bots, positions])
 
-  const dataBody = () => (botData || []).map((bot, i) => {
+  const dataBotBody = () => (botData || []).map((bot, i) => {
     return (
       <tr key={i}>
-        <td className='align-middle'>{bot.name}</td>
-        <td className='align-middle'>{bot.pcount}</td>
-        <td className='align-middle'>${bot.seed}</td>
-        <td className='align-middle'>{bot.draw}</td>
-        <td className='align-middle'>${bot.openPnl}<br></br>{Math.round(bot.roi * 100)}%</td>
+        <td className='align-middle green'>{bot.name}</td>
+        <td className='align-middle text-center'>{bot.pcount}</td>
+        <td className='align-middle text-center'>{dollarUS.format(bot.seed)}</td>
+        <td className='align-middle text-center'>{dollarUS.format(bot.draw)}</td>
+        <td className={`align-middle text-center ${bot.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(bot.pnl)}<br></br>{Math.round(bot.roi * 100)}%</td>
       </tr>
     )
   })
 
-  const dataFoot = () => {
+  const dataBotFoot = () => {
+    let positions = Object.values(botData || []).reduce((t, { pcount }) => t + pcount, 0)
+    let allocation = Object.values(botData || []).reduce((t, { seed }) => t + seed, 0)
+    let risk = Object.values(botData || []).reduce((t, { draw }) => t + draw, 0)
+    let pl = Object.values(botData || []).reduce((t, { pnl }) => t + pnl, 0)
+    let plPerc = Math.round((100 * pl / allocation))
     return (
       <tr>
         <td className='align-middle'>TOTALS</td>
-        <td className='align-middle'>{Object.values(botData || []).reduce((t, { pcount }) => t + pcount, 0)}</td>
-        <td className='align-middle'>${Object.values(botData || []).reduce((t, { seed }) => t + seed, 0)}</td>
-        <td className='align-middle'>${Object.values(botData || []).reduce((t, { draw }) => t + draw, 0)}</td>
-        <td className='align-middle'>${Object.values(botData || []).reduce((t, { openPnl }) => t + openPnl, 0)}
-        <br></br>{Object.values(botData || []).reduce((t, { roi }) => t + roi, 0) * 100}%
+        <td className='align-middle text-center'>{positions}</td>
+        <td className='align-middle text-center'>{dollarUS.format(allocation)}</td>
+        <td className='align-middle text-center'>{dollarUS.format(risk)}</td>
+        <td className={`align-middle text-center ${pl < 0 ? "red" : "green"}`}>{dollarUS.format(pl)}
+          <br></br>{plPerc}%
         </td>
+      </tr>
+    )
+  }
+
+  const dataPosBody = () => (posData || []).map((pos, i) => {
+    return (
+      <tr key={i}>
+        <td className="green">
+            <div className="text-white">{pos.symbol} | {pos.strategy}</div>
+            <div>{pos.text}</div>
+            <div className="grey">{moment(pos.expiration).format('MMM D')} </div>
+        </td>
+        <td className='align-middle text-center'>{pos.days}</td>
+        <td className='align-middle text-center'>{pos.quantity}</td>
+        <td className='align-middle text-center'>{pos.draw}</td>
+        <td className={`align-middle text-center ${pos.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(pos.pnl)}</td>
+        <td className={`align-middle text-center ${pos.ror < 0 ? "red" : "green"}`}>{dollarUS.format(pos.ror)}</td>
+      </tr>
+    )
+  })
+
+  const dataPosFoot = () => {
+    let risk = Object.values(posData || []).reduce((t, { draw }) => t + draw, 0)
+    let pl = Object.values(posData || []).reduce((t, { pnl }) => t + pnl, 0)
+    let plPerc = Math.round((100 * pl / risk))
+    return (
+      <tr>
+        <td className='align-middle' colSpan='3'>TOTALS</td>
+        <td className='align-middle text-center'>{dollarUS.format(risk)}</td>
+        <td className={`align-middle text-center ${pl < 0 ? "red" : "green"}`}>{dollarUS.format(pl)}</td>
+        <td className={`align-middle text-center ${plPerc < 0 ? "red" : "green"}`}>{plPerc}%</td>
       </tr>
     )
   }
@@ -50,31 +103,62 @@ function App() {
   return (
     <>
       <Navbar bg="dark" sticky="top">
-        <Container>
-          <Navbar.Brand className="text-light">Forneris: Expectancy Strategy Performance</Navbar.Brand>
-        </Container>
+      <Container fluid>
+          <Navbar.Brand className="text-light p-0">Ελπις (Elpis): Expectancy Strategy Performance</Navbar.Brand>
+          <Button className="text-end b-color" href="https://optionalpha.com/">Data Sourced from Option Alpha</Button>
+          </Container>
       </Navbar>
-      <Container className="pt-1">
-        <Row className="bg-dark d-flex aligns-items-center justify-content-center">
-          <Col>
-            <Table responsive className="text-light border">
-              <thead>
-                <tr>
-                  <th>BOT</th>
-                  <th>POSITIONS</th>
-                  <th>ALLOCATION</th>
-                  <th>CAP AT RISK</th>
-                  <th>P/L</th>
-                </tr>
-              </thead>
-              <tbody>
-                {dataBody()}
-              </tbody>
-              <tfoot>
-                {dataFoot()}
-              </tfoot>
-            </Table>
-          </Col>
+
+      <Container fluid>
+        <Row>
+          <Container className="pt-0">
+            <Row className="bg-dark d-flex aligns-items-center justify-content-center">
+              <Col>
+                <Table responsive size="sm" className="text-light border">
+                  <thead>
+                    <tr>
+                      <th>BOT</th>
+                      <th className="text-center">POSITIONS</th>
+                      <th className="text-center">ALLOCATION</th>
+                      <th className="text-center">CAP AT RISK</th>
+                      <th className="text-center">P/L</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {dataBotBody()}
+                  </tbody>
+                  <tfoot>
+                    {dataBotFoot()}
+                  </tfoot>
+                </Table>
+              </Col>
+            </Row>
+          </Container>
+
+          <Container className="mt-3">
+            <Row className="bg-dark d-flex aligns-items-center justify-content-center">
+              <Col>
+                <Table responsive size="sm" className="text-light border">
+                  <thead>
+                    <tr>
+                      <th>POSITIONS</th>
+                      <th className="text-center header">DAYS</th>
+                      <th className="text-center header">QTY</th>
+                      <th className="text-center header">CAP AT RISK</th>
+                      <th className="text-center header">P/L</th>
+                      <th className="text-center header">RETURN ON RISK</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {dataPosBody()}
+                  </tbody>
+                  <tfoot>
+                    {dataPosFoot()}
+                  </tfoot>
+                </Table>
+              </Col>
+            </Row>
+          </Container>
         </Row>
       </Container>
     </>

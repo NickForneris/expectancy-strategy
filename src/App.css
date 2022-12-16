@@ -1,0 +1,47 @@
+.green {
+    color: #32cd32;
+}
+
+.red {
+    color: #ed2939;
+}
+
+.grey {
+    color: #DFE3E3;
+}
+
+.b-color {
+    background: #2ECC71!important;
+    border: none!important;
+    font-weight: 600!important;
+}
+
+/*
+.table-responsive {
+    height: 90vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+} 
+
+.table-responsive::-webkit-scrollbar {
+        display: none;
+    }
+
+thead tr:nth-child(1) th{
+    background-color: #212529;
+    border: none;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+tfoot tr:nth-child(1) td{
+    background-color: #212529;
+    border: none;
+    position: sticky;
+    bottom: 0;
+    z-index: 9999;
+}
+*/
+
