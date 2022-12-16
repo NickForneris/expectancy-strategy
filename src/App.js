@@ -81,7 +81,7 @@ function App() {
         <td className='align-middle text-center'>{pos.quantity}</td>
         <td className='align-middle text-center'>{pos.draw}</td>
         <td className={`align-middle text-center ${pos.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(pos.pnl)}</td>
-        <td className={`align-middle text-center ${pos.ror < 0 ? "red" : "green"}`}>{dollarUS.format(pos.ror)}</td>
+        <td className={`align-middle text-center ${pos.ror < 0 ? "red" : "green"}`}>{Math.round(pos.ror*100)}%</td>
       </tr>
     )
   })
