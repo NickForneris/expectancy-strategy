@@ -1,5 +1,9 @@
-html {
-    padding-left: 2%;
+html, body {
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 *, *:before, *:after {
