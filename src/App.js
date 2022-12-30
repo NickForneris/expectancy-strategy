@@ -73,6 +73,9 @@ function App() {
           id: 'area',
           type: 'area',
           foreColor: '#fff',
+          toolbar: {
+            show: false,
+          },
           zoom: {
             autoScaleYaxis: true
           }
@@ -102,8 +105,8 @@ function App() {
       ]
     }
     return (
-      <div className="pl-chart mb-3">
-      Closed Position PL
+      <div className="pl-chart mb-3 text-white">
+      <strong>CHART: </strong>Closed Position PL
         <Chart
           options={chartData.options}
           series={chartData.series}
