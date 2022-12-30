@@ -214,7 +214,7 @@ function App() {
     <>
       <Navbar bg="dark" sticky="top">
         <Container fluid>
-          <Navbar.Brand className="text-light p-0"><Button className="b-color mt-2 mb-2 pt-1 pb-1" href="https://optionalpha.com/">Data Sourced from Option Alpha</Button><br></br>Ελπις (Elpis): Expectancy Strategy Performance</Navbar.Brand>
+          <Navbar.Brand className="text-light p-0"><span><img src={process.env.PUBLIC_URL + "/OptionsAnalyzerS.png"} alt="logo - target with arrow" className="mt-1 mb-2"/>&nbsp;<Button className="b-color mt-2 mb-2 pt-1 pb-1" href="https://optionalpha.com/">Data Sourced from Option Alpha</Button></span><br></br>Ελπις (Elpis): Expectancy Strategy Performance</Navbar.Brand>
         </Container>
       </Navbar>
 
