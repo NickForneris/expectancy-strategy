@@ -1,3 +1,16 @@
+html {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.gold {
+    color: #FFD700;
+}
+
 .green {
     color: #16F529;
 }
@@ -14,6 +27,10 @@
     background: #2ECC71!important;
     border: none!important;
     font-weight: 600!important;
+}
+
+Table, .border {
+    color: #DFE3E3!important;
 }
 
 /*

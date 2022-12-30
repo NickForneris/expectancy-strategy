@@ -1,1610 +1,116 @@
 [
   {
-    "id": "dJANovrzd516716366131858826",
+    "id": "dJANovrzd43167224050708653215",
     "type": "ironcondor",
     "status": "open",
-    "iid": "BOTdJANovrzd42167151953183069929",
+    "iid": "BOTdJANovrzd4116718191703991406",
     "accountId": "sim11216714649420573231",
     "tags": "",
     "multiplier": 100,
-    "oid": "XLV_ironcondor_123022C139_123022C138_123022P133_123022P134",
-    "symbol": "XLV",
+    "oid": "IYR_ironcondor_011323C87_011323C86_011323P82.5_011323P83",
+    "symbol": "IYR",
     "strategy": "Iron Condor",
-    "desc": "Iron Condor (XLV, Dec 30, +133 put, -134 put, -138 call, +139 call)",
-    "expiration": "2022-12-30T21:00:00.000Z",
+    "desc": "Iron Condor (IYR, Jan 13, +82.50 put, -83 put, -86 call, +87 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
     "exits": {
       "text": "Profits: 95%",
+      "nopdt": "on",
       "epsdays": 0,
       "expdays": 0,
       "profits": 0.95,
       "stoploss": 0
     },
-    "ndate": 20221230,
-    "quantity": 3,
+    "ndate": 20230113,
+    "quantity": 4,
     "active": 1,
-    "text": "+133 put, -134 put, -138 call, +139 call",
-    "openDate": "2022-12-21T15:30:33.228Z",
-    "openPrice": 0.35,
+    "text": "+82.50 put, -83 put, -86 call, +87 call",
+    "openDate": "2022-12-28T15:15:31.217Z",
+    "openPrice": 0.49,
     "closePrice": 0,
-    "cost": -105,
-    "pnl": 9,
-    "draw": 195,
-    "value": -96,
-    "gain": 0.08571429,
-    "priceChange": -0.03,
-    "priceChangePct": -0.08571429,
-    "ror": 0.04615385,
-    "currentPrice": 0.32,
-    "totalPnl": 9,
-    "trail": {
-      "pnl": {
-        "low": -39,
-        "high": 24,
-        "hdate": "2022-12-23T20:14:00.069Z",
-        "ldate": "2022-12-22T18:53:00.186Z"
-      },
-      "ror": {
-        "low": -0.2,
-        "high": 0.12307692,
-        "hdate": "2022-12-23T20:14:00.069Z",
-        "ldate": "2022-12-22T18:53:00.186Z"
-      },
-      "draw": {
-        "low": 195,
-        "high": 195,
-        "hdate": "2022-12-21T15:30:32.959Z",
-        "ldate": "2022-12-21T15:30:32.959Z"
-      },
-      "gain": {
-        "low": -0.37142857,
-        "high": 0.22857143,
-        "hdate": "2022-12-23T20:14:00.069Z",
-        "ldate": "2022-12-22T18:53:00.186Z"
-      },
-      "price": {
-        "low": 0.27,
-        "high": 0.48,
-        "hdate": "2022-12-22T18:53:00.186Z",
-        "ldate": "2022-12-23T20:14:00.069Z"
-      },
-      "value": {
-        "low": -144,
-        "high": -81,
-        "hdate": "2022-12-23T20:14:00.069Z",
-        "ldate": "2022-12-22T18:53:00.186Z"
-      },
-      "quantity": {
-        "low": 3,
-        "high": 3,
-        "hdate": "2022-12-21T15:30:32.959Z",
-        "ldate": "2022-12-21T15:30:32.959Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 135.89,
-    "delta": -0.02024849,
-    "theta": 0.02468132,
-    "gamma": -0.07994297,
-    "vega": -0.03826653,
-    "days": 7,
-    "markClose": 0.32,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": false,
-    "under": {
-      "symbol": "XLV",
-      "description": "Health Care Select Sector SPDR Fund",
-      "last": 136.1,
-      "change": 0.08,
-      "changePercent": 0.00058815,
-      "bid": 136.08,
-      "ask": 136.32,
-      "open": 135.89,
-      "high": 136.23,
-      "low": 135.095,
-      "close": 136.02,
-      "sd": 0.0091763,
-      "av": 0.14566925
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151953183069929",
-      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd5167163662447849610",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151953183069929",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XHB_ironcondor_123022C64_123022C63_123022P58_123022P59",
-    "symbol": "XHB",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XHB, Dec 30, +58 put, -59 put, -63 call, +64 call)",
-    "expiration": "2022-12-30T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221230,
-    "quantity": 3,
-    "active": 1,
-    "text": "+58 put, -59 put, -63 call, +64 call",
-    "openDate": "2022-12-21T15:30:40.729Z",
-    "openPrice": 0.26,
-    "closePrice": 0,
-    "cost": -78,
-    "pnl": 54,
-    "draw": 222,
-    "value": -24,
-    "gain": 0.69230769,
-    "priceChange": -0.18,
-    "priceChangePct": -0.69230769,
-    "ror": 0.24324324,
-    "currentPrice": 0.08,
-    "totalPnl": 54,
-    "trail": {
-      "pnl": {
-        "low": -42,
-        "high": 57,
-        "hdate": "2022-12-23T17:25:00.374Z",
-        "ldate": "2022-12-22T18:09:00.446Z"
-      },
-      "ror": {
-        "low": -0.18918919,
-        "high": 0.25675676,
-        "hdate": "2022-12-23T17:25:00.374Z",
-        "ldate": "2022-12-22T18:09:00.446Z"
-      },
-      "draw": {
-        "low": 222,
-        "high": 222,
-        "hdate": "2022-12-21T15:30:40.961Z",
-        "ldate": "2022-12-21T15:30:40.961Z"
-      },
-      "gain": {
-        "low": -0.53846154,
-        "high": 0.73076923,
-        "hdate": "2022-12-23T17:25:00.374Z",
-        "ldate": "2022-12-22T18:09:00.446Z"
-      },
-      "price": {
-        "low": 0.07,
-        "high": 0.4,
-        "hdate": "2022-12-22T18:09:00.446Z",
-        "ldate": "2022-12-23T17:25:00.374Z"
-      },
-      "value": {
-        "low": -120,
-        "high": -21,
-        "hdate": "2022-12-23T17:25:00.374Z",
-        "ldate": "2022-12-22T18:09:00.446Z"
-      },
-      "quantity": {
-        "low": 3,
-        "high": 3,
-        "hdate": "2022-12-21T15:30:40.961Z",
-        "ldate": "2022-12-21T15:30:40.961Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 60.86,
-    "delta": 0.0299529,
-    "theta": 0.01159174,
-    "gamma": -0.0962636,
-    "vega": -0.01357906,
-    "days": 7,
-    "markClose": 0.08,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": false,
-    "under": {
-      "symbol": "XHB",
-      "description": "SPDR S&P Homebuilders ETF",
-      "last": 60.83,
-      "change": 0.19,
-      "changePercent": 0.00313325,
-      "bid": 60.57,
-      "ask": 61.41,
-      "open": 60.32,
-      "high": 60.84,
-      "low": 59.98,
-      "close": 60.64,
-      "sd": 0.01448491,
-      "av": 0.22994082
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151953183069929",
-      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd5167163662534300012",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151952209125928",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XRT_ironcondor_123022C63_123022C62_123022P57_123022P58",
-    "symbol": "XRT",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XRT, Dec 30, +57 put, -58 put, -62 call, +63 call)",
-    "expiration": "2022-12-30T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221230,
-    "quantity": 3,
-    "active": 1,
-    "text": "+57 put, -58 put, -62 call, +63 call",
-    "openDate": "2022-12-21T15:30:41.229Z",
-    "openPrice": 0.28,
-    "closePrice": 0,
-    "cost": -84,
-    "pnl": -6,
-    "draw": 216,
-    "value": -90,
-    "gain": -0.07142857,
-    "priceChange": 0.02,
-    "priceChangePct": 0.07142857,
-    "ror": -0.02777778,
-    "currentPrice": 0.3,
-    "totalPnl": -6,
-    "trail": {
-      "pnl": {
-        "low": -36,
-        "high": 72,
-        "hdate": "2022-12-22T20:09:00.336Z",
-        "ldate": "2022-12-21T20:50:00.237Z"
-      },
-      "ror": {
-        "low": -0.16666667,
-        "high": 0.33333333,
-        "hdate": "2022-12-22T20:09:00.336Z",
-        "ldate": "2022-12-21T20:50:00.237Z"
-      },
-      "draw": {
-        "low": 216,
-        "high": 216,
-        "hdate": "2022-12-21T15:30:41.460Z",
-        "ldate": "2022-12-21T15:30:41.460Z"
-      },
-      "gain": {
-        "low": -0.42857143,
-        "high": 0.85714286,
-        "hdate": "2022-12-22T20:09:00.336Z",
-        "ldate": "2022-12-21T20:50:00.237Z"
-      },
-      "price": {
-        "low": 0.04,
-        "high": 0.4,
-        "hdate": "2022-12-21T20:50:00.237Z",
-        "ldate": "2022-12-22T20:09:00.336Z"
-      },
-      "value": {
-        "low": -120,
-        "high": -12,
-        "hdate": "2022-12-22T20:09:00.336Z",
-        "ldate": "2022-12-21T20:50:00.237Z"
-      },
-      "quantity": {
-        "low": 3,
-        "high": 3,
-        "hdate": "2022-12-21T15:30:41.460Z",
-        "ldate": "2022-12-21T15:30:41.460Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 60.14,
-    "delta": -0.06403606,
-    "theta": 0.02404766,
-    "gamma": -0.08816303,
-    "vega": -0.01763772,
-    "days": 7,
-    "markClose": 0.3,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": false,
-    "under": {
-      "symbol": "XRT",
-      "description": "SPDR S&P Retail ETF",
-      "last": 60.39,
-      "change": 1.1,
-      "changePercent": 0.01855288,
-      "bid": 60.24,
-      "ask": 60.5,
-      "open": 59.3,
-      "high": 60.39,
-      "low": 58.84,
-      "close": 59.29,
-      "sd": 0.01666889,
-      "av": 0.26461043
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151952209125928",
-      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd516716366128888855",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151952209125928",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "IWM_ironcondor_122722C182_122722C180_122722P169_122722P171",
-    "symbol": "IWM",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (IWM, Dec 27, +169 put, -171 put, -180 call, +182 call)",
-    "expiration": "2022-12-27T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221227,
-    "quantity": 1,
-    "active": 1,
-    "text": "+169 put, -171 put, -180 call, +182 call",
-    "openDate": "2022-12-21T15:30:53.733Z",
-    "openPrice": 0.35,
-    "closePrice": 0,
-    "cost": -35,
-    "pnl": 27,
-    "draw": 165,
-    "value": -8,
-    "gain": 0.77142857,
-    "priceChange": -0.27,
-    "priceChangePct": -0.77142857,
-    "ror": 0.16363636,
-    "currentPrice": 0.08,
-    "totalPnl": 27,
-    "trail": {
-      "pnl": {
-        "low": -51,
-        "high": 28,
-        "hdate": "2022-12-23T20:55:00.206Z",
-        "ldate": "2022-12-22T18:09:00.446Z"
-      },
-      "ror": {
-        "low": -0.30909091,
-        "high": 0.16969697,
-        "hdate": "2022-12-23T20:55:00.206Z",
-        "ldate": "2022-12-22T18:09:00.446Z"
-      },
-      "draw": {
-        "low": 165,
-        "high": 165,
-        "hdate": "2022-12-21T15:30:53.964Z",
-        "ldate": "2022-12-21T15:30:53.964Z"
-      },
-      "gain": {
-        "low": -1.45714286,
-        "high": 0.8,
-        "hdate": "2022-12-23T20:55:00.206Z",
-        "ldate": "2022-12-22T18:09:00.446Z"
-      },
-      "price": {
-        "low": 0.07,
-        "high": 0.86,
-        "hdate": "2022-12-22T18:09:00.446Z",
-        "ldate": "2022-12-23T20:55:00.206Z"
-      },
-      "value": {
-        "low": -86,
-        "high": -7,
-        "hdate": "2022-12-23T20:55:00.206Z",
-        "ldate": "2022-12-22T18:09:00.446Z"
-      },
-      "quantity": {
-        "low": 1,
-        "high": 1,
-        "hdate": "2022-12-21T15:30:53.964Z",
-        "ldate": "2022-12-21T15:30:53.964Z"
-      }
-    },
-    "maintenance": 200,
-    "upriceOpen": 175.5,
-    "delta": 0.05751495,
-    "theta": 0.02445584,
-    "gamma": -0.05181537,
-    "vega": -0.02578561,
-    "days": 4,
-    "markClose": 0.08,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": false,
-    "under": {
-      "symbol": "IWM",
-      "description": "iShares Russell 2000 Index",
-      "last": 174.39,
-      "change": 0.79,
-      "changePercent": 0.00455069,
-      "bid": 174.36,
-      "ask": 174.37,
-      "open": 173.48,
-      "high": 174.45,
-      "low": 172.34,
-      "close": 173.6,
-      "sd": 0.01286241,
-      "av": 0.20418443
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151952209125928",
-      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd171671558319738686137",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151953183069929",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XLF_ironcondor_122322C35_122322C34.5_122322P32.5_122322P33",
-    "symbol": "XLF",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XLF, Dec 23, +32.50 put, -33 put, -34.50 call, +35 call)",
-    "expiration": "2022-12-23T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221223,
-    "quantity": 6,
-    "active": 1,
-    "text": "+32.50 put, -33 put, -34.50 call, +35 call",
-    "openDate": "2022-12-20T17:45:52.624Z",
-    "openPrice": 0.06,
-    "closePrice": 0,
-    "cost": -36,
-    "pnl": 36,
-    "draw": 264,
-    "value": 0,
-    "gain": 1,
-    "priceChange": -0.06,
-    "priceChangePct": -1,
-    "ror": 0.13636364,
-    "currentPrice": 0,
-    "totalPnl": 36,
-    "trail": {
-      "pnl": {
-        "low": -18,
-        "high": 36,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T20:58:00.286Z"
-      },
-      "ror": {
-        "low": -0.06818182,
-        "high": 0.13636364,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T20:58:00.286Z"
-      },
-      "draw": {
-        "low": 264,
-        "high": 264,
-        "hdate": "2022-12-20T17:45:52.362Z",
-        "ldate": "2022-12-20T17:45:52.362Z"
-      },
-      "gain": {
-        "low": -0.5,
-        "high": 1,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T20:58:00.286Z"
-      },
-      "price": {
-        "low": 0,
-        "high": 0.09,
-        "hdate": "2022-12-20T20:58:00.286Z",
-        "ldate": "2022-12-22T14:42:00.172Z"
-      },
-      "value": {
-        "low": -54,
-        "high": 0,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T20:58:00.286Z"
-      },
-      "quantity": {
-        "low": 6,
-        "high": 6,
-        "hdate": "2022-12-20T17:45:52.362Z",
-        "ldate": "2022-12-20T17:45:52.362Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 33.61,
-    "delta": 0.00742122,
-    "theta": 0.00197411,
-    "gamma": -0.0543776,
-    "vega": -0.00040652,
-    "days": 0,
-    "markClose": 0,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": true,
-    "under": {
-      "symbol": "XLF",
-      "description": "Financial Select Sector SPDR Fund",
-      "last": 33.96,
-      "change": 0.2,
-      "changePercent": 0.00592417,
-      "bid": 33.93,
-      "ask": 33.96,
-      "open": 33.74,
-      "high": 34,
-      "low": 33.57,
-      "close": 33.76,
-      "sd": 0.01023688,
-      "av": 0.16250543
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151953183069929",
-      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd171671558320068645143",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151952209125928",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XLV_ironcondor_122322C138_122322C136.5_122322P131.5_122322P132.5",
-    "symbol": "XLV",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XLV, Dec 23, +131.50 put, -132.50 put, -136.50 call, +138 call)",
-    "expiration": "2022-12-23T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221223,
-    "quantity": 2,
-    "active": 1,
-    "text": "+131.50 put, -132.50 put, -136.50 call, +138 call",
-    "openDate": "2022-12-20T17:45:31.117Z",
-    "openPrice": 0.25,
-    "closePrice": 0,
-    "cost": -50,
-    "pnl": 48,
-    "draw": 250,
-    "value": -2,
-    "gain": 0.96,
-    "priceChange": -0.24,
-    "priceChangePct": -0.96,
-    "ror": 0.192,
-    "currentPrice": 0.01,
-    "totalPnl": 48,
-    "trail": {
-      "pnl": {
-        "low": -66,
-        "high": 50,
-        "hdate": "2022-12-23T15:03:00.176Z",
-        "ldate": "2022-12-21T16:11:00.494Z"
-      },
-      "ror": {
-        "low": -0.264,
-        "high": 0.2,
-        "hdate": "2022-12-23T15:03:00.176Z",
-        "ldate": "2022-12-21T16:11:00.494Z"
-      },
-      "draw": {
-        "low": 250,
-        "high": 250,
-        "hdate": "2022-12-20T17:45:31.351Z",
-        "ldate": "2022-12-20T17:45:31.351Z"
-      },
-      "gain": {
-        "low": -1.32,
-        "high": 1,
-        "hdate": "2022-12-23T15:03:00.176Z",
-        "ldate": "2022-12-21T16:11:00.494Z"
-      },
-      "price": {
-        "low": 0,
-        "high": 0.58,
-        "hdate": "2022-12-21T16:11:00.494Z",
-        "ldate": "2022-12-23T15:03:00.176Z"
-      },
-      "value": {
-        "low": -116,
-        "high": 0,
-        "hdate": "2022-12-23T15:03:00.176Z",
-        "ldate": "2022-12-21T16:11:00.494Z"
-      },
-      "quantity": {
-        "low": 2,
-        "high": 2,
-        "hdate": "2022-12-20T17:45:31.351Z",
-        "ldate": "2022-12-20T17:45:31.351Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 134.56,
-    "delta": -0.1188016,
-    "theta": 0.01420443,
-    "gamma": -0.55388407,
-    "vega": -0.01627476,
-    "days": 0,
-    "markClose": 0.01,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": true,
-    "under": {
-      "symbol": "XLV",
-      "description": "Health Care Select Sector SPDR Fund",
-      "last": 136.1,
-      "change": 0.08,
-      "changePercent": 0.00058815,
-      "bid": 136.08,
-      "ask": 136.32,
-      "open": 135.89,
-      "high": 136.23,
-      "low": 135.095,
-      "close": 136.02,
-      "sd": 0.0091763,
-      "av": 0.14566925
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151952209125928",
-      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd171671558316660409136",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151953183069929",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XLV_ironcondor_122322C138_122322C136.5_122322P131.5_122322P132.5",
-    "symbol": "XLV",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XLV, Dec 23, +131.50 put, -132.50 put, -136.50 call, +138 call)",
-    "expiration": "2022-12-23T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221223,
-    "quantity": 2,
-    "active": 1,
-    "text": "+131.50 put, -132.50 put, -136.50 call, +138 call",
-    "openDate": "2022-12-20T17:45:28.618Z",
-    "openPrice": 0.25,
-    "closePrice": 0,
-    "cost": -50,
-    "pnl": 48,
-    "draw": 250,
-    "value": -2,
-    "gain": 0.96,
-    "priceChange": -0.24,
-    "priceChangePct": -0.96,
-    "ror": 0.192,
-    "currentPrice": 0.01,
-    "totalPnl": 48,
-    "trail": {
-      "pnl": {
-        "low": -66,
-        "high": 50,
-        "hdate": "2022-12-23T15:03:00.176Z",
-        "ldate": "2022-12-21T16:11:00.494Z"
-      },
-      "ror": {
-        "low": -0.264,
-        "high": 0.2,
-        "hdate": "2022-12-23T15:03:00.176Z",
-        "ldate": "2022-12-21T16:11:00.494Z"
-      },
-      "draw": {
-        "low": 250,
-        "high": 250,
-        "hdate": "2022-12-20T17:45:28.849Z",
-        "ldate": "2022-12-20T17:45:28.849Z"
-      },
-      "gain": {
-        "low": -1.32,
-        "high": 1,
-        "hdate": "2022-12-23T15:03:00.176Z",
-        "ldate": "2022-12-21T16:11:00.494Z"
-      },
-      "price": {
-        "low": 0,
-        "high": 0.58,
-        "hdate": "2022-12-21T16:11:00.494Z",
-        "ldate": "2022-12-23T15:03:00.176Z"
-      },
-      "value": {
-        "low": -116,
-        "high": 0,
-        "hdate": "2022-12-23T15:03:00.176Z",
-        "ldate": "2022-12-21T16:11:00.494Z"
-      },
-      "quantity": {
-        "low": 2,
-        "high": 2,
-        "hdate": "2022-12-20T17:45:28.849Z",
-        "ldate": "2022-12-20T17:45:28.849Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 134.55,
-    "delta": -0.1188016,
-    "theta": 0.01420443,
-    "gamma": -0.55388407,
-    "vega": -0.01627476,
-    "days": 0,
-    "markClose": 0.01,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": true,
-    "under": {
-      "symbol": "XLV",
-      "description": "Health Care Select Sector SPDR Fund",
-      "last": 136.1,
-      "change": 0.08,
-      "changePercent": 0.00058815,
-      "bid": 136.08,
-      "ask": 136.32,
-      "open": 135.89,
-      "high": 136.23,
-      "low": 135.095,
-      "close": 136.02,
-      "sd": 0.0091763,
-      "av": 0.14566925
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151953183069929",
-      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd17167154841514779131",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151952209125928",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XLF_ironcondor_122322C35_122322C34.5_122322P32.5_122322P33",
-    "symbol": "XLF",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XLF, Dec 23, +32.50 put, -33 put, -34.50 call, +35 call)",
-    "expiration": "2022-12-23T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221223,
-    "quantity": 6,
-    "active": 1,
-    "text": "+32.50 put, -33 put, -34.50 call, +35 call",
-    "openDate": "2022-12-20T15:00:58.289Z",
-    "openPrice": 0.06,
-    "closePrice": 0,
-    "cost": -36,
-    "pnl": 36,
-    "draw": 264,
-    "value": 0,
-    "gain": 1,
-    "priceChange": -0.06,
-    "priceChangePct": -1,
-    "ror": 0.13636364,
-    "currentPrice": 0,
-    "totalPnl": 36,
-    "trail": {
-      "pnl": {
-        "low": -24,
-        "high": 36,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T16:29:00.340Z"
-      },
-      "ror": {
-        "low": -0.09090909,
-        "high": 0.13636364,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T16:29:00.340Z"
-      },
-      "draw": {
-        "low": 264,
-        "high": 264,
-        "hdate": "2022-12-20T15:00:58.302Z",
-        "ldate": "2022-12-20T15:00:58.302Z"
-      },
-      "gain": {
-        "low": -0.66666667,
-        "high": 1,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T16:29:00.340Z"
-      },
-      "price": {
-        "low": 0,
-        "high": 0.1,
-        "hdate": "2022-12-20T16:29:00.340Z",
-        "ldate": "2022-12-22T14:42:00.172Z"
-      },
-      "value": {
-        "low": -60,
-        "high": 0,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T16:29:00.340Z"
-      },
-      "quantity": {
-        "low": 6,
-        "high": 6,
-        "hdate": "2022-12-20T15:00:58.302Z",
-        "ldate": "2022-12-20T15:00:58.302Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 33.64,
-    "delta": 0.00742122,
-    "theta": 0.00197411,
-    "gamma": -0.0543776,
-    "vega": -0.00040652,
-    "days": 0,
-    "markClose": 0,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": true,
-    "under": {
-      "symbol": "XLF",
-      "description": "Financial Select Sector SPDR Fund",
-      "last": 33.96,
-      "change": 0.2,
-      "changePercent": 0.00592417,
-      "bid": 33.93,
-      "ask": 33.96,
-      "open": 33.74,
-      "high": 34,
-      "low": 33.57,
-      "close": 33.76,
-      "sd": 0.01023688,
-      "av": 0.16250543
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151952209125928",
-      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd1716715475380757899",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151953183069929",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XLF_ironcondor_122322C35_122322C34.5_122322P32.5_122322P33",
-    "symbol": "XLF",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XLF, Dec 23, +32.50 put, -33 put, -34.50 call, +35 call)",
-    "expiration": "2022-12-23T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221223,
-    "quantity": 6,
-    "active": 1,
-    "text": "+32.50 put, -33 put, -34.50 call, +35 call",
-    "openDate": "2022-12-20T14:46:31.071Z",
-    "openPrice": 0.07,
-    "closePrice": 0,
-    "cost": -42,
-    "pnl": 42,
-    "draw": 258,
-    "value": 0,
-    "gain": 1,
-    "priceChange": -0.07,
-    "priceChangePct": -1,
-    "ror": 0.1627907,
-    "currentPrice": 0,
-    "totalPnl": 42,
-    "trail": {
-      "pnl": {
-        "low": -18,
-        "high": 42,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T14:46:30.895Z"
-      },
-      "ror": {
-        "low": -0.06976744,
-        "high": 0.1627907,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T14:46:30.895Z"
-      },
-      "draw": {
-        "low": 258,
-        "high": 258,
-        "hdate": "2022-12-20T14:46:30.895Z",
-        "ldate": "2022-12-20T14:46:30.895Z"
-      },
-      "gain": {
-        "low": -0.42857143,
-        "high": 1,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T14:46:30.895Z"
-      },
-      "price": {
-        "low": 0,
-        "high": 0.1,
-        "hdate": "2022-12-20T14:46:30.895Z",
-        "ldate": "2022-12-22T14:42:00.172Z"
-      },
-      "value": {
-        "low": -60,
-        "high": 0,
-        "hdate": "2022-12-22T14:42:00.172Z",
-        "ldate": "2022-12-20T14:46:30.895Z"
-      },
-      "quantity": {
-        "low": 6,
-        "high": 6,
-        "hdate": "2022-12-20T14:46:30.895Z",
-        "ldate": "2022-12-20T14:46:30.895Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 33.59,
-    "delta": 0.00742122,
-    "theta": 0.00197411,
-    "gamma": -0.0543776,
-    "vega": -0.00040652,
-    "days": 0,
-    "markClose": 0,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": true,
-    "under": {
-      "symbol": "XLF",
-      "description": "Financial Select Sector SPDR Fund",
-      "last": 33.96,
-      "change": 0.2,
-      "changePercent": 0.00592417,
-      "bid": 33.93,
-      "ask": 33.96,
-      "open": 33.74,
-      "high": 34,
-      "low": 33.57,
-      "close": 33.76,
-      "sd": 0.01023688,
-      "av": 0.16250543
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151953183069929",
-      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd41167180850708092914",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151952209125928",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "SPY_ironcondor_122722C389_122722C386_122722P370_122722P373",
-    "symbol": "SPY",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (SPY, Dec 27, +370 put, -373 put, -386 call, +389 call)",
-    "expiration": "2022-12-27T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221227,
-    "quantity": 1,
-    "active": 1,
-    "text": "+370 put, -373 put, -386 call, +389 call",
-    "openDate": "2022-12-23T15:15:45.286Z",
-    "openPrice": 0.54,
-    "closePrice": 0,
-    "cost": -54,
-    "pnl": 9,
-    "draw": 246,
-    "value": -45,
-    "gain": 0.16666667,
-    "priceChange": -0.09,
-    "priceChangePct": -0.16666667,
-    "ror": 0.03658537,
-    "currentPrice": 0.45,
-    "totalPnl": 9,
-    "trail": {
-      "quantity": {
-        "high": 1,
-        "hdate": "2022-12-23T15:15:45.661Z",
-        "low": 1,
-        "ldate": "2022-12-23T15:15:45.661Z"
-      },
-      "price": {
-        "high": 0.65,
-        "hdate": "2022-12-23T15:40:00.157Z",
-        "low": 0.35,
-        "ldate": "2022-12-23T20:41:00.163Z"
-      },
-      "gain": {
-        "high": 0.35185185,
-        "hdate": "2022-12-23T20:41:00.163Z",
-        "low": -0.2037037,
-        "ldate": "2022-12-23T15:40:00.157Z"
-      },
-      "draw": {
-        "high": 246,
-        "hdate": "2022-12-23T15:15:45.661Z",
-        "low": 246,
-        "ldate": "2022-12-23T15:15:45.661Z"
-      },
-      "pnl": {
-        "high": 19,
-        "hdate": "2022-12-23T20:41:00.163Z",
-        "low": -11,
-        "ldate": "2022-12-23T15:40:00.157Z"
-      },
-      "ror": {
-        "high": 0.07723577,
-        "hdate": "2022-12-23T20:41:00.163Z",
-        "low": -0.04471545,
-        "ldate": "2022-12-23T15:40:00.157Z"
-      },
-      "value": {
-        "high": -35,
-        "hdate": "2022-12-23T20:41:00.163Z",
-        "low": -65,
-        "ldate": "2022-12-23T15:40:00.157Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 379.63,
-    "delta": -0.13720995,
-    "theta": 0.07997991,
-    "gamma": -0.0478194,
-    "vega": -0.09699426,
-    "days": 4,
-    "markClose": 0.45,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": false,
-    "under": {
-      "symbol": "SPY",
-      "description": "SPDR S&P 500 ETF Trust",
-      "last": 382.87,
-      "change": 2.15,
-      "changePercent": 0.00564719,
-      "bid": 382.85,
-      "ask": 382.87,
-      "open": 379.65,
-      "high": 383.06,
-      "low": 378.03,
-      "close": 380.72,
-      "sd": 0.01204493,
-      "av": 0.19120734
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151952209125928",
-      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd41167180850716670316",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151953183069929",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XRT_ironcondor_123022C61.5_123022C60.5_123022P57_123022P57.5",
-    "symbol": "XRT",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XRT, Dec 30, +57 put, -57.50 put, -60.50 call, +61.50 call)",
-    "expiration": "2022-12-30T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221230,
-    "quantity": 3,
-    "active": 1,
-    "text": "+57 put, -57.50 put, -60.50 call, +61.50 call",
-    "openDate": "2022-12-23T15:15:24.282Z",
-    "openPrice": 0.32,
-    "closePrice": 0,
-    "cost": -96,
-    "pnl": -60,
+    "cost": -196,
+    "pnl": -36,
     "draw": 204,
-    "value": -156,
-    "gain": -0.625,
-    "priceChange": 0.2,
-    "priceChangePct": 0.625,
-    "ror": -0.29411765,
-    "currentPrice": 0.52,
-    "totalPnl": -60,
+    "value": -232,
+    "gain": -0.18367347,
+    "priceChange": 0.09,
+    "priceChangePct": 0.18367347,
+    "ror": -0.17647059,
+    "currentPrice": 0.58,
+    "totalPnl": -36,
     "trail": {
-      "quantity": {
-        "high": 3,
-        "hdate": "2022-12-23T15:15:24.160Z",
-        "low": 3,
-        "ldate": "2022-12-23T15:15:24.160Z"
+      "pnl": {
+        "low": -44,
+        "high": 28,
+        "hdate": "2022-12-28T20:08:00.347Z",
+        "ldate": "2022-12-29T15:01:00.495Z"
       },
-      "price": {
-        "high": 0.5,
-        "hdate": "2022-12-23T20:56:00.218Z",
-        "low": 0.29,
-        "ldate": "2022-12-23T16:01:00.454Z"
-      },
-      "gain": {
-        "high": 0.09375,
-        "hdate": "2022-12-23T16:01:00.454Z",
-        "low": -0.5625,
-        "ldate": "2022-12-23T20:56:00.218Z"
+      "ror": {
+        "low": -0.21568627,
+        "high": 0.1372549,
+        "hdate": "2022-12-28T20:08:00.347Z",
+        "ldate": "2022-12-29T15:01:00.495Z"
       },
       "draw": {
-        "high": 204,
-        "hdate": "2022-12-23T15:15:24.160Z",
         "low": 204,
-        "ldate": "2022-12-23T15:15:24.160Z"
-      },
-      "pnl": {
-        "high": 9,
-        "hdate": "2022-12-23T16:01:00.454Z",
-        "low": -54,
-        "ldate": "2022-12-23T20:56:00.218Z"
-      },
-      "ror": {
-        "high": 0.04411765,
-        "hdate": "2022-12-23T16:01:00.454Z",
-        "low": -0.26470588,
-        "ldate": "2022-12-23T20:56:00.218Z"
-      },
-      "value": {
-        "high": -87,
-        "hdate": "2022-12-23T16:01:00.454Z",
-        "low": -150,
-        "ldate": "2022-12-23T20:56:00.218Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 59.19,
-    "delta": -0.1428838,
-    "theta": 0.00598304,
-    "gamma": -0.04904055,
-    "vega": -0.00710712,
-    "days": 7,
-    "markClose": 0.52,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": false,
-    "under": {
-      "symbol": "XRT",
-      "description": "SPDR S&P Retail ETF",
-      "last": 60.39,
-      "change": 1.1,
-      "changePercent": 0.01855288,
-      "bid": 60.24,
-      "ask": 60.5,
-      "open": 59.3,
-      "high": 60.39,
-      "low": 58.84,
-      "close": 59.29,
-      "sd": 0.01666889,
-      "av": 0.26461043
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151953183069929",
-      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd41167181030561128329",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151953183069929",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "XRT_ironcondor_123022C62_123022C61_123022P57.5_123022P58",
-    "symbol": "XRT",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (XRT, Dec 30, +57.50 put, -58 put, -61 call, +62 call)",
-    "expiration": "2022-12-30T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221230,
-    "quantity": 3,
-    "active": 1,
-    "text": "+57.50 put, -58 put, -61 call, +62 call",
-    "openDate": "2022-12-23T15:45:26.747Z",
-    "openPrice": 0.29,
-    "closePrice": 0,
-    "cost": -87,
-    "pnl": -60,
-    "draw": 213,
-    "value": -147,
-    "gain": -0.68965517,
-    "priceChange": 0.2,
-    "priceChangePct": 0.68965517,
-    "ror": -0.28169014,
-    "currentPrice": 0.49,
-    "totalPnl": -60,
-    "trail": {
-      "quantity": {
-        "high": 3,
-        "hdate": "2022-12-23T15:45:26.734Z",
-        "low": 3,
-        "ldate": "2022-12-23T15:45:26.734Z"
-      },
-      "price": {
-        "high": 0.37,
-        "hdate": "2022-12-23T20:16:00.081Z",
-        "low": 0.27,
-        "ldate": "2022-12-23T16:08:00.020Z"
+        "high": 204,
+        "hdate": "2022-12-28T15:15:31.005Z",
+        "ldate": "2022-12-28T15:15:31.005Z"
       },
       "gain": {
-        "high": 0.06896552,
-        "hdate": "2022-12-23T16:08:00.020Z",
-        "low": -0.27586207,
-        "ldate": "2022-12-23T20:16:00.081Z"
-      },
-      "draw": {
-        "high": 213,
-        "hdate": "2022-12-23T15:45:26.734Z",
-        "low": 213,
-        "ldate": "2022-12-23T15:45:26.734Z"
-      },
-      "pnl": {
-        "high": 6,
-        "hdate": "2022-12-23T16:08:00.020Z",
-        "low": -24,
-        "ldate": "2022-12-23T20:16:00.081Z"
-      },
-      "ror": {
-        "high": 0.02816901,
-        "hdate": "2022-12-23T16:08:00.020Z",
-        "low": -0.11267606,
-        "ldate": "2022-12-23T20:16:00.081Z"
-      },
-      "value": {
-        "high": -81,
-        "hdate": "2022-12-23T16:08:00.020Z",
-        "low": -111,
-        "ldate": "2022-12-23T20:16:00.081Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 59.59,
-    "delta": -0.12293435,
-    "theta": 0.01378967,
-    "gamma": -0.05693069,
-    "vega": -0.01073303,
-    "days": 7,
-    "markClose": 0.49,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": false,
-    "under": {
-      "symbol": "XRT",
-      "description": "SPDR S&P Retail ETF",
-      "last": 60.39,
-      "change": 1.1,
-      "changePercent": 0.01855288,
-      "bid": 60.24,
-      "ask": 60.5,
-      "open": 59.3,
-      "high": 60.39,
-      "low": 58.84,
-      "close": 59.29,
-      "sd": 0.01666889,
-      "av": 0.26461043
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151953183069929",
-      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd41167181120620661037",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151952209125928",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "SPY_ironcondor_122722C390_122722C387_122722P371_122722P374",
-    "symbol": "SPY",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (SPY, Dec 27, +371 put, -374 put, -387 call, +390 call)",
-    "expiration": "2022-12-27T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221227,
-    "quantity": 1,
-    "active": 1,
-    "text": "+371 put, -374 put, -387 call, +390 call",
-    "openDate": "2022-12-23T16:00:43.442Z",
-    "openPrice": 0.41,
-    "closePrice": 0,
-    "cost": -41,
-    "pnl": 9,
-    "draw": 259,
-    "value": -32,
-    "gain": 0.2195122,
-    "priceChange": -0.09,
-    "priceChangePct": -0.2195122,
-    "ror": 0.03474903,
-    "currentPrice": 0.32,
-    "totalPnl": 9,
-    "trail": {
-      "quantity": {
-        "high": 1,
-        "hdate": "2022-12-23T16:00:43.452Z",
-        "low": 1,
-        "ldate": "2022-12-23T16:00:43.452Z"
+        "low": -0.2244898,
+        "high": 0.14285714,
+        "hdate": "2022-12-28T20:08:00.347Z",
+        "ldate": "2022-12-29T15:01:00.495Z"
       },
       "price": {
-        "high": 0.45,
-        "hdate": "2022-12-23T16:03:00.468Z",
-        "low": 0.28,
-        "ldate": "2022-12-23T20:40:00.157Z"
-      },
-      "gain": {
-        "high": 0.31707317,
-        "hdate": "2022-12-23T20:40:00.157Z",
-        "low": -0.09756098,
-        "ldate": "2022-12-23T16:03:00.468Z"
-      },
-      "draw": {
-        "high": 259,
-        "hdate": "2022-12-23T16:00:43.452Z",
-        "low": 259,
-        "ldate": "2022-12-23T16:00:43.452Z"
-      },
-      "pnl": {
-        "high": 13,
-        "hdate": "2022-12-23T20:40:00.157Z",
-        "low": -4,
-        "ldate": "2022-12-23T16:03:00.468Z"
-      },
-      "ror": {
-        "high": 0.05019305,
-        "hdate": "2022-12-23T20:40:00.157Z",
-        "low": -0.01544402,
-        "ldate": "2022-12-23T16:03:00.468Z"
+        "low": 0.42,
+        "high": 0.6,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-28T20:08:00.347Z"
       },
       "value": {
-        "high": -28,
-        "hdate": "2022-12-23T20:40:00.157Z",
-        "low": -45,
-        "ldate": "2022-12-23T16:03:00.468Z"
-      }
-    },
-    "maintenance": 300,
-    "upriceOpen": 380.7,
-    "delta": -0.09100516,
-    "theta": 0.07580842,
-    "gamma": -0.04638308,
-    "vega": -0.09315955,
-    "days": 4,
-    "markClose": 0.32,
-    "isShort": true,
-    "isLong": false,
-    "isSpread": true,
-    "isLastTradingDay": false,
-    "under": {
-      "symbol": "SPY",
-      "description": "SPDR S&P 500 ETF Trust",
-      "last": 382.87,
-      "change": 2.15,
-      "changePercent": 0.00564719,
-      "bid": 382.85,
-      "ask": 382.87,
-      "open": 379.65,
-      "high": 383.06,
-      "low": 378.03,
-      "close": 380.72,
-      "sd": 0.01204493,
-      "av": 0.19120734
-    },
-    "bot": {
-      "id": "BOTdJANovrzd42167151952209125928",
-      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
-      "icon": "fas-box-open bg-orange",
-      "accountId": "sim11216714649420573231"
-    }
-  },
-  {
-    "id": "dJANovrzd41167181300690598044",
-    "type": "ironcondor",
-    "status": "open",
-    "iid": "BOTdJANovrzd42167151952209125928",
-    "accountId": "sim11216714649420573231",
-    "tags": "",
-    "multiplier": 100,
-    "oid": "QQQ_ironcondor_122722C275_122722C272_122722P257_122722P260",
-    "symbol": "QQQ",
-    "strategy": "Iron Condor",
-    "desc": "Iron Condor (QQQ, Dec 27, +257 put, -260 put, -272 call, +275 call)",
-    "expiration": "2022-12-27T21:00:00.000Z",
-    "exits": {
-      "text": "Profits: 95%",
-      "epsdays": 0,
-      "expdays": 0,
-      "profits": 0.95,
-      "stoploss": 0
-    },
-    "ndate": 20221227,
-    "quantity": 1,
-    "active": 1,
-    "text": "+257 put, -260 put, -272 call, +275 call",
-    "openDate": "2022-12-23T16:30:41.920Z",
-    "openPrice": 0.32,
-    "closePrice": 0,
-    "cost": -32,
-    "pnl": 12,
-    "draw": 268,
-    "value": -20,
-    "gain": 0.375,
-    "priceChange": -0.12,
-    "priceChangePct": -0.375,
-    "ror": 0.04477612,
-    "currentPrice": 0.2,
-    "totalPnl": 12,
-    "trail": {
+        "low": -240,
+        "high": -168,
+        "hdate": "2022-12-28T20:08:00.347Z",
+        "ldate": "2022-12-29T15:01:00.495Z"
+      },
       "quantity": {
-        "high": 1,
-        "hdate": "2022-12-23T16:30:41.989Z",
-        "low": 1,
-        "ldate": "2022-12-23T16:30:41.989Z"
-      },
-      "price": {
-        "high": 0.36,
-        "hdate": "2022-12-23T16:43:00.099Z",
-        "low": 0.2,
-        "ldate": "2022-12-23T20:38:00.139Z"
-      },
-      "gain": {
-        "high": 0.375,
-        "hdate": "2022-12-23T20:38:00.139Z",
-        "low": -0.125,
-        "ldate": "2022-12-23T16:43:00.099Z"
-      },
-      "draw": {
-        "high": 268,
-        "hdate": "2022-12-23T16:30:41.989Z",
-        "low": 268,
-        "ldate": "2022-12-23T16:30:41.989Z"
-      },
-      "pnl": {
-        "high": 12,
-        "hdate": "2022-12-23T20:38:00.139Z",
-        "low": -4,
-        "ldate": "2022-12-23T16:43:00.099Z"
-      },
-      "ror": {
-        "high": 0.04477612,
-        "hdate": "2022-12-23T20:38:00.139Z",
-        "low": -0.01492537,
-        "ldate": "2022-12-23T16:43:00.099Z"
-      },
-      "value": {
-        "high": -20,
-        "hdate": "2022-12-23T20:38:00.139Z",
-        "low": -36,
-        "ldate": "2022-12-23T16:43:00.099Z"
+        "low": 4,
+        "high": 4,
+        "hdate": "2022-12-28T15:15:31.005Z",
+        "ldate": "2022-12-28T15:15:31.005Z"
       }
     },
-    "maintenance": 300,
-    "upriceOpen": 266.03,
-    "delta": -0.03974047,
-    "theta": 0.06948773,
-    "gamma": -0.04662301,
-    "vega": -0.06254815,
-    "days": 4,
-    "markClose": 0.2,
+    "maintenance": 400,
+    "upriceOpen": 84.59,
+    "delta": -0.0598304,
+    "theta": 0.00833836,
+    "gamma": -0.01133561,
+    "vega": -0.01033377,
+    "days": 15,
+    "markClose": 0.58,
     "isShort": true,
     "isLong": false,
     "isSpread": true,
     "isLastTradingDay": false,
     "under": {
-      "symbol": "QQQ",
-      "description": "Investco QQQ Trust",
-      "last": 267.36,
-      "change": 0.6,
-      "changePercent": 0.00224921,
-      "bid": 267.32,
-      "ask": 267.35,
-      "open": 265.47,
-      "high": 268.04,
-      "low": 263.53,
-      "close": 266.76,
-      "sd": 0.01559698,
-      "av": 0.24759438
+      "symbol": "IYR",
+      "description": "iShares U.S. Real Estate ETF",
+      "last": 84.995,
+      "change": 1.955,
+      "changePercent": 0.02354287,
+      "bid": 84.99,
+      "ask": 85,
+      "open": 83.72,
+      "high": 85.08,
+      "low": 83.43,
+      "close": 83.04,
+      "sd": 0.01208612,
+      "av": 0.19186121
     },
     "bot": {
-      "id": "BOTdJANovrzd42167151952209125928",
-      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+      "id": "BOTdJANovrzd4116718191703991406",
+      "name": "Ελπις (Elpis) [ IYR | USO | TLT ]",
       "icon": "fas-box-open bg-orange",
       "accountId": "sim11216714649420573231"
     }
@@ -1637,67 +143,67 @@
     "openPrice": 0.29,
     "closePrice": 0,
     "cost": -116,
-    "pnl": 36,
+    "pnl": 96,
     "draw": 284,
-    "value": -80,
-    "gain": 0.31034483,
-    "priceChange": -0.09,
-    "priceChangePct": -0.31034483,
-    "ror": 0.12676056,
-    "currentPrice": 0.2,
-    "totalPnl": 36,
+    "value": -20,
+    "gain": 0.82758621,
+    "priceChange": -0.24,
+    "priceChangePct": -0.82758621,
+    "ror": 0.33802817,
+    "currentPrice": 0.05,
+    "totalPnl": 96,
     "trail": {
-      "quantity": {
-        "high": 4,
-        "hdate": "2022-12-23T18:30:30.055Z",
-        "low": 4,
-        "ldate": "2022-12-23T18:30:30.055Z"
-      },
-      "price": {
-        "high": 0.34,
-        "hdate": "2022-12-23T18:46:00.055Z",
-        "low": 0.29,
-        "ldate": "2022-12-23T20:17:00.093Z"
-      },
-      "gain": {
-        "high": 0,
-        "hdate": "2022-12-23T20:17:00.093Z",
-        "low": -0.17241379,
-        "ldate": "2022-12-23T18:46:00.055Z"
-      },
-      "draw": {
-        "high": 284,
-        "hdate": "2022-12-23T18:30:30.055Z",
-        "low": 284,
-        "ldate": "2022-12-23T18:30:30.055Z"
-      },
       "pnl": {
-        "high": 0,
-        "hdate": "2022-12-23T20:17:00.093Z",
-        "low": -20,
-        "ldate": "2022-12-23T18:46:00.055Z"
+        "low": -36,
+        "high": 104,
+        "hdate": "2022-12-29T18:54:00.155Z",
+        "ldate": "2022-12-27T18:50:00.355Z"
       },
       "ror": {
-        "high": 0,
-        "hdate": "2022-12-23T20:17:00.093Z",
-        "low": -0.07042254,
-        "ldate": "2022-12-23T18:46:00.055Z"
+        "low": -0.12676056,
+        "high": 0.36619718,
+        "hdate": "2022-12-29T18:54:00.155Z",
+        "ldate": "2022-12-27T18:50:00.355Z"
+      },
+      "draw": {
+        "low": 284,
+        "high": 284,
+        "hdate": "2022-12-23T18:30:30.055Z",
+        "ldate": "2022-12-23T18:30:30.055Z"
+      },
+      "gain": {
+        "low": -0.31034483,
+        "high": 0.89655172,
+        "hdate": "2022-12-29T18:54:00.155Z",
+        "ldate": "2022-12-27T18:50:00.355Z"
+      },
+      "price": {
+        "low": 0.03,
+        "high": 0.38,
+        "hdate": "2022-12-27T18:50:00.355Z",
+        "ldate": "2022-12-29T18:54:00.155Z"
       },
       "value": {
-        "high": -116,
-        "hdate": "2022-12-23T20:17:00.093Z",
-        "low": -136,
-        "ldate": "2022-12-23T18:46:00.055Z"
+        "low": -152,
+        "high": -12,
+        "hdate": "2022-12-29T18:54:00.155Z",
+        "ldate": "2022-12-27T18:50:00.355Z"
+      },
+      "quantity": {
+        "low": 4,
+        "high": 4,
+        "hdate": "2022-12-23T18:30:30.055Z",
+        "ldate": "2022-12-23T18:30:30.055Z"
       }
     },
     "maintenance": 400,
     "upriceOpen": 86.73,
-    "delta": -0.04046117,
-    "theta": 0.02174756,
-    "gamma": -0.04625341,
-    "vega": -0.01756857,
-    "days": 7,
-    "markClose": 0.2,
+    "delta": -0.02644814,
+    "theta": 0.02494546,
+    "gamma": -0.07825076,
+    "vega": -0.00739699,
+    "days": 1,
+    "markClose": 0.05,
     "isShort": true,
     "isLong": false,
     "isSpread": true,
@@ -1705,17 +211,17 @@
     "under": {
       "symbol": "XLE",
       "description": "Energy Select Sector SPDR Fund",
-      "last": 87.06,
-      "change": 2.69,
-      "changePercent": 0.03188337,
-      "bid": 87.05,
-      "ask": 87.1,
-      "open": 85.49,
-      "high": 87.08,
-      "low": 85.05,
-      "close": 84.37,
-      "sd": 0.01694547,
-      "av": 0.269001
+      "last": 86.93,
+      "change": 0.91,
+      "changePercent": 0.01057894,
+      "bid": 86.92,
+      "ask": 86.93,
+      "open": 85.66,
+      "high": 87.31,
+      "low": 85.62,
+      "close": 86.02,
+      "sd": 0.0175229,
+      "av": 0.27816741
     },
     "bot": {
       "id": "BOTdJANovrzd4116718191611369765",
@@ -1725,112 +231,345 @@
     }
   },
   {
-    "id": "dJANovrzd41167182020706741056",
+    "id": "dJANovrzd43167224050707622714",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191611369765",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLE_ironcondor_010623C89.5_010623C88.5_010623P83_010623P84",
+    "symbol": "XLE",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLE, Jan 6, +83 put, -84 put, -88.50 call, +89.50 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230106,
+    "quantity": 5,
+    "active": 1,
+    "text": "+83 put, -84 put, -88.50 call, +89.50 call",
+    "openDate": "2022-12-28T15:15:30.717Z",
+    "openPrice": 0.49,
+    "closePrice": 0,
+    "cost": -245,
+    "pnl": 0,
+    "draw": 255,
+    "value": -245,
+    "gain": 0,
+    "priceChange": 0,
+    "priceChangePct": 0,
+    "ror": 0,
+    "currentPrice": 0.49,
+    "totalPnl": 0,
+    "trail": {
+      "pnl": {
+        "low": -30,
+        "high": 15,
+        "hdate": "2022-12-29T16:05:00.136Z",
+        "ldate": "2022-12-28T18:14:00.322Z"
+      },
+      "ror": {
+        "low": -0.11764706,
+        "high": 0.05882353,
+        "hdate": "2022-12-29T16:05:00.136Z",
+        "ldate": "2022-12-28T18:14:00.322Z"
+      },
+      "draw": {
+        "low": 255,
+        "high": 255,
+        "hdate": "2022-12-28T15:15:31.005Z",
+        "ldate": "2022-12-28T15:15:31.005Z"
+      },
+      "gain": {
+        "low": -0.12244898,
+        "high": 0.06122449,
+        "hdate": "2022-12-29T16:05:00.136Z",
+        "ldate": "2022-12-28T18:14:00.322Z"
+      },
+      "price": {
+        "low": 0.46,
+        "high": 0.55,
+        "hdate": "2022-12-28T18:14:00.322Z",
+        "ldate": "2022-12-29T16:05:00.136Z"
+      },
+      "value": {
+        "low": -275,
+        "high": -230,
+        "hdate": "2022-12-29T16:05:00.136Z",
+        "ldate": "2022-12-28T18:14:00.322Z"
+      },
+      "quantity": {
+        "low": 5,
+        "high": 5,
+        "hdate": "2022-12-28T15:15:31.005Z",
+        "ldate": "2022-12-28T15:15:31.005Z"
+      }
+    },
+    "maintenance": 500,
+    "upriceOpen": 86.37,
+    "delta": -0.02823617,
+    "theta": 0.02066788,
+    "gamma": -0.0272589,
+    "vega": -0.01458771,
+    "days": 8,
+    "markClose": 0.49,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLE",
+      "description": "Energy Select Sector SPDR Fund",
+      "last": 86.93,
+      "change": 0.91,
+      "changePercent": 0.01057894,
+      "bid": 86.92,
+      "ask": 86.93,
+      "open": 85.66,
+      "high": 87.31,
+      "low": 85.62,
+      "close": 86.02,
+      "sd": 0.0175229,
+      "av": 0.27816741
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191611369765",
+      "name": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd43167224860549509158",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151952209125928",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLY_ironcondor_010623C130_010623C129_010623P122_010623P124",
+    "symbol": "XLY",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLY, Jan 6, +122 put, -124 put, -129 call, +130 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230106,
+    "quantity": 2,
+    "active": 1,
+    "text": "+122 put, -124 put, -129 call, +130 call",
+    "openDate": "2022-12-28T17:30:19.731Z",
+    "openPrice": 0.8,
+    "closePrice": 0,
+    "cost": -160,
+    "pnl": 18,
+    "draw": 240,
+    "value": -142,
+    "gain": 0.1125,
+    "priceChange": -0.09,
+    "priceChangePct": -0.1125,
+    "ror": 0.075,
+    "currentPrice": 0.71,
+    "totalPnl": 18,
+    "trail": {
+      "pnl": {
+        "low": -12,
+        "high": 20,
+        "hdate": "2022-12-29T16:28:00.232Z",
+        "ldate": "2022-12-28T20:47:00.326Z"
+      },
+      "ror": {
+        "low": -0.05,
+        "high": 0.08333333,
+        "hdate": "2022-12-29T16:28:00.232Z",
+        "ldate": "2022-12-28T20:47:00.326Z"
+      },
+      "draw": {
+        "low": 240,
+        "high": 240,
+        "hdate": "2022-12-28T17:30:19.908Z",
+        "ldate": "2022-12-28T17:30:19.908Z"
+      },
+      "gain": {
+        "low": -0.075,
+        "high": 0.125,
+        "hdate": "2022-12-29T16:28:00.232Z",
+        "ldate": "2022-12-28T20:47:00.326Z"
+      },
+      "price": {
+        "low": 0.7,
+        "high": 0.86,
+        "hdate": "2022-12-28T20:47:00.326Z",
+        "ldate": "2022-12-29T16:28:00.232Z"
+      },
+      "value": {
+        "low": -172,
+        "high": -140,
+        "hdate": "2022-12-29T16:28:00.232Z",
+        "ldate": "2022-12-28T20:47:00.326Z"
+      },
+      "quantity": {
+        "low": 2,
+        "high": 2,
+        "hdate": "2022-12-28T17:30:19.908Z",
+        "ldate": "2022-12-28T17:30:19.908Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 126.22,
+    "delta": -0.01656912,
+    "theta": 0.02064377,
+    "gamma": -0.01211981,
+    "vega": -0.014624,
+    "days": 8,
+    "markClose": 0.71,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLY",
+      "description": "Consumer Discretionary Select Sector SPDR Fund",
+      "last": 129.62,
+      "change": 3.36,
+      "changePercent": 0.02661175,
+      "bid": 129.61,
+      "ask": 129.62,
+      "open": 128.07,
+      "high": 129.8,
+      "low": 127.57,
+      "close": 126.26,
+      "sd": 0.01343742,
+      "av": 0.21331243
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151952209125928",
+      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd43167224051789726519",
     "type": "ironcondor",
     "status": "open",
     "iid": "BOTdJANovrzd4116718191703991406",
     "accountId": "sim11216714649420573231",
     "tags": "",
     "multiplier": 100,
-    "oid": "IYR_ironcondor_123022C86.5_123022C86_123022P82_123022P82.5",
-    "symbol": "IYR",
+    "oid": "TLT_ironcondor_011323C103.5_011323C102.5_011323P97.5_011323P98.5",
+    "symbol": "TLT",
     "strategy": "Iron Condor",
-    "desc": "Iron Condor (IYR, Dec 30, +82 put, -82.50 put, -86 call, +86.50 call)",
-    "expiration": "2022-12-30T21:00:00.000Z",
+    "desc": "Iron Condor (TLT, Jan 13, +97.50 put, -98.50 put, -102.50 call, +103.50 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
     "exits": {
       "text": "Profits: 95%",
+      "nopdt": "on",
       "epsdays": 0,
       "expdays": 0,
       "profits": 0.95,
       "stoploss": 0
     },
-    "ndate": 20221230,
+    "ndate": 20230113,
     "quantity": 6,
     "active": 1,
-    "text": "+82 put, -82.50 put, -86 call, +86.50 call",
-    "openDate": "2022-12-23T18:30:19.727Z",
-    "openPrice": 0.14,
+    "text": "+97.50 put, -98.50 put, -102.50 call, +103.50 call",
+    "openDate": "2022-12-28T15:15:37.721Z",
+    "openPrice": 0.55,
     "closePrice": 0,
-    "cost": -84,
-    "pnl": -24,
-    "draw": 216,
-    "value": -108,
-    "gain": -0.28571429,
-    "priceChange": 0.04,
-    "priceChangePct": 0.28571429,
-    "ror": -0.11111111,
-    "currentPrice": 0.18,
-    "totalPnl": -24,
+    "cost": -330,
+    "pnl": -18,
+    "draw": 270,
+    "value": -348,
+    "gain": -0.05454545,
+    "priceChange": 0.03,
+    "priceChangePct": 0.05454545,
+    "ror": -0.06666667,
+    "currentPrice": 0.58,
+    "totalPnl": -18,
     "trail": {
-      "quantity": {
-        "high": 6,
-        "hdate": "2022-12-23T18:30:19.551Z",
-        "low": 6,
-        "ldate": "2022-12-23T18:30:19.551Z"
-      },
-      "price": {
-        "high": 0.19,
-        "hdate": "2022-12-23T20:02:00.447Z",
-        "low": 0.15,
-        "ldate": "2022-12-23T19:55:00.110Z"
-      },
-      "gain": {
-        "high": -0.07142857,
-        "hdate": "2022-12-23T19:55:00.110Z",
-        "low": -0.35714286,
-        "ldate": "2022-12-23T20:02:00.447Z"
-      },
-      "draw": {
-        "high": 216,
-        "hdate": "2022-12-23T18:30:19.551Z",
-        "low": 216,
-        "ldate": "2022-12-23T18:30:19.551Z"
-      },
       "pnl": {
+        "low": -48,
         "high": -6,
-        "hdate": "2022-12-23T19:55:00.110Z",
-        "low": -30,
-        "ldate": "2022-12-23T20:02:00.447Z"
+        "hdate": "2022-12-29T15:42:00.241Z",
+        "ldate": "2022-12-28T17:09:00.261Z"
       },
       "ror": {
-        "high": -0.02777778,
-        "hdate": "2022-12-23T19:55:00.110Z",
-        "low": -0.13888889,
-        "ldate": "2022-12-23T20:02:00.447Z"
+        "low": -0.17777778,
+        "high": -0.02222222,
+        "hdate": "2022-12-29T15:42:00.241Z",
+        "ldate": "2022-12-28T17:09:00.261Z"
+      },
+      "draw": {
+        "low": 270,
+        "high": 270,
+        "hdate": "2022-12-28T15:15:38.006Z",
+        "ldate": "2022-12-28T15:15:38.006Z"
+      },
+      "gain": {
+        "low": -0.14545455,
+        "high": -0.01818182,
+        "hdate": "2022-12-29T15:42:00.241Z",
+        "ldate": "2022-12-28T17:09:00.261Z"
+      },
+      "price": {
+        "low": 0.56,
+        "high": 0.63,
+        "hdate": "2022-12-28T17:09:00.261Z",
+        "ldate": "2022-12-29T15:42:00.241Z"
       },
       "value": {
-        "high": -90,
-        "hdate": "2022-12-23T19:55:00.110Z",
-        "low": -114,
-        "ldate": "2022-12-23T20:02:00.447Z"
+        "low": -378,
+        "high": -336,
+        "hdate": "2022-12-29T15:42:00.241Z",
+        "ldate": "2022-12-28T17:09:00.261Z"
+      },
+      "quantity": {
+        "low": 6,
+        "high": 6,
+        "hdate": "2022-12-28T15:15:38.006Z",
+        "ldate": "2022-12-28T15:15:38.006Z"
       }
     },
-    "maintenance": 300,
-    "upriceOpen": 84.3,
-    "delta": -0.03214031,
-    "theta": 0.01382626,
-    "gamma": -0.05188123,
-    "vega": -0.01438287,
-    "days": 7,
-    "markClose": 0.18,
+    "maintenance": 600,
+    "upriceOpen": 100.3,
+    "delta": -0.003363,
+    "theta": 0.01063726,
+    "gamma": -0.01636418,
+    "vega": -0.01621356,
+    "days": 15,
+    "markClose": 0.58,
     "isShort": true,
     "isLong": false,
     "isSpread": true,
     "isLastTradingDay": false,
     "under": {
-      "symbol": "IYR",
-      "description": "iShares U.S. Real Estate ETF",
-      "last": 84.53,
-      "change": 0.72,
-      "changePercent": 0.00859086,
-      "bid": 83.83,
-      "ask": 84.7,
-      "open": 83.8,
-      "high": 84.55,
-      "low": 83.22,
-      "close": 83.81,
-      "sd": 0.01249052,
-      "av": 0.19828086
+      "symbol": "TLT",
+      "description": "iShares 20Y Treasury Bond ETF",
+      "last": 100.51,
+      "change": 0.96,
+      "changePercent": 0.0096434,
+      "bid": 100.5,
+      "ask": 100.51,
+      "open": 99.86,
+      "high": 100.99,
+      "low": 99.79,
+      "close": 99.55,
+      "sd": 0.01376283,
+      "av": 0.21847815
     },
     "bot": {
       "id": "BOTdJANovrzd4116718191703991406",
@@ -1840,94 +579,211 @@
     }
   },
   {
-    "id": "dJANovrzd41167182021036859057",
+    "id": "dJANovrzd43167224051777645317",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151953183069929",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLV_ironcondor_010623C140_010623C138.5_010623P134_010623P135",
+    "symbol": "XLV",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLV, Jan 6, +134 put, -135 put, -138.50 call, +140 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230106,
+    "quantity": 3,
+    "active": 1,
+    "text": "+134 put, -135 put, -138.50 call, +140 call",
+    "openDate": "2022-12-28T15:15:37.721Z",
+    "openPrice": 0.54,
+    "closePrice": 0,
+    "cost": -162,
+    "pnl": 18,
+    "draw": 288,
+    "value": -144,
+    "gain": 0.11111111,
+    "priceChange": -0.06,
+    "priceChangePct": -0.11111111,
+    "ror": 0.0625,
+    "currentPrice": 0.48,
+    "totalPnl": 18,
+    "trail": {
+      "pnl": {
+        "low": -18,
+        "high": 21,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-28T15:17:00.024Z"
+      },
+      "ror": {
+        "low": -0.0625,
+        "high": 0.07291667,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-28T15:17:00.024Z"
+      },
+      "draw": {
+        "low": 288,
+        "high": 288,
+        "hdate": "2022-12-28T15:15:38.006Z",
+        "ldate": "2022-12-28T15:15:38.006Z"
+      },
+      "gain": {
+        "low": -0.11111111,
+        "high": 0.12962963,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-28T15:17:00.024Z"
+      },
+      "price": {
+        "low": 0.47,
+        "high": 0.6,
+        "hdate": "2022-12-28T15:17:00.024Z",
+        "ldate": "2022-12-29T20:50:00.255Z"
+      },
+      "value": {
+        "low": -180,
+        "high": -141,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-28T15:17:00.024Z"
+      },
+      "quantity": {
+        "low": 3,
+        "high": 3,
+        "hdate": "2022-12-28T15:15:38.006Z",
+        "ldate": "2022-12-28T15:15:38.006Z"
+      }
+    },
+    "maintenance": 450,
+    "upriceOpen": 136.61,
+    "delta": -0.03202805,
+    "theta": 0.02712406,
+    "gamma": -0.06331321,
+    "vega": -0.04000417,
+    "days": 8,
+    "markClose": 0.48,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLV",
+      "description": "Health Care Select Sector SPDR Fund",
+      "last": 136.35,
+      "change": 1.48,
+      "changePercent": 0.01097353,
+      "bid": 136.36,
+      "ask": 136.37,
+      "open": 135.71,
+      "high": 137.045,
+      "low": 135.4,
+      "close": 134.87,
+      "sd": 0.00897321,
+      "av": 0.14244529
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd43167224230690479529",
     "type": "ironcondor",
     "status": "open",
     "iid": "BOTdJANovrzd4116718191611369765",
     "accountId": "sim11216714649420573231",
     "tags": "",
     "multiplier": 100,
-    "oid": "XLP_ironcondor_123022C76.5_123022C76_123022P73.5_123022P74",
+    "oid": "XLP_ironcondor_010623C76.5_010623C76_010623P74_010623P74.5",
     "symbol": "XLP",
     "strategy": "Iron Condor",
-    "desc": "Iron Condor (XLP, Dec 30, +73.50 put, -74 put, -76 call, +76.50 call)",
-    "expiration": "2022-12-30T21:00:00.000Z",
+    "desc": "Iron Condor (XLP, Jan 6, +74 put, -74.50 put, -76 call, +76.50 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
     "exits": {
       "text": "Profits: 95%",
+      "nopdt": "on",
       "epsdays": 0,
       "expdays": 0,
       "profits": 0.95,
       "stoploss": 0
     },
-    "ndate": 20221230,
-    "quantity": 6,
+    "ndate": 20230106,
+    "quantity": 9,
     "active": 1,
-    "text": "+73.50 put, -74 put, -76 call, +76.50 call",
-    "openDate": "2022-12-23T18:30:23.228Z",
-    "openPrice": 0.13,
+    "text": "+74 put, -74.50 put, -76 call, +76.50 call",
+    "openDate": "2022-12-28T15:45:28.430Z",
+    "openPrice": 0.25,
     "closePrice": 0,
-    "cost": -78,
-    "pnl": 12,
-    "draw": 222,
-    "value": -66,
-    "gain": 0.15384615,
+    "cost": -225,
+    "pnl": 18,
+    "draw": 225,
+    "value": -207,
+    "gain": 0.08,
     "priceChange": -0.02,
-    "priceChangePct": -0.15384615,
-    "ror": 0.05405405,
-    "currentPrice": 0.11,
-    "totalPnl": 12,
+    "priceChangePct": -0.08,
+    "ror": 0.08,
+    "currentPrice": 0.23,
+    "totalPnl": 18,
     "trail": {
-      "quantity": {
-        "high": 6,
-        "hdate": "2022-12-23T18:30:23.553Z",
-        "low": 6,
-        "ldate": "2022-12-23T18:30:23.553Z"
-      },
-      "price": {
-        "high": 0.17,
-        "hdate": "2022-12-23T20:02:00.447Z",
-        "low": 0.12,
-        "ldate": "2022-12-23T18:46:00.055Z"
-      },
-      "gain": {
-        "high": 0.07692308,
-        "hdate": "2022-12-23T18:46:00.055Z",
-        "low": -0.30769231,
-        "ldate": "2022-12-23T20:02:00.447Z"
-      },
-      "draw": {
-        "high": 222,
-        "hdate": "2022-12-23T18:30:23.553Z",
-        "low": 222,
-        "ldate": "2022-12-23T18:30:23.553Z"
-      },
       "pnl": {
-        "high": 6,
-        "hdate": "2022-12-23T18:46:00.055Z",
-        "low": -24,
-        "ldate": "2022-12-23T20:02:00.447Z"
+        "low": -45,
+        "high": 135,
+        "hdate": "2022-12-29T14:40:00.149Z",
+        "ldate": "2022-12-28T20:56:00.409Z"
       },
       "ror": {
-        "high": 0.02702703,
-        "hdate": "2022-12-23T18:46:00.055Z",
-        "low": -0.10810811,
-        "ldate": "2022-12-23T20:02:00.447Z"
+        "low": -0.2,
+        "high": 0.6,
+        "hdate": "2022-12-29T14:40:00.149Z",
+        "ldate": "2022-12-28T20:56:00.409Z"
+      },
+      "draw": {
+        "low": 225,
+        "high": 225,
+        "hdate": "2022-12-28T15:45:28.442Z",
+        "ldate": "2022-12-28T15:45:28.442Z"
+      },
+      "gain": {
+        "low": -0.2,
+        "high": 0.6,
+        "hdate": "2022-12-29T14:40:00.149Z",
+        "ldate": "2022-12-28T20:56:00.409Z"
+      },
+      "price": {
+        "low": 0.1,
+        "high": 0.3,
+        "hdate": "2022-12-28T20:56:00.409Z",
+        "ldate": "2022-12-29T14:40:00.149Z"
       },
       "value": {
-        "high": -72,
-        "hdate": "2022-12-23T18:46:00.055Z",
-        "low": -102,
-        "ldate": "2022-12-23T20:02:00.447Z"
+        "low": -270,
+        "high": -90,
+        "hdate": "2022-12-29T14:40:00.149Z",
+        "ldate": "2022-12-28T20:56:00.409Z"
+      },
+      "quantity": {
+        "low": 9,
+        "high": 9,
+        "hdate": "2022-12-28T15:45:28.442Z",
+        "ldate": "2022-12-28T15:45:28.442Z"
       }
     },
-    "maintenance": 300,
-    "upriceOpen": 75.12,
-    "delta": -0.03204299,
-    "theta": 0.0075476,
-    "gamma": -0.13566918,
-    "vega": -0.01596467,
-    "days": 7,
-    "markClose": 0.11,
+    "maintenance": 450,
+    "upriceOpen": 75.25,
+    "delta": 0.0123034,
+    "theta": 0.00815811,
+    "gamma": -0.08468796,
+    "vega": -0.01412646,
+    "days": 8,
+    "markClose": 0.23,
     "isShort": true,
     "isLong": false,
     "isSpread": true,
@@ -1935,21 +791,485 @@
     "under": {
       "symbol": "XLP",
       "description": "Consumer Staples Select Sector SPDR ETF",
-      "last": 75.18,
-      "change": 0.39,
-      "changePercent": 0.0052146,
-      "bid": 75.11,
-      "ask": 75.18,
-      "open": 74.83,
-      "high": 75.23,
-      "low": 74.58,
-      "close": 74.79,
-      "sd": 0.00784624,
-      "av": 0.1245552
+      "last": 74.95,
+      "change": 0.35,
+      "changePercent": 0.00469169,
+      "bid": 74.95,
+      "ask": 74.96,
+      "open": 74.9,
+      "high": 75.19,
+      "low": 74.7801,
+      "close": 74.6,
+      "sd": 0.0080064,
+      "av": 0.12709766
     },
     "bot": {
       "id": "BOTdJANovrzd4116718191611369765",
       "name": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd43167224050762339216",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151952209125928",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLI_ironcondor_010623C101_010623C100_010623P96.5_010623P97",
+    "symbol": "XLI",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLI, Jan 6, +96.50 put, -97 put, -100 call, +101 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230106,
+    "quantity": 4,
+    "active": 1,
+    "text": "+96.50 put, -97 put, -100 call, +101 call",
+    "openDate": "2022-12-28T15:15:31.718Z",
+    "openPrice": 0.37,
+    "closePrice": 0,
+    "cost": -148,
+    "pnl": -4,
+    "draw": 252,
+    "value": -152,
+    "gain": -0.02702703,
+    "priceChange": 0.01,
+    "priceChangePct": 0.02702703,
+    "ror": -0.01587302,
+    "currentPrice": 0.38,
+    "totalPnl": -4,
+    "trail": {
+      "pnl": {
+        "low": -24,
+        "high": 40,
+        "hdate": "2022-12-29T14:53:00.075Z",
+        "ldate": "2022-12-28T15:17:00.024Z"
+      },
+      "ror": {
+        "low": -0.0952381,
+        "high": 0.15873016,
+        "hdate": "2022-12-29T14:53:00.075Z",
+        "ldate": "2022-12-28T15:17:00.024Z"
+      },
+      "draw": {
+        "low": 252,
+        "high": 252,
+        "hdate": "2022-12-28T15:15:31.504Z",
+        "ldate": "2022-12-28T15:15:31.504Z"
+      },
+      "gain": {
+        "low": -0.16216216,
+        "high": 0.27027027,
+        "hdate": "2022-12-29T14:53:00.075Z",
+        "ldate": "2022-12-28T15:17:00.024Z"
+      },
+      "price": {
+        "low": 0.27,
+        "high": 0.43,
+        "hdate": "2022-12-28T15:17:00.024Z",
+        "ldate": "2022-12-29T14:53:00.075Z"
+      },
+      "value": {
+        "low": -172,
+        "high": -108,
+        "hdate": "2022-12-29T14:53:00.075Z",
+        "ldate": "2022-12-28T15:17:00.024Z"
+      },
+      "quantity": {
+        "low": 4,
+        "high": 4,
+        "hdate": "2022-12-28T15:15:31.504Z",
+        "ldate": "2022-12-28T15:15:31.504Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 98.72,
+    "delta": -0.0718476,
+    "theta": 0.01681895,
+    "gamma": -0.04107188,
+    "vega": -0.01837365,
+    "days": 8,
+    "markClose": 0.38,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLI",
+      "description": "Industrial Select Sector SPDR Fund",
+      "last": 98.625,
+      "change": 1.225,
+      "changePercent": 0.012577,
+      "bid": 98.63,
+      "ask": 98.64,
+      "open": 97.85,
+      "high": 98.9,
+      "low": 97.77,
+      "close": 97.4,
+      "sd": 0.01040017,
+      "av": 0.16509758
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151952209125928",
+      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd43167224051777862318",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191611369765",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLU_ironcondor_010623C73.5_010623C73_010623P69.5_010623P70.5",
+    "symbol": "XLU",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLU, Jan 6, +69.50 put, -70.50 put, -73 call, +73.50 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230106,
+    "quantity": 4,
+    "active": 1,
+    "text": "+69.50 put, -70.50 put, -73 call, +73.50 call",
+    "openDate": "2022-12-28T15:15:37.721Z",
+    "openPrice": 0.29,
+    "closePrice": 0,
+    "cost": -116,
+    "pnl": -8,
+    "draw": 284,
+    "value": -124,
+    "gain": -0.06896552,
+    "priceChange": 0.02,
+    "priceChangePct": 0.06896552,
+    "ror": -0.02816901,
+    "currentPrice": 0.31,
+    "totalPnl": -8,
+    "trail": {
+      "pnl": {
+        "low": -48,
+        "high": 8,
+        "hdate": "2022-12-29T16:51:00.108Z",
+        "ldate": "2022-12-28T20:50:00.358Z"
+      },
+      "ror": {
+        "low": -0.16901408,
+        "high": 0.02816901,
+        "hdate": "2022-12-29T16:51:00.108Z",
+        "ldate": "2022-12-28T20:50:00.358Z"
+      },
+      "draw": {
+        "low": 284,
+        "high": 284,
+        "hdate": "2022-12-28T15:15:38.006Z",
+        "ldate": "2022-12-28T15:15:38.006Z"
+      },
+      "gain": {
+        "low": -0.4137931,
+        "high": 0.06896552,
+        "hdate": "2022-12-29T16:51:00.108Z",
+        "ldate": "2022-12-28T20:50:00.358Z"
+      },
+      "price": {
+        "low": 0.27,
+        "high": 0.41,
+        "hdate": "2022-12-28T20:50:00.358Z",
+        "ldate": "2022-12-29T16:51:00.108Z"
+      },
+      "value": {
+        "low": -164,
+        "high": -108,
+        "hdate": "2022-12-29T16:51:00.108Z",
+        "ldate": "2022-12-28T20:50:00.358Z"
+      },
+      "quantity": {
+        "low": 4,
+        "high": 4,
+        "hdate": "2022-12-28T15:15:38.006Z",
+        "ldate": "2022-12-28T15:15:38.006Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 71.55,
+    "delta": 0.10882274,
+    "theta": 0.01381737,
+    "gamma": -0.08920585,
+    "vega": -0.01772014,
+    "days": 8,
+    "markClose": 0.31,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLU",
+      "description": "Utilities Select Sector SPDR Fund",
+      "last": 71.21,
+      "change": 0.54,
+      "changePercent": 0.00764115,
+      "bid": 71.2,
+      "ask": 71.21,
+      "open": 71.02,
+      "high": 71.5756,
+      "low": 70.97,
+      "close": 70.67,
+      "sd": 0.01111506,
+      "av": 0.17644611
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191611369765",
+      "name": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd43167224051849030520",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151952209125928",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "GDX_ironcondor_010623C31_010623C30.5_010623P27.5_010623P28",
+    "symbol": "GDX",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (GDX, Jan 6, +27.50 put, -28 put, -30.50 call, +31 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230106,
+    "quantity": 9,
+    "active": 1,
+    "text": "+27.50 put, -28 put, -30.50 call, +31 call",
+    "openDate": "2022-12-28T15:15:59.728Z",
+    "openPrice": 0.15,
+    "closePrice": 0,
+    "cost": -135,
+    "pnl": -9,
+    "draw": 315,
+    "value": -144,
+    "gain": -0.06666667,
+    "priceChange": 0.01,
+    "priceChangePct": 0.06666667,
+    "ror": -0.02857143,
+    "currentPrice": 0.16,
+    "totalPnl": -9,
+    "trail": {
+      "pnl": {
+        "low": -54,
+        "high": 9,
+        "hdate": "2022-12-29T15:16:00.255Z",
+        "ldate": "2022-12-28T16:10:00.391Z"
+      },
+      "ror": {
+        "low": -0.17142857,
+        "high": 0.02857143,
+        "hdate": "2022-12-29T15:16:00.255Z",
+        "ldate": "2022-12-28T16:10:00.391Z"
+      },
+      "draw": {
+        "low": 315,
+        "high": 315,
+        "hdate": "2022-12-28T15:16:00.012Z",
+        "ldate": "2022-12-28T15:16:00.012Z"
+      },
+      "gain": {
+        "low": -0.4,
+        "high": 0.06666667,
+        "hdate": "2022-12-29T15:16:00.255Z",
+        "ldate": "2022-12-28T16:10:00.391Z"
+      },
+      "price": {
+        "low": 0.14,
+        "high": 0.21,
+        "hdate": "2022-12-28T16:10:00.391Z",
+        "ldate": "2022-12-29T15:16:00.255Z"
+      },
+      "value": {
+        "low": -189,
+        "high": -126,
+        "hdate": "2022-12-29T15:16:00.255Z",
+        "ldate": "2022-12-28T16:10:00.391Z"
+      },
+      "quantity": {
+        "low": 9,
+        "high": 9,
+        "hdate": "2022-12-28T15:16:00.012Z",
+        "ldate": "2022-12-28T15:16:00.012Z"
+      }
+    },
+    "maintenance": 450,
+    "upriceOpen": 29.18,
+    "delta": 0.03917532,
+    "theta": 0.00959736,
+    "gamma": -0.09934642,
+    "vega": -0.00629649,
+    "days": 8,
+    "markClose": 0.16,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "GDX",
+      "description": "VanEck Vectors Gold Miners ETF",
+      "last": 28.78,
+      "change": 0.1,
+      "changePercent": 0.00348675,
+      "bid": 28.78,
+      "ask": 28.79,
+      "open": 29.03,
+      "high": 29.23,
+      "low": 28.77,
+      "close": 28.68,
+      "sd": 0.02376214,
+      "av": 0.37721228
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151952209125928",
+      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd43167224050680068513",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151953183069929",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLK_ironcondor_010623C128.5_010623C126.5_010623P119.5_010623P121",
+    "symbol": "XLK",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLK, Jan 6, +119.50 put, -121 put, -126.50 call, +128.50 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230106,
+    "quantity": 2,
+    "active": 1,
+    "text": "+119.50 put, -121 put, -126.50 call, +128.50 call",
+    "openDate": "2022-12-28T15:15:30.717Z",
+    "openPrice": 0.85,
+    "closePrice": 0,
+    "cost": -170,
+    "pnl": -2,
+    "draw": 230,
+    "value": -172,
+    "gain": -0.01176471,
+    "priceChange": 0.01,
+    "priceChangePct": 0.01176471,
+    "ror": -0.00869565,
+    "currentPrice": 0.86,
+    "totalPnl": -2,
+    "trail": {
+      "pnl": {
+        "low": -18,
+        "high": 28,
+        "hdate": "2022-12-29T14:47:00.020Z",
+        "ldate": "2022-12-29T14:46:00.002Z"
+      },
+      "ror": {
+        "low": -0.07826087,
+        "high": 0.12173913,
+        "hdate": "2022-12-29T14:47:00.020Z",
+        "ldate": "2022-12-29T14:46:00.002Z"
+      },
+      "draw": {
+        "low": 230,
+        "high": 230,
+        "hdate": "2022-12-28T15:15:30.504Z",
+        "ldate": "2022-12-28T15:15:30.504Z"
+      },
+      "gain": {
+        "low": -0.10588235,
+        "high": 0.16470588,
+        "hdate": "2022-12-29T14:47:00.020Z",
+        "ldate": "2022-12-29T14:46:00.002Z"
+      },
+      "price": {
+        "low": 0.71,
+        "high": 0.94,
+        "hdate": "2022-12-29T14:46:00.002Z",
+        "ldate": "2022-12-29T14:47:00.020Z"
+      },
+      "value": {
+        "low": -188,
+        "high": -142,
+        "hdate": "2022-12-29T14:47:00.020Z",
+        "ldate": "2022-12-29T14:46:00.002Z"
+      },
+      "quantity": {
+        "low": 2,
+        "high": 2,
+        "hdate": "2022-12-28T15:15:30.504Z",
+        "ldate": "2022-12-28T15:15:30.504Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 123.85,
+    "delta": -0.08038744,
+    "theta": 0.03852145,
+    "gamma": -0.02691168,
+    "vega": -0.02853899,
+    "days": 8,
+    "markClose": 0.86,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLK",
+      "description": "Technology Select Sector SPDR Fund",
+      "last": 124.87,
+      "change": 3.44,
+      "changePercent": 0.02832908,
+      "bid": 124.88,
+      "ask": 124.89,
+      "open": 122.62,
+      "high": 125.03,
+      "low": 122.605,
+      "close": 121.43,
+      "sd": 0.01708949,
+      "av": 0.27128724
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
       "icon": "fas-box-open bg-orange",
       "accountId": "sim11216714649420573231"
     }
@@ -1982,67 +1302,67 @@
     "openPrice": 0.5,
     "closePrice": 0,
     "cost": -100,
-    "pnl": -4,
+    "pnl": 56,
     "draw": 200,
-    "value": -104,
-    "gain": -0.04,
-    "priceChange": 0.02,
-    "priceChangePct": 0.04,
-    "ror": -0.02,
-    "currentPrice": 0.52,
-    "totalPnl": -4,
+    "value": -44,
+    "gain": 0.56,
+    "priceChange": -0.28,
+    "priceChangePct": -0.56,
+    "ror": 0.28,
+    "currentPrice": 0.22,
+    "totalPnl": 56,
     "trail": {
-      "quantity": {
-        "high": 2,
-        "hdate": "2022-12-23T18:30:23.553Z",
-        "low": 2,
-        "ldate": "2022-12-23T18:30:23.553Z"
-      },
-      "price": {
-        "high": 0.56,
-        "hdate": "2022-12-23T18:40:00.175Z",
-        "low": 0.48,
-        "ldate": "2022-12-23T20:03:00.459Z"
-      },
-      "gain": {
-        "high": 0.04,
-        "hdate": "2022-12-23T20:03:00.459Z",
-        "low": -0.12,
-        "ldate": "2022-12-23T18:40:00.175Z"
-      },
-      "draw": {
-        "high": 200,
-        "hdate": "2022-12-23T18:30:23.553Z",
-        "low": 200,
-        "ldate": "2022-12-23T18:30:23.553Z"
-      },
       "pnl": {
-        "high": 4,
-        "hdate": "2022-12-23T20:03:00.459Z",
         "low": -12,
+        "high": 60,
+        "hdate": "2022-12-29T20:17:00.346Z",
         "ldate": "2022-12-23T18:40:00.175Z"
       },
       "ror": {
-        "high": 0.02,
-        "hdate": "2022-12-23T20:03:00.459Z",
         "low": -0.06,
+        "high": 0.3,
+        "hdate": "2022-12-29T20:17:00.346Z",
         "ldate": "2022-12-23T18:40:00.175Z"
       },
-      "value": {
-        "high": -96,
-        "hdate": "2022-12-23T20:03:00.459Z",
-        "low": -112,
+      "draw": {
+        "low": 200,
+        "high": 200,
+        "hdate": "2022-12-23T18:30:23.553Z",
+        "ldate": "2022-12-23T18:30:23.553Z"
+      },
+      "gain": {
+        "low": -0.12,
+        "high": 0.6,
+        "hdate": "2022-12-29T20:17:00.346Z",
         "ldate": "2022-12-23T18:40:00.175Z"
+      },
+      "price": {
+        "low": 0.2,
+        "high": 0.56,
+        "hdate": "2022-12-23T18:40:00.175Z",
+        "ldate": "2022-12-29T20:17:00.346Z"
+      },
+      "value": {
+        "low": -112,
+        "high": -40,
+        "hdate": "2022-12-29T20:17:00.346Z",
+        "ldate": "2022-12-23T18:40:00.175Z"
+      },
+      "quantity": {
+        "low": 2,
+        "high": 2,
+        "hdate": "2022-12-23T18:30:23.553Z",
+        "ldate": "2022-12-23T18:30:23.553Z"
       }
     },
     "maintenance": 300,
     "upriceOpen": 69.31,
-    "delta": 0.03537211,
-    "theta": 0.03033375,
-    "gamma": -0.05173238,
-    "vega": -0.01733563,
-    "days": 7,
-    "markClose": 0.52,
+    "delta": 0.18015315,
+    "theta": 0.05976282,
+    "gamma": -0.16408671,
+    "vega": -0.0127351,
+    "days": 1,
+    "markClose": 0.22,
     "isShort": true,
     "isLong": false,
     "isSpread": true,
@@ -2050,17 +1370,1167 @@
     "under": {
       "symbol": "USO",
       "description": "US Oil Fund LP",
-      "last": 69.32,
-      "change": 1.62,
-      "changePercent": 0.0239291,
-      "bid": 69.24,
-      "ask": 69.3,
-      "open": 68.94,
-      "high": 69.56,
-      "low": 68.87,
-      "close": 67.7,
-      "sd": 0.02106964,
-      "av": 0.33447017
+      "last": 68.37,
+      "change": -0.21,
+      "changePercent": -0.00306212,
+      "bid": 68.37,
+      "ask": 68.38,
+      "open": 67.55,
+      "high": 68.59,
+      "low": 67.37,
+      "close": 68.58,
+      "sd": 0.01974641,
+      "av": 0.31346454
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191703991406",
+      "name": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd29167217031226027493",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191611369765",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLP_ironcondor_123022C77_123022C76.5_123022P74_123022P74.5",
+    "symbol": "XLP",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLP, Dec 30, +74 put, -74.50 put, -76.50 call, +77 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 7,
+    "active": 1,
+    "text": "+74 put, -74.50 put, -76.50 call, +77 call",
+    "openDate": "2022-12-27T19:45:48.064Z",
+    "openPrice": 0.08,
+    "closePrice": 0,
+    "cost": -56,
+    "pnl": 28,
+    "draw": 294,
+    "value": -28,
+    "gain": 0.5,
+    "priceChange": -0.04,
+    "priceChangePct": -0.5,
+    "ror": 0.0952381,
+    "currentPrice": 0.04,
+    "totalPnl": 28,
+    "trail": {
+      "pnl": {
+        "low": -126,
+        "high": 56,
+        "hdate": "2022-12-28T15:12:00.449Z",
+        "ldate": "2022-12-28T14:40:00.166Z"
+      },
+      "ror": {
+        "low": -0.42857143,
+        "high": 0.19047619,
+        "hdate": "2022-12-28T15:12:00.449Z",
+        "ldate": "2022-12-28T14:40:00.166Z"
+      },
+      "draw": {
+        "low": 294,
+        "high": 294,
+        "hdate": "2022-12-27T19:45:48.385Z",
+        "ldate": "2022-12-27T19:45:48.385Z"
+      },
+      "gain": {
+        "low": -2.25,
+        "high": 1,
+        "hdate": "2022-12-28T15:12:00.449Z",
+        "ldate": "2022-12-28T14:40:00.166Z"
+      },
+      "price": {
+        "low": 0,
+        "high": 0.26,
+        "hdate": "2022-12-28T14:40:00.166Z",
+        "ldate": "2022-12-28T15:12:00.449Z"
+      },
+      "value": {
+        "low": -182,
+        "high": 0,
+        "hdate": "2022-12-28T15:12:00.449Z",
+        "ldate": "2022-12-28T14:40:00.166Z"
+      },
+      "quantity": {
+        "low": 7,
+        "high": 7,
+        "hdate": "2022-12-27T19:45:48.385Z",
+        "ldate": "2022-12-27T19:45:48.385Z"
+      }
+    },
+    "maintenance": 350,
+    "upriceOpen": 75.38,
+    "delta": 0.11620375,
+    "theta": 0.01575203,
+    "gamma": -0.30338599,
+    "vega": -0.0103427,
+    "days": 1,
+    "markClose": 0.04,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLP",
+      "description": "Consumer Staples Select Sector SPDR ETF",
+      "last": 74.95,
+      "change": 0.35,
+      "changePercent": 0.00469169,
+      "bid": 74.95,
+      "ask": 74.96,
+      "open": 74.9,
+      "high": 75.19,
+      "low": 74.7801,
+      "close": 74.6,
+      "sd": 0.0080064,
+      "av": 0.12709766
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191611369765",
+      "name": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd29167217030596214492",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191703991406",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "IYR_ironcondor_123022C86.5_123022C86_123022P82_123022P82.5",
+    "symbol": "IYR",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (IYR, Dec 30, +82 put, -82.50 put, -86 call, +86.50 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 7,
+    "active": 1,
+    "text": "+82 put, -82.50 put, -86 call, +86.50 call",
+    "openDate": "2022-12-27T19:45:21.050Z",
+    "openPrice": 0.09,
+    "closePrice": 0,
+    "cost": -63,
+    "pnl": 42,
+    "draw": 287,
+    "value": -21,
+    "gain": 0.66666667,
+    "priceChange": -0.06,
+    "priceChangePct": -0.66666667,
+    "ror": 0.14634146,
+    "currentPrice": 0.03,
+    "totalPnl": 42,
+    "trail": {
+      "pnl": {
+        "low": -35,
+        "high": 56,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-27T20:33:00.000Z"
+      },
+      "ror": {
+        "low": -0.12195122,
+        "high": 0.19512195,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-27T20:33:00.000Z"
+      },
+      "draw": {
+        "low": 287,
+        "high": 287,
+        "hdate": "2022-12-27T19:45:20.880Z",
+        "ldate": "2022-12-27T19:45:20.880Z"
+      },
+      "gain": {
+        "low": -0.55555556,
+        "high": 0.88888889,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-27T20:33:00.000Z"
+      },
+      "price": {
+        "low": 0.01,
+        "high": 0.14,
+        "hdate": "2022-12-27T20:33:00.000Z",
+        "ldate": "2022-12-29T15:01:00.495Z"
+      },
+      "value": {
+        "low": -98,
+        "high": -7,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-27T20:33:00.000Z"
+      },
+      "quantity": {
+        "low": 7,
+        "high": 7,
+        "hdate": "2022-12-27T19:45:20.880Z",
+        "ldate": "2022-12-27T19:45:20.880Z"
+      }
+    },
+    "maintenance": 350,
+    "upriceOpen": 84.22,
+    "delta": -0.05172624,
+    "theta": 0.01125318,
+    "gamma": -0.11052769,
+    "vega": -0.00627109,
+    "days": 1,
+    "markClose": 0.03,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "IYR",
+      "description": "iShares U.S. Real Estate ETF",
+      "last": 84.995,
+      "change": 1.955,
+      "changePercent": 0.02354287,
+      "bid": 84.99,
+      "ask": 85,
+      "open": 83.72,
+      "high": 85.08,
+      "low": 83.43,
+      "close": 83.04,
+      "sd": 0.01208612,
+      "av": 0.19186121
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191703991406",
+      "name": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd29167216941670537187",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151952209125928",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "GDX_ironcondor_123022C31_123022C30.5_123022P28_123022P28.5",
+    "symbol": "GDX",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (GDX, Dec 30, +28 put, -28.50 put, -30.50 call, +31 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 7,
+    "active": 1,
+    "text": "+28 put, -28.50 put, -30.50 call, +31 call",
+    "openDate": "2022-12-27T19:30:39.829Z",
+    "openPrice": 0.09,
+    "closePrice": 0,
+    "cost": -63,
+    "pnl": 7,
+    "draw": 287,
+    "value": -56,
+    "gain": 0.11111111,
+    "priceChange": -0.01,
+    "priceChangePct": -0.11111111,
+    "ror": 0.02439024,
+    "currentPrice": 0.08,
+    "totalPnl": 7,
+    "trail": {
+      "pnl": {
+        "low": -77,
+        "high": 35,
+        "hdate": "2022-12-29T17:02:00.339Z",
+        "ldate": "2022-12-28T16:11:00.402Z"
+      },
+      "ror": {
+        "low": -0.26829268,
+        "high": 0.12195122,
+        "hdate": "2022-12-29T17:02:00.339Z",
+        "ldate": "2022-12-28T16:11:00.402Z"
+      },
+      "draw": {
+        "low": 287,
+        "high": 287,
+        "hdate": "2022-12-27T19:30:39.995Z",
+        "ldate": "2022-12-27T19:30:39.995Z"
+      },
+      "gain": {
+        "low": -1.22222222,
+        "high": 0.55555556,
+        "hdate": "2022-12-29T17:02:00.339Z",
+        "ldate": "2022-12-28T16:11:00.402Z"
+      },
+      "price": {
+        "low": 0.04,
+        "high": 0.2,
+        "hdate": "2022-12-28T16:11:00.402Z",
+        "ldate": "2022-12-29T17:02:00.339Z"
+      },
+      "value": {
+        "low": -140,
+        "high": -28,
+        "hdate": "2022-12-29T17:02:00.339Z",
+        "ldate": "2022-12-28T16:11:00.402Z"
+      },
+      "quantity": {
+        "low": 7,
+        "high": 7,
+        "hdate": "2022-12-27T19:30:39.995Z",
+        "ldate": "2022-12-27T19:30:39.995Z"
+      }
+    },
+    "maintenance": 350,
+    "upriceOpen": 29.55,
+    "delta": 0.19056598,
+    "theta": 0.01940282,
+    "gamma": -0.34730482,
+    "vega": -0.00446153,
+    "days": 1,
+    "markClose": 0.08,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "GDX",
+      "description": "VanEck Vectors Gold Miners ETF",
+      "last": 28.78,
+      "change": 0.1,
+      "changePercent": 0.00348675,
+      "bid": 28.78,
+      "ask": 28.79,
+      "open": 29.03,
+      "high": 29.23,
+      "low": 28.77,
+      "close": 28.68,
+      "sd": 0.02376214,
+      "av": 0.37721228
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151952209125928",
+      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd29167216850573428278",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151952209125928",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLY_ironcondor_123022C132_123022C130.5_123022P124_123022P125",
+    "symbol": "XLY",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLY, Dec 30, +124 put, -125 put, -130.50 call, +132 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 2,
+    "active": 1,
+    "text": "+124 put, -125 put, -130.50 call, +132 call",
+    "openDate": "2022-12-27T19:15:19.071Z",
+    "openPrice": 0.41,
+    "closePrice": 0,
+    "cost": -82,
+    "pnl": 24,
+    "draw": 218,
+    "value": -58,
+    "gain": 0.29268293,
+    "priceChange": -0.12,
+    "priceChangePct": -0.29268293,
+    "ror": 0.11009174,
+    "currentPrice": 0.29,
+    "totalPnl": 24,
+    "trail": {
+      "pnl": {
+        "low": -18,
+        "high": 62,
+        "hdate": "2022-12-28T17:16:00.197Z",
+        "ldate": "2022-12-28T20:14:00.408Z"
+      },
+      "ror": {
+        "low": -0.08256881,
+        "high": 0.28440367,
+        "hdate": "2022-12-28T17:16:00.197Z",
+        "ldate": "2022-12-28T20:14:00.408Z"
+      },
+      "draw": {
+        "low": 218,
+        "high": 218,
+        "hdate": "2022-12-27T19:15:19.008Z",
+        "ldate": "2022-12-27T19:15:19.008Z"
+      },
+      "gain": {
+        "low": -0.2195122,
+        "high": 0.75609756,
+        "hdate": "2022-12-28T17:16:00.197Z",
+        "ldate": "2022-12-28T20:14:00.408Z"
+      },
+      "price": {
+        "low": 0.1,
+        "high": 0.5,
+        "hdate": "2022-12-28T20:14:00.408Z",
+        "ldate": "2022-12-28T17:16:00.197Z"
+      },
+      "value": {
+        "low": -100,
+        "high": -20,
+        "hdate": "2022-12-28T17:16:00.197Z",
+        "ldate": "2022-12-28T20:14:00.408Z"
+      },
+      "quantity": {
+        "low": 2,
+        "high": 2,
+        "hdate": "2022-12-27T19:15:19.008Z",
+        "ldate": "2022-12-27T19:15:19.008Z"
+      }
+    },
+    "maintenance": 300,
+    "upriceOpen": 128,
+    "delta": -0.19577249,
+    "theta": 0.07628192,
+    "gamma": -0.1122074,
+    "vega": -0.02224642,
+    "days": 1,
+    "markClose": 0.29,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLY",
+      "description": "Consumer Discretionary Select Sector SPDR Fund",
+      "last": 129.62,
+      "change": 3.36,
+      "changePercent": 0.02661175,
+      "bid": 129.61,
+      "ask": 129.62,
+      "open": 128.07,
+      "high": 129.8,
+      "low": 127.57,
+      "close": 126.26,
+      "sd": 0.01343742,
+      "av": 0.21331243
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151952209125928",
+      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd29167216850572465977",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151953183069929",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLK_ironcondor_123022C128_123022C126.5_123022P119_123022P120.5",
+    "symbol": "XLK",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLK, Dec 30, +119 put, -120.50 put, -126.50 call, +128 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 2,
+    "active": 1,
+    "text": "+119 put, -120.50 put, -126.50 call, +128 call",
+    "openDate": "2022-12-27T19:15:19.071Z",
+    "openPrice": 0.32,
+    "closePrice": 0,
+    "cost": -64,
+    "pnl": 24,
+    "draw": 236,
+    "value": -40,
+    "gain": 0.375,
+    "priceChange": -0.12,
+    "priceChangePct": -0.375,
+    "ror": 0.10169492,
+    "currentPrice": 0.2,
+    "totalPnl": 24,
+    "trail": {
+      "pnl": {
+        "low": -62,
+        "high": 42,
+        "hdate": "2022-12-29T16:10:00.188Z",
+        "ldate": "2022-12-28T20:51:00.367Z"
+      },
+      "ror": {
+        "low": -0.26271186,
+        "high": 0.1779661,
+        "hdate": "2022-12-29T16:10:00.188Z",
+        "ldate": "2022-12-28T20:51:00.367Z"
+      },
+      "draw": {
+        "low": 236,
+        "high": 236,
+        "hdate": "2022-12-27T19:15:19.008Z",
+        "ldate": "2022-12-27T19:15:19.008Z"
+      },
+      "gain": {
+        "low": -0.96875,
+        "high": 0.65625,
+        "hdate": "2022-12-29T16:10:00.188Z",
+        "ldate": "2022-12-28T20:51:00.367Z"
+      },
+      "price": {
+        "low": 0.11,
+        "high": 0.63,
+        "hdate": "2022-12-28T20:51:00.367Z",
+        "ldate": "2022-12-29T16:10:00.188Z"
+      },
+      "value": {
+        "low": -126,
+        "high": -22,
+        "hdate": "2022-12-29T16:10:00.188Z",
+        "ldate": "2022-12-28T20:51:00.367Z"
+      },
+      "quantity": {
+        "low": 2,
+        "high": 2,
+        "hdate": "2022-12-27T19:15:19.008Z",
+        "ldate": "2022-12-27T19:15:19.008Z"
+      }
+    },
+    "maintenance": 300,
+    "upriceOpen": 123.41,
+    "delta": -0.13079069,
+    "theta": 0.06238493,
+    "gamma": -0.10906819,
+    "vega": -0.01955145,
+    "days": 1,
+    "markClose": 0.2,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLK",
+      "description": "Technology Select Sector SPDR Fund",
+      "last": 124.87,
+      "change": 3.44,
+      "changePercent": 0.02832908,
+      "bid": 124.88,
+      "ask": 124.89,
+      "open": 122.62,
+      "high": 125.03,
+      "low": 122.605,
+      "close": 121.43,
+      "sd": 0.01708949,
+      "av": 0.27128724
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd29167216851711891980",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191703991406",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "TLT_ironcondor_123022C103_123022C102_123022P97_123022P98",
+    "symbol": "TLT",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (TLT, Dec 30, +97 put, -98 put, -102 call, +103 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 4,
+    "active": 1,
+    "text": "+97 put, -98 put, -102 call, +103 call",
+    "openDate": "2022-12-27T19:15:39.579Z",
+    "openPrice": 0.26,
+    "closePrice": 0,
+    "cost": -104,
+    "pnl": 76,
+    "draw": 296,
+    "value": -28,
+    "gain": 0.73076923,
+    "priceChange": -0.19,
+    "priceChangePct": -0.73076923,
+    "ror": 0.25675676,
+    "currentPrice": 0.07,
+    "totalPnl": 76,
+    "trail": {
+      "pnl": {
+        "low": -20,
+        "high": 76,
+        "hdate": "2022-12-29T16:12:00.213Z",
+        "ldate": "2022-12-27T20:11:00.038Z"
+      },
+      "ror": {
+        "low": -0.06756757,
+        "high": 0.25675676,
+        "hdate": "2022-12-29T16:12:00.213Z",
+        "ldate": "2022-12-27T20:11:00.038Z"
+      },
+      "draw": {
+        "low": 296,
+        "high": 296,
+        "hdate": "2022-12-27T19:15:39.512Z",
+        "ldate": "2022-12-27T19:15:39.512Z"
+      },
+      "gain": {
+        "low": -0.19230769,
+        "high": 0.73076923,
+        "hdate": "2022-12-29T16:12:00.213Z",
+        "ldate": "2022-12-27T20:11:00.038Z"
+      },
+      "price": {
+        "low": 0.07,
+        "high": 0.31,
+        "hdate": "2022-12-27T20:11:00.038Z",
+        "ldate": "2022-12-29T16:12:00.213Z"
+      },
+      "value": {
+        "low": -124,
+        "high": -28,
+        "hdate": "2022-12-29T16:12:00.213Z",
+        "ldate": "2022-12-27T20:11:00.038Z"
+      },
+      "quantity": {
+        "low": 4,
+        "high": 4,
+        "hdate": "2022-12-27T19:15:39.512Z",
+        "ldate": "2022-12-27T19:15:39.512Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 100.16,
+    "delta": -0.05430269,
+    "theta": 0.04087142,
+    "gamma": -0.13383919,
+    "vega": -0.01391798,
+    "days": 1,
+    "markClose": 0.07,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "TLT",
+      "description": "iShares 20Y Treasury Bond ETF",
+      "last": 100.51,
+      "change": 0.96,
+      "changePercent": 0.0096434,
+      "bid": 100.5,
+      "ask": 100.51,
+      "open": 99.86,
+      "high": 100.99,
+      "low": 99.79,
+      "close": 99.55,
+      "sd": 0.01376283,
+      "av": 0.21847815
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191703991406",
+      "name": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd29167216851110100379",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191703991406",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "USO_ironcondor_123022C72.5_123022C71.5_123022P66.5_123022P67.5",
+    "symbol": "USO",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (USO, Dec 30, +66.50 put, -67.50 put, -71.50 call, +72.50 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 4,
+    "active": 1,
+    "text": "+66.50 put, -67.50 put, -71.50 call, +72.50 call",
+    "openDate": "2022-12-27T19:15:25.073Z",
+    "openPrice": 0.31,
+    "closePrice": 0,
+    "cost": -124,
+    "pnl": 52,
+    "draw": 276,
+    "value": -72,
+    "gain": 0.41935484,
+    "priceChange": -0.13,
+    "priceChangePct": -0.41935484,
+    "ror": 0.1884058,
+    "currentPrice": 0.18,
+    "totalPnl": 52,
+    "trail": {
+      "pnl": {
+        "low": -48,
+        "high": 64,
+        "hdate": "2022-12-29T14:40:00.149Z",
+        "ldate": "2022-12-28T15:34:00.323Z"
+      },
+      "ror": {
+        "low": -0.17391304,
+        "high": 0.23188406,
+        "hdate": "2022-12-29T14:40:00.149Z",
+        "ldate": "2022-12-28T15:34:00.323Z"
+      },
+      "draw": {
+        "low": 276,
+        "high": 276,
+        "hdate": "2022-12-27T19:15:25.010Z",
+        "ldate": "2022-12-27T19:15:25.010Z"
+      },
+      "gain": {
+        "low": -0.38709677,
+        "high": 0.51612903,
+        "hdate": "2022-12-29T14:40:00.149Z",
+        "ldate": "2022-12-28T15:34:00.323Z"
+      },
+      "price": {
+        "low": 0.15,
+        "high": 0.43,
+        "hdate": "2022-12-28T15:34:00.323Z",
+        "ldate": "2022-12-29T14:40:00.149Z"
+      },
+      "value": {
+        "low": -172,
+        "high": -60,
+        "hdate": "2022-12-29T14:40:00.149Z",
+        "ldate": "2022-12-28T15:34:00.323Z"
+      },
+      "quantity": {
+        "low": 4,
+        "high": 4,
+        "hdate": "2022-12-27T19:15:25.010Z",
+        "ldate": "2022-12-27T19:15:25.010Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 69.58,
+    "delta": 0.1388523,
+    "theta": 0.04519351,
+    "gamma": -0.12610951,
+    "vega": -0.00970388,
+    "days": 1,
+    "markClose": 0.18,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "USO",
+      "description": "US Oil Fund LP",
+      "last": 68.37,
+      "change": -0.21,
+      "changePercent": -0.00306212,
+      "bid": 68.37,
+      "ask": 68.38,
+      "open": 67.55,
+      "high": 68.59,
+      "low": 67.37,
+      "close": 68.58,
+      "sd": 0.01974641,
+      "av": 0.31346454
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191703991406",
+      "name": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd41167182020706741056",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191703991406",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "IYR_ironcondor_123022C86.5_123022C86_123022P82_123022P82.5",
+    "symbol": "IYR",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (IYR, Dec 30, +82 put, -82.50 put, -86 call, +86.50 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 6,
+    "active": 1,
+    "text": "+82 put, -82.50 put, -86 call, +86.50 call",
+    "openDate": "2022-12-23T18:30:19.727Z",
+    "openPrice": 0.14,
+    "closePrice": 0,
+    "cost": -84,
+    "pnl": 66,
+    "draw": 216,
+    "value": -18,
+    "gain": 0.78571429,
+    "priceChange": -0.11,
+    "priceChangePct": -0.78571429,
+    "ror": 0.30555556,
+    "currentPrice": 0.03,
+    "totalPnl": 66,
+    "trail": {
+      "pnl": {
+        "low": -30,
+        "high": 78,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-23T20:02:00.447Z"
+      },
+      "ror": {
+        "low": -0.13888889,
+        "high": 0.36111111,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-23T20:02:00.447Z"
+      },
+      "draw": {
+        "low": 216,
+        "high": 216,
+        "hdate": "2022-12-23T18:30:19.551Z",
+        "ldate": "2022-12-23T18:30:19.551Z"
+      },
+      "gain": {
+        "low": -0.35714286,
+        "high": 0.92857143,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-23T20:02:00.447Z"
+      },
+      "price": {
+        "low": 0.01,
+        "high": 0.19,
+        "hdate": "2022-12-23T20:02:00.447Z",
+        "ldate": "2022-12-29T15:01:00.495Z"
+      },
+      "value": {
+        "low": -114,
+        "high": -6,
+        "hdate": "2022-12-29T15:01:00.495Z",
+        "ldate": "2022-12-23T20:02:00.447Z"
+      },
+      "quantity": {
+        "low": 6,
+        "high": 6,
+        "hdate": "2022-12-23T18:30:19.551Z",
+        "ldate": "2022-12-23T18:30:19.551Z"
+      }
+    },
+    "maintenance": 300,
+    "upriceOpen": 84.3,
+    "delta": -0.05172624,
+    "theta": 0.01125318,
+    "gamma": -0.11052769,
+    "vega": -0.00627109,
+    "days": 1,
+    "markClose": 0.03,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "IYR",
+      "description": "iShares U.S. Real Estate ETF",
+      "last": 84.995,
+      "change": 1.955,
+      "changePercent": 0.02354287,
+      "bid": 84.99,
+      "ask": 85,
+      "open": 83.72,
+      "high": 85.08,
+      "low": 83.43,
+      "close": 83.04,
+      "sd": 0.01208612,
+      "av": 0.19186121
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191703991406",
+      "name": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd41167181030561128329",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151953183069929",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XRT_ironcondor_123022C62_123022C61_123022P57.5_123022P58",
+    "symbol": "XRT",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XRT, Dec 30, +57.50 put, -58 put, -61 call, +62 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 3,
+    "active": 1,
+    "text": "+57.50 put, -58 put, -61 call, +62 call",
+    "openDate": "2022-12-23T15:45:26.747Z",
+    "openPrice": 0.29,
+    "closePrice": 0,
+    "cost": -87,
+    "pnl": 57,
+    "draw": 213,
+    "value": -30,
+    "gain": 0.65517241,
+    "priceChange": -0.19,
+    "priceChangePct": -0.65517241,
+    "ror": 0.26760563,
+    "currentPrice": 0.1,
+    "totalPnl": 57,
+    "trail": {
+      "pnl": {
+        "low": -27,
+        "high": 66,
+        "hdate": "2022-12-29T14:55:00.106Z",
+        "ldate": "2022-12-27T15:19:00.016Z"
+      },
+      "ror": {
+        "low": -0.12676056,
+        "high": 0.30985915,
+        "hdate": "2022-12-29T14:55:00.106Z",
+        "ldate": "2022-12-27T15:19:00.016Z"
+      },
+      "draw": {
+        "low": 213,
+        "high": 213,
+        "hdate": "2022-12-23T15:45:26.734Z",
+        "ldate": "2022-12-23T15:45:26.734Z"
+      },
+      "gain": {
+        "low": -0.31034483,
+        "high": 0.75862069,
+        "hdate": "2022-12-29T14:55:00.106Z",
+        "ldate": "2022-12-27T15:19:00.016Z"
+      },
+      "price": {
+        "low": 0.07,
+        "high": 0.38,
+        "hdate": "2022-12-27T15:19:00.016Z",
+        "ldate": "2022-12-29T14:55:00.106Z"
+      },
+      "value": {
+        "low": -114,
+        "high": -21,
+        "hdate": "2022-12-29T14:55:00.106Z",
+        "ldate": "2022-12-27T15:19:00.016Z"
+      },
+      "quantity": {
+        "low": 3,
+        "high": 3,
+        "hdate": "2022-12-23T15:45:26.734Z",
+        "ldate": "2022-12-23T15:45:26.734Z"
+      }
+    },
+    "maintenance": 300,
+    "upriceOpen": 59.59,
+    "delta": -0.15320267,
+    "theta": 0.03789384,
+    "gamma": -0.21573969,
+    "vega": -0.01040855,
+    "days": 1,
+    "markClose": 0.1,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XRT",
+      "description": "SPDR S&P Retail ETF",
+      "last": 60.265,
+      "change": 1.445,
+      "changePercent": 0.02456647,
+      "bid": 60.26,
+      "ask": 60.27,
+      "open": 59.25,
+      "high": 60.47,
+      "low": 59.09,
+      "close": 58.82,
+      "sd": 0.0156399,
+      "av": 0.24827572
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd41167182021286633560",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191703991406",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "TLT_ironcondor_123022C105_123022C104_123022P99_123022P100",
+    "symbol": "TLT",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (TLT, Dec 30, +99 put, -100 put, -104 call, +105 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 4,
+    "active": 1,
+    "text": "+99 put, -100 put, -104 call, +105 call",
+    "openDate": "2022-12-23T18:30:36.238Z",
+    "openPrice": 0.3,
+    "closePrice": 0,
+    "cost": -120,
+    "pnl": 40,
+    "draw": 280,
+    "value": -80,
+    "gain": 0.33333333,
+    "priceChange": -0.1,
+    "priceChangePct": -0.33333333,
+    "ror": 0.14285714,
+    "currentPrice": 0.2,
+    "totalPnl": 40,
+    "trail": {
+      "pnl": {
+        "low": -80,
+        "high": 68,
+        "hdate": "2022-12-29T18:14:00.012Z",
+        "ldate": "2022-12-28T16:17:00.249Z"
+      },
+      "ror": {
+        "low": -0.28571429,
+        "high": 0.24285714,
+        "hdate": "2022-12-29T18:14:00.012Z",
+        "ldate": "2022-12-28T16:17:00.249Z"
+      },
+      "draw": {
+        "low": 280,
+        "high": 280,
+        "hdate": "2022-12-23T18:30:36.057Z",
+        "ldate": "2022-12-23T18:30:36.057Z"
+      },
+      "gain": {
+        "low": -0.66666667,
+        "high": 0.56666667,
+        "hdate": "2022-12-29T18:14:00.012Z",
+        "ldate": "2022-12-28T16:17:00.249Z"
+      },
+      "price": {
+        "low": 0.13,
+        "high": 0.5,
+        "hdate": "2022-12-28T16:17:00.249Z",
+        "ldate": "2022-12-29T18:14:00.012Z"
+      },
+      "value": {
+        "low": -200,
+        "high": -52,
+        "hdate": "2022-12-29T18:14:00.012Z",
+        "ldate": "2022-12-28T16:17:00.249Z"
+      },
+      "quantity": {
+        "low": 4,
+        "high": 4,
+        "hdate": "2022-12-23T18:30:36.057Z",
+        "ldate": "2022-12-23T18:30:36.057Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 102.16,
+    "delta": 0.19540844,
+    "theta": 0.04312302,
+    "gamma": -0.14579714,
+    "vega": -0.01481861,
+    "days": 1,
+    "markClose": 0.2,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "TLT",
+      "description": "iShares 20Y Treasury Bond ETF",
+      "last": 100.51,
+      "change": 0.96,
+      "changePercent": 0.0096434,
+      "bid": 100.5,
+      "ask": 100.51,
+      "open": 99.86,
+      "high": 100.99,
+      "low": 99.79,
+      "close": 99.55,
+      "sd": 0.01376283,
+      "av": 0.21847815
     },
     "bot": {
       "id": "BOTdJANovrzd4116718191703991406",
@@ -2097,67 +2567,67 @@
     "openPrice": 0.14,
     "closePrice": 0,
     "cost": -112,
-    "pnl": -40,
+    "pnl": 56,
     "draw": 288,
-    "value": -152,
-    "gain": -0.35714286,
-    "priceChange": 0.05,
-    "priceChangePct": 0.35714286,
-    "ror": -0.13888889,
-    "currentPrice": 0.19,
-    "totalPnl": -40,
+    "value": -56,
+    "gain": 0.5,
+    "priceChange": -0.07,
+    "priceChangePct": -0.5,
+    "ror": 0.19444444,
+    "currentPrice": 0.07,
+    "totalPnl": 56,
     "trail": {
-      "quantity": {
-        "high": 8,
-        "hdate": "2022-12-23T18:30:46.561Z",
-        "low": 8,
-        "ldate": "2022-12-23T18:30:46.561Z"
-      },
-      "price": {
-        "high": 0.2,
-        "hdate": "2022-12-23T20:51:00.156Z",
-        "low": 0.14,
-        "ldate": "2022-12-23T18:48:00.076Z"
-      },
-      "gain": {
-        "high": 0,
-        "hdate": "2022-12-23T18:48:00.076Z",
-        "low": -0.42857143,
-        "ldate": "2022-12-23T20:51:00.156Z"
-      },
-      "draw": {
-        "high": 288,
-        "hdate": "2022-12-23T18:30:46.561Z",
-        "low": 288,
-        "ldate": "2022-12-23T18:30:46.561Z"
-      },
       "pnl": {
-        "high": 0,
-        "hdate": "2022-12-23T18:48:00.076Z",
         "low": -48,
+        "high": 104,
+        "hdate": "2022-12-29T20:50:00.255Z",
         "ldate": "2022-12-23T20:51:00.156Z"
       },
       "ror": {
-        "high": 0,
-        "hdate": "2022-12-23T18:48:00.076Z",
         "low": -0.16666667,
+        "high": 0.36111111,
+        "hdate": "2022-12-29T20:50:00.255Z",
         "ldate": "2022-12-23T20:51:00.156Z"
       },
-      "value": {
-        "high": -112,
-        "hdate": "2022-12-23T18:48:00.076Z",
-        "low": -160,
+      "draw": {
+        "low": 288,
+        "high": 288,
+        "hdate": "2022-12-23T18:30:46.561Z",
+        "ldate": "2022-12-23T18:30:46.561Z"
+      },
+      "gain": {
+        "low": -0.42857143,
+        "high": 0.92857143,
+        "hdate": "2022-12-29T20:50:00.255Z",
         "ldate": "2022-12-23T20:51:00.156Z"
+      },
+      "price": {
+        "low": 0.01,
+        "high": 0.2,
+        "hdate": "2022-12-23T20:51:00.156Z",
+        "ldate": "2022-12-29T20:50:00.255Z"
+      },
+      "value": {
+        "low": -160,
+        "high": -8,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-23T20:51:00.156Z"
+      },
+      "quantity": {
+        "low": 8,
+        "high": 8,
+        "hdate": "2022-12-23T18:30:46.561Z",
+        "ldate": "2022-12-23T18:30:46.561Z"
       }
     },
     "maintenance": 400,
     "upriceOpen": 70.81,
-    "delta": -0.04039738,
-    "theta": 0.01466612,
-    "gamma": -0.08434338,
-    "vega": -0.01586686,
-    "days": 7,
-    "markClose": 0.19,
+    "delta": -0.06532659,
+    "theta": 0.01510194,
+    "gamma": -0.19507039,
+    "vega": -0.00757386,
+    "days": 1,
+    "markClose": 0.07,
     "isShort": true,
     "isLong": false,
     "isSpread": true,
@@ -2165,17 +2635,17 @@
     "under": {
       "symbol": "XLU",
       "description": "Utilities Select Sector SPDR Fund",
-      "last": 70.91,
-      "change": 0.72,
-      "changePercent": 0.01025787,
-      "bid": 70.86,
-      "ask": 70.94,
-      "open": 70.06,
-      "high": 70.955,
-      "low": 70.05,
-      "close": 70.19,
-      "sd": 0.01141097,
-      "av": 0.18114353
+      "last": 71.21,
+      "change": 0.54,
+      "changePercent": 0.00764115,
+      "bid": 71.2,
+      "ask": 71.21,
+      "open": 71.02,
+      "high": 71.5756,
+      "low": 70.97,
+      "close": 70.67,
+      "sd": 0.01111506,
+      "av": 0.17644611
     },
     "bot": {
       "id": "BOTdJANovrzd4116718191611369765",
@@ -2185,17 +2655,17 @@
     }
   },
   {
-    "id": "dJANovrzd41167182021286633560",
+    "id": "dJANovrzd41167180850716670316",
     "type": "ironcondor",
     "status": "open",
-    "iid": "BOTdJANovrzd4116718191703991406",
+    "iid": "BOTdJANovrzd42167151953183069929",
     "accountId": "sim11216714649420573231",
     "tags": "",
     "multiplier": 100,
-    "oid": "TLT_ironcondor_123022C105_123022C104_123022P99_123022P100",
-    "symbol": "TLT",
+    "oid": "XRT_ironcondor_123022C61.5_123022C60.5_123022P57_123022P57.5",
+    "symbol": "XRT",
     "strategy": "Iron Condor",
-    "desc": "Iron Condor (TLT, Dec 30, +99 put, -100 put, -104 call, +105 call)",
+    "desc": "Iron Condor (XRT, Dec 30, +57 put, -57.50 put, -60.50 call, +61.50 call)",
     "expiration": "2022-12-30T21:00:00.000Z",
     "exits": {
       "text": "Profits: 95%",
@@ -2205,96 +2675,1254 @@
       "stoploss": 0
     },
     "ndate": 20221230,
-    "quantity": 4,
+    "quantity": 3,
     "active": 1,
-    "text": "+99 put, -100 put, -104 call, +105 call",
-    "openDate": "2022-12-23T18:30:36.238Z",
-    "openPrice": 0.3,
+    "text": "+57 put, -57.50 put, -60.50 call, +61.50 call",
+    "openDate": "2022-12-23T15:15:24.282Z",
+    "openPrice": 0.32,
     "closePrice": 0,
-    "cost": -120,
-    "pnl": -8,
-    "draw": 280,
-    "value": -128,
-    "gain": -0.06666667,
-    "priceChange": 0.02,
-    "priceChangePct": 0.06666667,
-    "ror": -0.02857143,
-    "currentPrice": 0.32,
-    "totalPnl": -8,
+    "cost": -96,
+    "pnl": 18,
+    "draw": 204,
+    "value": -78,
+    "gain": 0.1875,
+    "priceChange": -0.06,
+    "priceChangePct": -0.1875,
+    "ror": 0.08823529,
+    "currentPrice": 0.26,
+    "totalPnl": 18,
     "trail": {
-      "quantity": {
-        "high": 4,
-        "hdate": "2022-12-23T18:30:36.057Z",
-        "low": 4,
-        "ldate": "2022-12-23T18:30:36.057Z"
-      },
-      "price": {
-        "high": 0.33,
-        "hdate": "2022-12-23T18:30:36.057Z",
-        "low": 0.29,
-        "ldate": "2022-12-23T20:57:00.228Z"
-      },
-      "gain": {
-        "high": 0.03333333,
-        "hdate": "2022-12-23T20:57:00.228Z",
-        "low": -0.1,
-        "ldate": "2022-12-23T18:30:36.057Z"
-      },
-      "draw": {
-        "high": 280,
-        "hdate": "2022-12-23T18:30:36.057Z",
-        "low": 280,
-        "ldate": "2022-12-23T18:30:36.057Z"
-      },
       "pnl": {
-        "high": 4,
-        "hdate": "2022-12-23T20:57:00.228Z",
-        "low": -12,
-        "ldate": "2022-12-23T18:30:36.057Z"
+        "low": -54,
+        "high": 72,
+        "hdate": "2022-12-28T20:51:00.367Z",
+        "ldate": "2022-12-23T20:56:00.218Z"
       },
       "ror": {
-        "high": 0.01428571,
-        "hdate": "2022-12-23T20:57:00.228Z",
-        "low": -0.04285714,
-        "ldate": "2022-12-23T18:30:36.057Z"
+        "low": -0.26470588,
+        "high": 0.35294118,
+        "hdate": "2022-12-28T20:51:00.367Z",
+        "ldate": "2022-12-23T20:56:00.218Z"
+      },
+      "draw": {
+        "low": 204,
+        "high": 204,
+        "hdate": "2022-12-23T15:15:24.160Z",
+        "ldate": "2022-12-23T15:15:24.160Z"
+      },
+      "gain": {
+        "low": -0.5625,
+        "high": 0.75,
+        "hdate": "2022-12-28T20:51:00.367Z",
+        "ldate": "2022-12-23T20:56:00.218Z"
+      },
+      "price": {
+        "low": 0.08,
+        "high": 0.5,
+        "hdate": "2022-12-23T20:56:00.218Z",
+        "ldate": "2022-12-28T20:51:00.367Z"
       },
       "value": {
-        "high": -116,
-        "hdate": "2022-12-23T20:57:00.228Z",
-        "low": -132,
-        "ldate": "2022-12-23T18:30:36.057Z"
+        "low": -150,
+        "high": -24,
+        "hdate": "2022-12-28T20:51:00.367Z",
+        "ldate": "2022-12-23T20:56:00.218Z"
+      },
+      "quantity": {
+        "low": 3,
+        "high": 3,
+        "hdate": "2022-12-23T15:15:24.160Z",
+        "ldate": "2022-12-23T15:15:24.160Z"
       }
     },
-    "maintenance": 400,
-    "upriceOpen": 102.16,
-    "delta": -0.01700388,
-    "theta": 0.02264957,
-    "gamma": -0.06990304,
-    "vega": -0.02574844,
-    "days": 7,
-    "markClose": 0.32,
+    "maintenance": 300,
+    "upriceOpen": 59.19,
+    "delta": -0.26793796,
+    "theta": 0.03905883,
+    "gamma": -0.2266923,
+    "vega": -0.01069866,
+    "days": 1,
+    "markClose": 0.26,
     "isShort": true,
     "isLong": false,
     "isSpread": true,
     "isLastTradingDay": false,
     "under": {
-      "symbol": "TLT",
-      "description": "iShares 20Y Treasury Bond ETF",
-      "last": 102.16,
-      "change": -1.52,
-      "changePercent": -0.01466049,
-      "bid": 102.18,
-      "ask": 102.23,
-      "open": 102.58,
-      "high": 102.81,
-      "low": 102.0225,
-      "close": 103.68,
-      "sd": 0.01316395,
-      "av": 0.20897123
+      "symbol": "XRT",
+      "description": "SPDR S&P Retail ETF",
+      "last": 60.265,
+      "change": 1.445,
+      "changePercent": 0.02456647,
+      "bid": 60.26,
+      "ask": 60.27,
+      "open": 59.25,
+      "high": 60.47,
+      "low": 59.09,
+      "close": 58.82,
+      "sd": 0.0156399,
+      "av": 0.24827572
     },
     "bot": {
-      "id": "BOTdJANovrzd4116718191703991406",
-      "name": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd516716366131858826",
+    "type": "ironcondor",
+    "status": "closing",
+    "iid": "BOTdJANovrzd42167151953183069929",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLV_ironcondor_123022C139_123022C138_123022P133_123022P134",
+    "symbol": "XLV",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLV, Dec 30, +133 put, -134 put, -138 call, +139 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 3,
+    "active": 1,
+    "text": "+133 put, -134 put, -138 call, +139 call",
+    "openDate": "2022-12-21T15:30:33.228Z",
+    "openPrice": 0.35,
+    "closePrice": 0,
+    "cost": -105,
+    "pnl": 102,
+    "draw": 195,
+    "value": -3,
+    "gain": 0,
+    "priceChange": 0,
+    "priceChangePct": 0,
+    "ror": 0.52307692,
+    "currentPrice": 0.01,
+    "totalPnl": 102,
+    "trail": {
+      "pnl": {
+        "low": -39,
+        "high": 105,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-22T18:53:00.186Z"
+      },
+      "ror": {
+        "low": -0.2,
+        "high": 0.53846154,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-22T18:53:00.186Z"
+      },
+      "draw": {
+        "low": 195,
+        "high": 195,
+        "hdate": "2022-12-21T15:30:32.959Z",
+        "ldate": "2022-12-21T15:30:32.959Z"
+      },
+      "gain": {
+        "low": -0.37142857,
+        "high": 1,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-22T18:53:00.186Z"
+      },
+      "price": {
+        "low": 0,
+        "high": 0.48,
+        "hdate": "2022-12-22T18:53:00.186Z",
+        "ldate": "2022-12-29T20:50:00.255Z"
+      },
+      "value": {
+        "low": -144,
+        "high": 0,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "ldate": "2022-12-22T18:53:00.186Z"
+      },
+      "quantity": {
+        "low": 3,
+        "high": 3,
+        "hdate": "2022-12-21T15:30:32.959Z",
+        "ldate": "2022-12-21T15:30:32.959Z"
+      }
+    },
+    "maintenance": 300,
+    "upriceOpen": 135.89,
+    "delta": -0.03420205,
+    "theta": 0.03184407,
+    "gamma": -0.12559762,
+    "vega": -0.01636905,
+    "days": 1,
+    "markClose": 0.01,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLV",
+      "description": "Health Care Select Sector SPDR Fund",
+      "last": 136.35,
+      "change": 1.48,
+      "changePercent": 0.01097353,
+      "bid": 136.36,
+      "ask": 136.37,
+      "open": 135.71,
+      "high": 137.045,
+      "low": 135.4,
+      "close": 134.87,
+      "sd": 0.00897321,
+      "av": 0.14244529
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd5167163662447849610",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151953183069929",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XHB_ironcondor_123022C64_123022C63_123022P58_123022P59",
+    "symbol": "XHB",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XHB, Dec 30, +58 put, -59 put, -63 call, +64 call)",
+    "expiration": "2022-12-30T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20221230,
+    "quantity": 3,
+    "active": 1,
+    "text": "+58 put, -59 put, -63 call, +64 call",
+    "openDate": "2022-12-21T15:30:40.729Z",
+    "openPrice": 0.26,
+    "closePrice": 0,
+    "cost": -78,
+    "pnl": 66,
+    "draw": 222,
+    "value": -12,
+    "gain": 0.84615385,
+    "priceChange": -0.22,
+    "priceChangePct": -0.84615385,
+    "ror": 0.2972973,
+    "currentPrice": 0.04,
+    "totalPnl": 66,
+    "trail": {
+      "pnl": {
+        "low": -42,
+        "high": 78,
+        "hdate": "2022-12-29T16:08:00.167Z",
+        "ldate": "2022-12-22T18:09:00.446Z"
+      },
+      "ror": {
+        "low": -0.18918919,
+        "high": 0.35135135,
+        "hdate": "2022-12-29T16:08:00.167Z",
+        "ldate": "2022-12-22T18:09:00.446Z"
+      },
+      "draw": {
+        "low": 222,
+        "high": 222,
+        "hdate": "2022-12-21T15:30:40.961Z",
+        "ldate": "2022-12-21T15:30:40.961Z"
+      },
+      "gain": {
+        "low": -0.53846154,
+        "high": 1,
+        "hdate": "2022-12-29T16:08:00.167Z",
+        "ldate": "2022-12-22T18:09:00.446Z"
+      },
+      "price": {
+        "low": 0,
+        "high": 0.4,
+        "hdate": "2022-12-22T18:09:00.446Z",
+        "ldate": "2022-12-29T16:08:00.167Z"
+      },
+      "value": {
+        "low": -120,
+        "high": 0,
+        "hdate": "2022-12-29T16:08:00.167Z",
+        "ldate": "2022-12-22T18:09:00.446Z"
+      },
+      "quantity": {
+        "low": 3,
+        "high": 3,
+        "hdate": "2022-12-21T15:30:40.961Z",
+        "ldate": "2022-12-21T15:30:40.961Z"
+      }
+    },
+    "maintenance": 300,
+    "upriceOpen": 60.86,
+    "delta": 0.00564533,
+    "theta": 0.01451007,
+    "gamma": -0.0949361,
+    "vega": -0.00465699,
+    "days": 1,
+    "markClose": 0.04,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XHB",
+      "description": "SPDR S&P Homebuilders ETF",
+      "last": 60.97,
+      "change": 1.51,
+      "changePercent": 0.02539522,
+      "bid": 60.97,
+      "ask": 60.98,
+      "open": 59.86,
+      "high": 61.14,
+      "low": 59.74,
+      "close": 59.46,
+      "sd": 0.01312929,
+      "av": 0.20842102
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd2116723251130951635",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191611369765",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLE_ironcondor_011323C90_011323C88.5_011323P83_011323P84.5",
+    "symbol": "XLE",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLE, Jan 13, +83 put, -84.50 put, -88.50 call, +90 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230113,
+    "quantity": 4,
+    "active": 1,
+    "text": "+83 put, -84.50 put, -88.50 call, +90 call",
+    "openDate": "2022-12-29T14:45:46.037Z",
+    "openPrice": 0.91,
+    "closePrice": 0,
+    "cost": -364,
+    "pnl": -12,
+    "draw": 236,
+    "value": -376,
+    "gain": -0.03296703,
+    "priceChange": 0.03,
+    "priceChangePct": 0.03296703,
+    "ror": -0.05084746,
+    "currentPrice": 0.94,
+    "totalPnl": -12,
+    "trail": {
+      "quantity": {
+        "high": 4,
+        "hdate": "2022-12-29T14:45:46.002Z",
+        "low": 4,
+        "ldate": "2022-12-29T14:45:46.002Z"
+      },
+      "price": {
+        "high": 0.98,
+        "hdate": "2022-12-29T14:50:00.056Z",
+        "low": 0.9,
+        "ldate": "2022-12-29T15:03:00.015Z"
+      },
+      "gain": {
+        "high": 0.01098901,
+        "hdate": "2022-12-29T15:03:00.015Z",
+        "low": -0.07692308,
+        "ldate": "2022-12-29T14:50:00.056Z"
+      },
+      "draw": {
+        "high": 236,
+        "hdate": "2022-12-29T14:45:46.002Z",
+        "low": 236,
+        "ldate": "2022-12-29T14:45:46.002Z"
+      },
+      "pnl": {
+        "high": 4,
+        "hdate": "2022-12-29T15:03:00.015Z",
+        "low": -28,
+        "ldate": "2022-12-29T14:50:00.056Z"
+      },
+      "ror": {
+        "high": 0.01694915,
+        "hdate": "2022-12-29T15:03:00.015Z",
+        "low": -0.11864407,
+        "ldate": "2022-12-29T14:50:00.056Z"
+      },
+      "value": {
+        "high": -360,
+        "hdate": "2022-12-29T15:03:00.015Z",
+        "low": -392,
+        "ldate": "2022-12-29T14:50:00.056Z"
+      }
+    },
+    "maintenance": 600,
+    "upriceOpen": 86.48,
+    "delta": -0.0147801,
+    "theta": 0.01441152,
+    "gamma": -0.01564939,
+    "vega": -0.01602431,
+    "days": 15,
+    "markClose": 0.94,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLE",
+      "description": "Energy Select Sector SPDR Fund",
+      "last": 86.93,
+      "change": 0.91,
+      "changePercent": 0.01057894,
+      "bid": 86.92,
+      "ask": 86.93,
+      "open": 85.66,
+      "high": 87.31,
+      "low": 85.62,
+      "close": 86.02,
+      "sd": 0.0175229,
+      "av": 0.27816741
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191611369765",
+      "name": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd2116723251133621016",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151952209125928",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "GDX_ironcondor_011323C31_011323C30.5_011323P27.5_011323P28",
+    "symbol": "GDX",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (GDX, Jan 13, +27.50 put, -28 put, -30.50 call, +31 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230113,
+    "quantity": 10,
+    "active": 1,
+    "text": "+27.50 put, -28 put, -30.50 call, +31 call",
+    "openDate": "2022-12-29T14:45:46.537Z",
+    "openPrice": 0.22,
+    "closePrice": 0,
+    "cost": -220,
+    "pnl": -20,
+    "draw": 280,
+    "value": -240,
+    "gain": -0.09090909,
+    "priceChange": 0.02,
+    "priceChangePct": 0.09090909,
+    "ror": -0.07142857,
+    "currentPrice": 0.24,
+    "totalPnl": -20,
+    "trail": {
+      "quantity": {
+        "high": 10,
+        "hdate": "2022-12-29T14:45:46.502Z",
+        "low": 10,
+        "ldate": "2022-12-29T14:45:46.502Z"
+      },
+      "price": {
+        "high": 0.27,
+        "hdate": "2022-12-29T15:18:00.284Z",
+        "low": 0.22,
+        "ldate": "2022-12-29T17:37:00.329Z"
+      },
+      "gain": {
+        "high": 0,
+        "hdate": "2022-12-29T17:37:00.329Z",
+        "low": -0.22727273,
+        "ldate": "2022-12-29T15:18:00.284Z"
+      },
+      "draw": {
+        "high": 280,
+        "hdate": "2022-12-29T14:45:46.502Z",
+        "low": 280,
+        "ldate": "2022-12-29T14:45:46.502Z"
+      },
+      "pnl": {
+        "high": 0,
+        "hdate": "2022-12-29T17:37:00.329Z",
+        "low": -50,
+        "ldate": "2022-12-29T15:18:00.284Z"
+      },
+      "ror": {
+        "high": 0,
+        "hdate": "2022-12-29T17:37:00.329Z",
+        "low": -0.17857143,
+        "ldate": "2022-12-29T15:18:00.284Z"
+      },
+      "value": {
+        "high": -220,
+        "hdate": "2022-12-29T17:37:00.329Z",
+        "low": -270,
+        "ldate": "2022-12-29T15:18:00.284Z"
+      }
+    },
+    "maintenance": 500,
+    "upriceOpen": 29.18,
+    "delta": 0.0247924,
+    "theta": 0.00574983,
+    "gamma": -0.04107335,
+    "vega": -0.00540999,
+    "days": 15,
+    "markClose": 0.24,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "GDX",
+      "description": "VanEck Vectors Gold Miners ETF",
+      "last": 28.78,
+      "change": 0.1,
+      "changePercent": 0.00348675,
+      "bid": 28.78,
+      "ask": 28.79,
+      "open": 29.03,
+      "high": 29.23,
+      "low": 28.77,
+      "close": 28.68,
+      "sd": 0.02376214,
+      "av": 0.37721228
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151952209125928",
+      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd21167232601044444611",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191611369765",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLP_ironcondor_011323C76.5_011323C76_011323P73.5_011323P74",
+    "symbol": "XLP",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLP, Jan 13, +73.50 put, -74 put, -76 call, +76.50 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230113,
+    "quantity": 8,
+    "active": 1,
+    "text": "+73.50 put, -74 put, -76 call, +76.50 call",
+    "openDate": "2022-12-29T15:00:32.632Z",
+    "openPrice": 0.28,
+    "closePrice": 0,
+    "cost": -224,
+    "pnl": -8,
+    "draw": 176,
+    "value": -232,
+    "gain": -0.03571429,
+    "priceChange": 0.01,
+    "priceChangePct": 0.03571429,
+    "ror": -0.04545455,
+    "currentPrice": 0.29,
+    "totalPnl": -8,
+    "trail": {
+      "quantity": {
+        "high": 8,
+        "hdate": "2022-12-29T15:00:32.490Z",
+        "low": 8,
+        "ldate": "2022-12-29T15:00:32.490Z"
+      },
+      "price": {
+        "high": 0.33,
+        "hdate": "2022-12-29T19:03:00.210Z",
+        "low": 0.27,
+        "ldate": "2022-12-29T16:48:00.084Z"
+      },
+      "gain": {
+        "high": 0.03571429,
+        "hdate": "2022-12-29T16:48:00.084Z",
+        "low": -0.17857143,
+        "ldate": "2022-12-29T19:03:00.210Z"
+      },
+      "draw": {
+        "high": 176,
+        "hdate": "2022-12-29T15:00:32.490Z",
+        "low": 176,
+        "ldate": "2022-12-29T15:00:32.490Z"
+      },
+      "pnl": {
+        "high": 8,
+        "hdate": "2022-12-29T16:48:00.084Z",
+        "low": -40,
+        "ldate": "2022-12-29T19:03:00.210Z"
+      },
+      "ror": {
+        "high": 0.04545455,
+        "hdate": "2022-12-29T16:48:00.084Z",
+        "low": -0.22727273,
+        "ldate": "2022-12-29T19:03:00.210Z"
+      },
+      "value": {
+        "high": -216,
+        "hdate": "2022-12-29T16:48:00.084Z",
+        "low": -264,
+        "ldate": "2022-12-29T19:03:00.210Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 75.03,
+    "delta": -0.0101695,
+    "theta": 0.00555519,
+    "gamma": -0.0287876,
+    "vega": -0.01164061,
+    "days": 15,
+    "markClose": 0.29,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLP",
+      "description": "Consumer Staples Select Sector SPDR ETF",
+      "last": 74.95,
+      "change": 0.35,
+      "changePercent": 0.00469169,
+      "bid": 74.95,
+      "ask": 74.96,
+      "open": 74.9,
+      "high": 75.19,
+      "low": 74.7801,
+      "close": 74.6,
+      "sd": 0.0080064,
+      "av": 0.12709766
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191611369765",
+      "name": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd21167232601078423712",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151952209125928",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLI_ironcondor_010623C100.5_010623C99.5_010623P96_010623P96.5",
+    "symbol": "XLI",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLI, Jan 6, +96 put, -96.50 put, -99.50 call, +100.50 call)",
+    "expiration": "2023-01-06T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230106,
+    "quantity": 3,
+    "active": 1,
+    "text": "+96 put, -96.50 put, -99.50 call, +100.50 call",
+    "openDate": "2022-12-29T15:00:33.132Z",
+    "openPrice": 0.32,
+    "closePrice": 0,
+    "cost": -96,
+    "pnl": -33,
+    "draw": 204,
+    "value": -129,
+    "gain": -0.34375,
+    "priceChange": 0.11,
+    "priceChangePct": 0.34375,
+    "ror": -0.16176471,
+    "currentPrice": 0.43,
+    "totalPnl": -33,
+    "trail": {
+      "quantity": {
+        "high": 3,
+        "hdate": "2022-12-29T15:00:33.490Z",
+        "low": 3,
+        "ldate": "2022-12-29T15:00:33.490Z"
+      },
+      "price": {
+        "high": 0.47,
+        "hdate": "2022-12-29T17:54:00.383Z",
+        "low": 0.36,
+        "ldate": "2022-12-29T15:00:33.490Z"
+      },
+      "gain": {
+        "high": -0.125,
+        "hdate": "2022-12-29T15:00:33.490Z",
+        "low": -0.46875,
+        "ldate": "2022-12-29T17:54:00.383Z"
+      },
+      "draw": {
+        "high": 204,
+        "hdate": "2022-12-29T15:00:33.490Z",
+        "low": 204,
+        "ldate": "2022-12-29T15:00:33.490Z"
+      },
+      "pnl": {
+        "high": -12,
+        "hdate": "2022-12-29T15:00:33.490Z",
+        "low": -45,
+        "ldate": "2022-12-29T17:54:00.383Z"
+      },
+      "ror": {
+        "high": -0.05882353,
+        "hdate": "2022-12-29T15:00:33.490Z",
+        "low": -0.22058824,
+        "ldate": "2022-12-29T17:54:00.383Z"
+      },
+      "value": {
+        "high": -108,
+        "hdate": "2022-12-29T15:00:33.490Z",
+        "low": -141,
+        "ldate": "2022-12-29T17:54:00.383Z"
+      }
+    },
+    "maintenance": 300,
+    "upriceOpen": 98.16,
+    "delta": -0.0876929,
+    "theta": 0.01635194,
+    "gamma": -0.03355417,
+    "vega": -0.01640902,
+    "days": 8,
+    "markClose": 0.43,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLI",
+      "description": "Industrial Select Sector SPDR Fund",
+      "last": 98.625,
+      "change": 1.225,
+      "changePercent": 0.012577,
+      "bid": 98.63,
+      "ask": 98.64,
+      "open": 97.85,
+      "high": 98.9,
+      "low": 97.77,
+      "close": 97.4,
+      "sd": 0.01040017,
+      "av": 0.16509758
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151952209125928",
+      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd21167232602011940013",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191611369765",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLU_ironcondor_011323C73_011323C72.5_011323P69.5_011323P70",
+    "symbol": "XLU",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLU, Jan 13, +69.50 put, -70 put, -72.50 call, +73 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230113,
+    "quantity": 9,
+    "active": 1,
+    "text": "+69.50 put, -70 put, -72.50 call, +73 call",
+    "openDate": "2022-12-29T15:00:37.133Z",
+    "openPrice": 0.26,
+    "closePrice": 0,
+    "cost": -234,
+    "pnl": -36,
+    "draw": 216,
+    "value": -270,
+    "gain": -0.15384615,
+    "priceChange": 0.04,
+    "priceChangePct": 0.15384615,
+    "ror": -0.16666667,
+    "currentPrice": 0.3,
+    "totalPnl": -36,
+    "trail": {
+      "quantity": {
+        "high": 9,
+        "hdate": "2022-12-29T15:00:36.991Z",
+        "low": 9,
+        "ldate": "2022-12-29T15:00:36.991Z"
+      },
+      "price": {
+        "high": 0.34,
+        "hdate": "2022-12-29T15:28:00.400Z",
+        "low": 0.27,
+        "ldate": "2022-12-29T15:52:00.446Z"
+      },
+      "gain": {
+        "high": -0.03846154,
+        "hdate": "2022-12-29T15:52:00.446Z",
+        "low": -0.30769231,
+        "ldate": "2022-12-29T15:28:00.400Z"
+      },
+      "draw": {
+        "high": 216,
+        "hdate": "2022-12-29T15:00:36.991Z",
+        "low": 216,
+        "ldate": "2022-12-29T15:00:36.991Z"
+      },
+      "pnl": {
+        "high": -9,
+        "hdate": "2022-12-29T15:52:00.446Z",
+        "low": -72,
+        "ldate": "2022-12-29T15:28:00.400Z"
+      },
+      "ror": {
+        "high": -0.04166667,
+        "hdate": "2022-12-29T15:52:00.446Z",
+        "low": -0.33333333,
+        "ldate": "2022-12-29T15:28:00.400Z"
+      },
+      "value": {
+        "high": -243,
+        "hdate": "2022-12-29T15:52:00.446Z",
+        "low": -306,
+        "ldate": "2022-12-29T15:28:00.400Z"
+      }
+    },
+    "maintenance": 450,
+    "upriceOpen": 71.31,
+    "delta": -0.0064843,
+    "theta": 0.00487459,
+    "gamma": -0.02249538,
+    "vega": -0.00920076,
+    "days": 15,
+    "markClose": 0.3,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLU",
+      "description": "Utilities Select Sector SPDR Fund",
+      "last": 71.21,
+      "change": 0.54,
+      "changePercent": 0.00764115,
+      "bid": 71.2,
+      "ask": 71.21,
+      "open": 71.02,
+      "high": 71.5756,
+      "low": 70.97,
+      "close": 70.67,
+      "sd": 0.01111506,
+      "av": 0.17644611
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191611369765",
+      "name": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd21167232691091469918",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151953183069929",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLV_ironcondor_011323C139_011323C138.5_011323P134_011323P135",
+    "symbol": "XLV",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLV, Jan 13, +134 put, -135 put, -138.50 call, +139 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230113,
+    "quantity": 4,
+    "active": 1,
+    "text": "+134 put, -135 put, -138.50 call, +139 call",
+    "openDate": "2022-12-29T15:15:35.798Z",
+    "openPrice": 0.45,
+    "closePrice": 0,
+    "cost": -180,
+    "pnl": -8,
+    "draw": 220,
+    "value": -188,
+    "gain": -0.04444444,
+    "priceChange": 0.02,
+    "priceChangePct": 0.04444444,
+    "ror": -0.03636364,
+    "currentPrice": 0.47,
+    "totalPnl": -8,
+    "trail": {
+      "quantity": {
+        "high": 4,
+        "hdate": "2022-12-29T15:15:35.751Z",
+        "low": 4,
+        "ldate": "2022-12-29T15:15:35.751Z"
+      },
+      "price": {
+        "high": 0.51,
+        "hdate": "2022-12-29T15:27:00.387Z",
+        "low": 0.42,
+        "ldate": "2022-12-29T20:50:00.255Z"
+      },
+      "gain": {
+        "high": 0.06666667,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "low": -0.13333333,
+        "ldate": "2022-12-29T15:27:00.387Z"
+      },
+      "draw": {
+        "high": 220,
+        "hdate": "2022-12-29T15:15:35.751Z",
+        "low": 220,
+        "ldate": "2022-12-29T15:15:35.751Z"
+      },
+      "pnl": {
+        "high": 12,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "low": -24,
+        "ldate": "2022-12-29T15:27:00.387Z"
+      },
+      "ror": {
+        "high": 0.05454545,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "low": -0.10909091,
+        "ldate": "2022-12-29T15:27:00.387Z"
+      },
+      "value": {
+        "high": -168,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "low": -204,
+        "ldate": "2022-12-29T15:27:00.387Z"
+      }
+    },
+    "maintenance": 400,
+    "upriceOpen": 136.53,
+    "delta": 0.036939,
+    "theta": 0.00600296,
+    "gamma": -0.01104979,
+    "vega": -0.01369465,
+    "days": 15,
+    "markClose": 0.47,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLV",
+      "description": "Health Care Select Sector SPDR Fund",
+      "last": 136.35,
+      "change": 1.48,
+      "changePercent": 0.01097353,
+      "bid": 136.36,
+      "ask": 136.37,
+      "open": 135.71,
+      "high": 137.045,
+      "low": 135.4,
+      "close": 134.87,
+      "sd": 0.00897321,
+      "av": 0.14244529
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd21167232781161188123",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151953183069929",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLK_ironcondor_011323C128.5_011323C127_011323P120_011323P121.5",
+    "symbol": "XLK",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLK, Jan 13, +120 put, -121.50 put, -127 call, +128.50 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230113,
+    "quantity": 4,
+    "active": 1,
+    "text": "+120 put, -121.50 put, -127 call, +128.50 call",
+    "openDate": "2022-12-29T15:30:25.406Z",
+    "openPrice": 0.92,
+    "closePrice": 0,
+    "cost": -368,
+    "pnl": -60,
+    "draw": 232,
+    "value": -428,
+    "gain": -0.16304348,
+    "priceChange": 0.15,
+    "priceChangePct": 0.16304348,
+    "ror": -0.25862069,
+    "currentPrice": 1.07,
+    "totalPnl": -60,
+    "trail": {
+      "quantity": {
+        "high": 4,
+        "hdate": "2022-12-29T15:30:25.588Z",
+        "low": 4,
+        "ldate": "2022-12-29T15:30:25.588Z"
+      },
+      "price": {
+        "high": 1.05,
+        "hdate": "2022-12-29T20:50:00.255Z",
+        "low": 0.92,
+        "ldate": "2022-12-29T20:12:00.443Z"
+      },
+      "gain": {
+        "high": 0,
+        "hdate": "2022-12-29T20:12:00.443Z",
+        "low": -0.14130435,
+        "ldate": "2022-12-29T20:50:00.255Z"
+      },
+      "draw": {
+        "high": 232,
+        "hdate": "2022-12-29T15:30:25.588Z",
+        "low": 232,
+        "ldate": "2022-12-29T15:30:25.588Z"
+      },
+      "pnl": {
+        "high": 0,
+        "hdate": "2022-12-29T20:12:00.443Z",
+        "low": -52,
+        "ldate": "2022-12-29T20:50:00.255Z"
+      },
+      "ror": {
+        "high": 0,
+        "hdate": "2022-12-29T20:12:00.443Z",
+        "low": -0.22413793,
+        "ldate": "2022-12-29T20:50:00.255Z"
+      },
+      "value": {
+        "high": -368,
+        "hdate": "2022-12-29T20:12:00.443Z",
+        "low": -420,
+        "ldate": "2022-12-29T20:50:00.255Z"
+      }
+    },
+    "maintenance": 600,
+    "upriceOpen": 124.19,
+    "delta": -0.0157933,
+    "theta": 0.01518075,
+    "gamma": -0.00812475,
+    "vega": -0.01709322,
+    "days": 15,
+    "markClose": 1.07,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLK",
+      "description": "Technology Select Sector SPDR Fund",
+      "last": 124.87,
+      "change": 3.44,
+      "changePercent": 0.02832908,
+      "bid": 124.88,
+      "ask": 124.89,
+      "open": 122.62,
+      "high": 125.03,
+      "low": 122.605,
+      "close": 121.43,
+      "sd": 0.01708949,
+      "av": 0.27128724
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151953183069929",
+      "name": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd21167232960967877732",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd42167151952209125928",
+    "accountId": "sim11216714649420573231",
+    "tags": "",
+    "multiplier": 100,
+    "oid": "XLY_ironcondor_011323C133_011323C132_011323P126_011323P127",
+    "symbol": "XLY",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (XLY, Jan 13, +126 put, -127 put, -132 call, +133 call)",
+    "expiration": "2023-01-13T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 95%",
+      "nopdt": "on",
+      "epsdays": 0,
+      "expdays": 0,
+      "profits": 0.95,
+      "stoploss": 0
+    },
+    "ndate": 20230113,
+    "quantity": 5,
+    "active": 1,
+    "text": "+126 put, -127 put, -132 call, +133 call",
+    "openDate": "2022-12-29T16:00:28.665Z",
+    "openPrice": 0.62,
+    "closePrice": 0,
+    "cost": -310,
+    "pnl": -55,
+    "draw": 190,
+    "value": -365,
+    "gain": -0.17741935,
+    "priceChange": 0.11,
+    "priceChangePct": 0.17741935,
+    "ror": -0.28947368,
+    "currentPrice": 0.73,
+    "totalPnl": -55,
+    "trail": {
+      "quantity": {
+        "high": 5,
+        "hdate": "2022-12-29T16:00:29.088Z",
+        "low": 5,
+        "ldate": "2022-12-29T16:00:29.088Z"
+      },
+      "price": {
+        "high": 0.75,
+        "hdate": "2022-12-29T16:34:00.416Z",
+        "low": 0.61,
+        "ldate": "2022-12-29T17:03:00.348Z"
+      },
+      "gain": {
+        "high": 0.01612903,
+        "hdate": "2022-12-29T17:03:00.348Z",
+        "low": -0.20967742,
+        "ldate": "2022-12-29T16:34:00.416Z"
+      },
+      "draw": {
+        "high": 190,
+        "hdate": "2022-12-29T16:00:29.088Z",
+        "low": 190,
+        "ldate": "2022-12-29T16:00:29.088Z"
+      },
+      "pnl": {
+        "high": 5,
+        "hdate": "2022-12-29T17:03:00.348Z",
+        "low": -65,
+        "ldate": "2022-12-29T16:34:00.416Z"
+      },
+      "ror": {
+        "high": 0.02631579,
+        "hdate": "2022-12-29T17:03:00.348Z",
+        "low": -0.34210526,
+        "ldate": "2022-12-29T16:34:00.416Z"
+      },
+      "value": {
+        "high": -305,
+        "hdate": "2022-12-29T17:03:00.348Z",
+        "low": -375,
+        "ldate": "2022-12-29T16:34:00.416Z"
+      }
+    },
+    "maintenance": 500,
+    "upriceOpen": 129.44,
+    "delta": -0.0028434,
+    "theta": 0.00820756,
+    "gamma": -0.00451051,
+    "vega": -0.00966612,
+    "days": 15,
+    "markClose": 0.73,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "XLY",
+      "description": "Consumer Discretionary Select Sector SPDR Fund",
+      "last": 129.62,
+      "change": 3.36,
+      "changePercent": 0.02661175,
+      "bid": 129.61,
+      "ask": 129.62,
+      "open": 128.07,
+      "high": 129.8,
+      "low": 127.57,
+      "close": 126.26,
+      "sd": 0.01343742,
+      "av": 0.21331243
+    },
+    "bot": {
+      "id": "BOTdJANovrzd42167151952209125928",
+      "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
       "icon": "fas-box-open bg-orange",
       "accountId": "sim11216714649420573231"
     }
