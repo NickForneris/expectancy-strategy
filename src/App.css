@@ -1,8 +1,7 @@
-html{
-    margin: 1%; 
+html, body {
+    margin: 0; 
     height: 99vh; 
     font-size: 1.4vh;
-    overflow: hidden;
 } 
 
 *, *:before, *:after {
