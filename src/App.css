@@ -1,10 +1,9 @@
-html, body {
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
+html{
+    margin: 1%; 
+    height: 99vh; 
+    font-size: 1.4vh;
+    overflow: hidden;
+} 
 
 *, *:before, *:after {
     box-sizing: border-box;
@@ -34,6 +33,10 @@ html, body {
 
 Table, .border {
     color: #DFE3E3!important;
+}
+
+.apexcharts-tooltip {
+    thenme: dark;
 }
 
 /*
