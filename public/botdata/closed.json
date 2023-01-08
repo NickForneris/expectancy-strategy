@@ -1,5 +1,734 @@
 [
     {
+        "id": "dJANovrzd2116723251133621016",
+        "type": "ironcondor",
+        "status": "open",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "accountId": "sim11216714649420573231",
+        "tags": "",
+        "multiplier": 100,
+        "oid": "GDX_ironcondor_011323C31_011323C30.5_011323P27.5_011323P28",
+        "symbol": "GDX",
+        "strategy": "Iron Condor",
+        "desc": "Iron Condor (GDX, Jan 13, +27.50 put, -28 put, -30.50 call, +31 call)",
+        "expiration": "2023-01-13T21:00:00.000Z",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "ndate": 20230113,
+        "quantity": 10,
+        "active": 1,
+        "text": "+27.50 put, -28 put, -30.50 call, +31 call",
+        "openDate": "2022-12-29T14:45:46.537Z",
+        "openPrice": 0.22,
+        "closePrice": 0,
+        "cost": -220,
+        "pnl": -120,
+        "draw": 280,
+        "value": -340,
+        "gain": -0.54545455,
+        "priceChange": 0.12,
+        "priceChangePct": 0.54545455,
+        "ror": -0.42857143,
+        "currentPrice": 0.34,
+        "totalPnl": -120,
+        "trail": {
+            "pnl": {
+                "low": -160,
+                "high": 20,
+                "hdate": "2023-01-04T19:04:00.101Z",
+                "ldate": "2023-01-06T15:07:00.080Z"
+            },
+            "ror": {
+                "low": -0.57142857,
+                "high": 0.07142857,
+                "hdate": "2023-01-04T19:04:00.101Z",
+                "ldate": "2023-01-06T15:07:00.080Z"
+            },
+            "draw": {
+                "low": 280,
+                "high": 280,
+                "hdate": "2022-12-29T14:45:46.502Z",
+                "ldate": "2022-12-29T14:45:46.502Z"
+            },
+            "gain": {
+                "low": -0.72727273,
+                "high": 0.09090909,
+                "hdate": "2023-01-04T19:04:00.101Z",
+                "ldate": "2023-01-06T15:07:00.080Z"
+            },
+            "price": {
+                "low": 0.2,
+                "high": 0.38,
+                "hdate": "2023-01-06T15:07:00.080Z",
+                "ldate": "2023-01-04T19:04:00.101Z"
+            },
+            "value": {
+                "low": -380,
+                "high": -200,
+                "hdate": "2023-01-04T19:04:00.101Z",
+                "ldate": "2023-01-06T15:07:00.080Z"
+            },
+            "quantity": {
+                "low": 10,
+                "high": 10,
+                "hdate": "2022-12-29T14:45:46.502Z",
+                "ldate": "2022-12-29T14:45:46.502Z"
+            }
+        },
+        "maintenance": 500,
+        "upriceOpen": 29.18,
+        "delta": -0.09021404,
+        "theta": -0.00311293,
+        "gamma": 0.01710593,
+        "vega": 0.00142614,
+        "days": 7,
+        "markClose": 0.34,
+        "isShort": true,
+        "isLong": false,
+        "isSpread": true,
+        "isLastTradingDay": false,
+        "under": {
+            "symbol": "GDX",
+            "description": "VanEck Vectors Gold Miners ETF",
+            "last": 31.515,
+            "change": 0.865,
+            "changePercent": 0.02822186,
+            "bid": 31.51,
+            "ask": 31.52,
+            "open": 31.18,
+            "high": 31.675,
+            "low": 30.675,
+            "close": 30.65,
+            "sd": 0.02437605,
+            "av": 0.3869578
+        },
+        "bot": {
+            "id": "BOTdJANovrzd42167151952209125928",
+            "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+            "icon": "fas-box-open bg-orange",
+            "accountId": "sim11216714649420573231"
+        }
+    },
+    {
+        "id": "dJANovrzd21167232960967877732",
+        "type": "ironcondor",
+        "status": "open",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "accountId": "sim11216714649420573231",
+        "tags": "",
+        "multiplier": 100,
+        "oid": "XLY_ironcondor_011323C133_011323C132_011323P126_011323P127",
+        "symbol": "XLY",
+        "strategy": "Iron Condor",
+        "desc": "Iron Condor (XLY, Jan 13, +126 put, -127 put, -132 call, +133 call)",
+        "expiration": "2023-01-13T21:00:00.000Z",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "ndate": 20230113,
+        "quantity": 5,
+        "active": 1,
+        "text": "+126 put, -127 put, -132 call, +133 call",
+        "openDate": "2022-12-29T16:00:28.665Z",
+        "openPrice": 0.62,
+        "closePrice": 0,
+        "cost": -310,
+        "pnl": -15,
+        "draw": 190,
+        "value": -325,
+        "gain": -0.0483871,
+        "priceChange": 0.03,
+        "priceChangePct": 0.0483871,
+        "ror": -0.07894737,
+        "currentPrice": 0.65,
+        "totalPnl": -15,
+        "trail": {
+            "pnl": {
+                "low": -100,
+                "high": 295,
+                "hdate": "2023-01-06T15:09:00.108Z",
+                "ldate": "2022-12-29T20:57:00.313Z"
+            },
+            "ror": {
+                "low": -0.52631579,
+                "high": 1.55263158,
+                "hdate": "2023-01-06T15:09:00.108Z",
+                "ldate": "2022-12-29T20:57:00.313Z"
+            },
+            "draw": {
+                "low": 190,
+                "high": 190,
+                "hdate": "2022-12-29T16:00:29.088Z",
+                "ldate": "2022-12-29T16:00:29.088Z"
+            },
+            "gain": {
+                "low": -0.32258065,
+                "high": 0.9516129,
+                "hdate": "2023-01-06T15:09:00.108Z",
+                "ldate": "2022-12-29T20:57:00.313Z"
+            },
+            "price": {
+                "low": 0.03,
+                "high": 0.82,
+                "hdate": "2022-12-29T20:57:00.313Z",
+                "ldate": "2023-01-06T15:09:00.108Z"
+            },
+            "value": {
+                "low": -410,
+                "high": -15,
+                "hdate": "2023-01-06T15:09:00.108Z",
+                "ldate": "2022-12-29T20:57:00.313Z"
+            },
+            "quantity": {
+                "low": 5,
+                "high": 5,
+                "hdate": "2022-12-29T16:00:29.088Z",
+                "ldate": "2022-12-29T16:00:29.088Z"
+            }
+        },
+        "maintenance": 500,
+        "upriceOpen": 129.44,
+        "delta": -0.03282294,
+        "theta": 0.01393166,
+        "gamma": -0.00637639,
+        "vega": -0.00791658,
+        "days": 7,
+        "markClose": 0.65,
+        "isShort": true,
+        "isLong": false,
+        "isSpread": true,
+        "isLastTradingDay": false,
+        "under": {
+            "symbol": "XLY",
+            "description": "Consumer Discretionary Select Sector SPDR Fund",
+            "last": 132.415,
+            "change": 3.375,
+            "changePercent": 0.02615468,
+            "bid": 132.42,
+            "ask": 132.43,
+            "open": 128.68,
+            "high": 132.58,
+            "low": 127.765,
+            "close": 129.04,
+            "sd": 0.01426586,
+            "av": 0.22646351
+        },
+        "bot": {
+            "id": "BOTdJANovrzd42167151952209125928",
+            "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+            "icon": "fas-box-open bg-orange",
+            "accountId": "sim11216714649420573231"
+        }
+    },
+    {
+        "id": "dJANovrzd44167301900809465454",
+        "type": "ironcondor",
+        "status": "open",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "accountId": "sim11216714649420573231",
+        "tags": "",
+        "multiplier": 100,
+        "oid": "XLI_ironcondor_011323C102.5_011323C101.5_011323P97.5_011323P98.5",
+        "symbol": "XLI",
+        "strategy": "Iron Condor",
+        "desc": "Iron Condor (XLI, Jan 13, +97.50 put, -98.50 put, -101.50 call, +102.50 call)",
+        "expiration": "2023-01-13T21:00:00.000Z",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "ndate": 20230113,
+        "quantity": 5,
+        "active": 1,
+        "text": "+97.50 put, -98.50 put, -101.50 call, +102.50 call",
+        "openDate": "2023-01-06T15:30:27.529Z",
+        "openPrice": 0.54,
+        "closePrice": 0,
+        "cost": -270,
+        "pnl": -5,
+        "draw": 230,
+        "value": -275,
+        "gain": -0.01851852,
+        "priceChange": 0.01,
+        "priceChangePct": 0.01851852,
+        "ror": -0.02173913,
+        "currentPrice": 0.55,
+        "totalPnl": -5,
+        "trail": {
+            "quantity": {
+                "high": 5,
+                "hdate": "2023-01-06T15:30:27.765Z",
+                "low": 5,
+                "ldate": "2023-01-06T15:30:27.765Z"
+            },
+            "price": {
+                "high": 0.6,
+                "hdate": "2023-01-06T15:45:00.438Z",
+                "low": 0.51,
+                "ldate": "2023-01-06T18:25:00.406Z"
+            },
+            "gain": {
+                "high": 0.05555556,
+                "hdate": "2023-01-06T18:25:00.406Z",
+                "low": -0.11111111,
+                "ldate": "2023-01-06T15:45:00.438Z"
+            },
+            "draw": {
+                "high": 230,
+                "hdate": "2023-01-06T15:30:27.765Z",
+                "low": 230,
+                "ldate": "2023-01-06T15:30:27.765Z"
+            },
+            "pnl": {
+                "high": 15,
+                "hdate": "2023-01-06T18:25:00.406Z",
+                "low": -30,
+                "ldate": "2023-01-06T15:45:00.438Z"
+            },
+            "ror": {
+                "high": 0.06521739,
+                "hdate": "2023-01-06T18:25:00.406Z",
+                "low": -0.13043478,
+                "ldate": "2023-01-06T15:45:00.438Z"
+            },
+            "value": {
+                "high": -255,
+                "hdate": "2023-01-06T18:25:00.406Z",
+                "low": -300,
+                "ldate": "2023-01-06T15:45:00.438Z"
+            }
+        },
+        "maintenance": 500,
+        "upriceOpen": 100.07,
+        "delta": -0.05771082,
+        "theta": 0.02049544,
+        "gamma": -0.03280422,
+        "vega": -0.0166318,
+        "days": 7,
+        "markClose": 0.55,
+        "isShort": true,
+        "isLong": false,
+        "isSpread": true,
+        "isLastTradingDay": false,
+        "under": {
+            "symbol": "XLI",
+            "description": "Industrial Select Sector SPDR Fund",
+            "last": 101.16,
+            "change": 2.94,
+            "changePercent": 0.0299328,
+            "bid": 101.15,
+            "ask": 101.16,
+            "open": 99.21,
+            "high": 101.1898,
+            "low": 99.03,
+            "close": 98.22,
+            "sd": 0.01070288,
+            "av": 0.16990295
+        },
+        "bot": {
+            "id": "BOTdJANovrzd42167151952209125928",
+            "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+            "icon": "fas-box-open bg-orange",
+            "accountId": "sim11216714649420573231"
+        }
+    },
+    {
+        "id": "dJANovrzd44167301901189675855",
+        "type": "ironcondor",
+        "status": "open",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "accountId": "sim11216714649420573231",
+        "tags": "",
+        "multiplier": 100,
+        "oid": "GDX_ironcondor_011323C33_011323C32.5_011323P29.5_011323P30",
+        "symbol": "GDX",
+        "strategy": "Iron Condor",
+        "desc": "Iron Condor (GDX, Jan 13, +29.50 put, -30 put, -32.50 call, +33 call)",
+        "expiration": "2023-01-13T21:00:00.000Z",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "ndate": 20230113,
+        "quantity": 9,
+        "active": 1,
+        "text": "+29.50 put, -30 put, -32.50 call, +33 call",
+        "openDate": "2023-01-06T15:30:44.035Z",
+        "openPrice": 0.16,
+        "closePrice": 0,
+        "cost": -144,
+        "pnl": -9,
+        "draw": 306,
+        "value": -153,
+        "gain": -0.0625,
+        "priceChange": 0.01,
+        "priceChangePct": 0.0625,
+        "ror": -0.02941176,
+        "currentPrice": 0.17,
+        "totalPnl": -9,
+        "trail": {
+            "quantity": {
+                "high": 9,
+                "hdate": "2023-01-06T15:30:43.767Z",
+                "low": 9,
+                "ldate": "2023-01-06T15:30:43.767Z"
+            },
+            "price": {
+                "high": 0.23,
+                "hdate": "2023-01-06T16:17:00.290Z",
+                "low": 0.17,
+                "ldate": "2023-01-06T20:22:00.224Z"
+            },
+            "gain": {
+                "high": -0.0625,
+                "hdate": "2023-01-06T20:22:00.224Z",
+                "low": -0.4375,
+                "ldate": "2023-01-06T16:17:00.290Z"
+            },
+            "draw": {
+                "high": 306,
+                "hdate": "2023-01-06T15:30:43.767Z",
+                "low": 306,
+                "ldate": "2023-01-06T15:30:43.767Z"
+            },
+            "pnl": {
+                "high": -9,
+                "hdate": "2023-01-06T20:22:00.224Z",
+                "low": -63,
+                "ldate": "2023-01-06T16:17:00.290Z"
+            },
+            "ror": {
+                "high": -0.02941176,
+                "hdate": "2023-01-06T20:22:00.224Z",
+                "low": -0.20588235,
+                "ldate": "2023-01-06T16:17:00.290Z"
+            },
+            "value": {
+                "high": -153,
+                "hdate": "2023-01-06T20:22:00.224Z",
+                "low": -207,
+                "ldate": "2023-01-06T16:17:00.290Z"
+            }
+        },
+        "maintenance": 450,
+        "upriceOpen": 31.34,
+        "delta": -0.0213995,
+        "theta": 0.01150863,
+        "gamma": -0.0718274,
+        "vega": -0.00572834,
+        "days": 7,
+        "markClose": 0.17,
+        "isShort": true,
+        "isLong": false,
+        "isSpread": true,
+        "isLastTradingDay": false,
+        "under": {
+            "symbol": "GDX",
+            "description": "VanEck Vectors Gold Miners ETF",
+            "last": 31.515,
+            "change": 0.865,
+            "changePercent": 0.02822186,
+            "bid": 31.51,
+            "ask": 31.52,
+            "open": 31.18,
+            "high": 31.675,
+            "low": 30.675,
+            "close": 30.65,
+            "sd": 0.02437605,
+            "av": 0.3869578
+        },
+        "bot": {
+            "id": "BOTdJANovrzd42167151952209125928",
+            "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+            "icon": "fas-box-open bg-orange",
+            "accountId": "sim11216714649420573231"
+        }
+    },
+    {
+        "id": "dJANovrzd44167302170763784695",
+        "type": "ironcondor",
+        "status": "open",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "accountId": "sim11216714649420573231",
+        "tags": "",
+        "multiplier": 100,
+        "oid": "XLY_ironcondor_011323C134_011323C133_011323P126_011323P128",
+        "symbol": "XLY",
+        "strategy": "Iron Condor",
+        "desc": "Iron Condor (XLY, Jan 13, +126 put, -128 put, -133 call, +134 call)",
+        "expiration": "2023-01-13T21:00:00.000Z",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "ndate": 20230113,
+        "quantity": 2,
+        "active": 1,
+        "text": "+126 put, -128 put, -133 call, +134 call",
+        "openDate": "2023-01-06T16:15:24.653Z",
+        "openPrice": 0.78,
+        "closePrice": 0,
+        "cost": -156,
+        "pnl": 4,
+        "draw": 244,
+        "value": -152,
+        "gain": 0.02564103,
+        "priceChange": -0.02,
+        "priceChangePct": -0.02564103,
+        "ror": 0.01639344,
+        "currentPrice": 0.76,
+        "totalPnl": 4,
+        "trail": {
+            "quantity": {
+                "high": 2,
+                "hdate": "2023-01-06T16:15:24.768Z",
+                "low": 2,
+                "ldate": "2023-01-06T16:15:24.768Z"
+            },
+            "price": {
+                "high": 0.87,
+                "hdate": "2023-01-06T16:41:00.185Z",
+                "low": 0.74,
+                "ldate": "2023-01-06T20:09:00.234Z"
+            },
+            "gain": {
+                "high": 0.05128205,
+                "hdate": "2023-01-06T20:09:00.234Z",
+                "low": -0.11538462,
+                "ldate": "2023-01-06T16:41:00.185Z"
+            },
+            "draw": {
+                "high": 244,
+                "hdate": "2023-01-06T16:15:24.768Z",
+                "low": 244,
+                "ldate": "2023-01-06T16:15:24.768Z"
+            },
+            "pnl": {
+                "high": 8,
+                "hdate": "2023-01-06T20:09:00.234Z",
+                "low": -18,
+                "ldate": "2023-01-06T16:41:00.185Z"
+            },
+            "ror": {
+                "high": 0.03278689,
+                "hdate": "2023-01-06T20:09:00.234Z",
+                "low": -0.07377049,
+                "ldate": "2023-01-06T16:41:00.185Z"
+            },
+            "value": {
+                "high": -148,
+                "hdate": "2023-01-06T20:09:00.234Z",
+                "low": -174,
+                "ldate": "2023-01-06T16:41:00.185Z"
+            }
+        },
+        "maintenance": 400,
+        "upriceOpen": 130.32,
+        "delta": 0.01083326,
+        "theta": 0.03080249,
+        "gamma": -0.01566653,
+        "vega": -0.01841975,
+        "days": 7,
+        "markClose": 0.76,
+        "isShort": true,
+        "isLong": false,
+        "isSpread": true,
+        "isLastTradingDay": false,
+        "under": {
+            "symbol": "XLY",
+            "description": "Consumer Discretionary Select Sector SPDR Fund",
+            "last": 132.415,
+            "change": 3.375,
+            "changePercent": 0.02615468,
+            "bid": 132.42,
+            "ask": 132.43,
+            "open": 128.68,
+            "high": 132.58,
+            "low": 127.765,
+            "close": 129.04,
+            "sd": 0.01426586,
+            "av": 0.22646351
+        },
+        "bot": {
+            "id": "BOTdJANovrzd42167151952209125928",
+            "name": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+            "icon": "fas-box-open bg-orange",
+            "accountId": "sim11216714649420573231"
+        }
+    },
+    {
+        "id": "dJANovrzd13167275712312496814",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd4116718191703991406",
+        "oid": "IYR_ironcondor_010623C87.5_010623C87_010623P83_010623P83.5",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -96,
+                "high": 60,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-03T19:54:00.157Z"
+            },
+            "ror": {
+                "low": -0.4,
+                "high": 0.25,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-03T19:54:00.157Z"
+            },
+            "draw": {
+                "low": 240,
+                "high": 240,
+                "hdate": "2023-01-03T14:46:16.536Z",
+                "ldate": "2023-01-03T14:46:16.536Z"
+            },
+            "gain": {
+                "low": -1.6,
+                "high": 1,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-03T19:54:00.157Z"
+            },
+            "price": {
+                "low": 0,
+                "high": 0.26,
+                "hdate": "2023-01-03T19:54:00.157Z",
+                "ldate": "2023-01-06T15:01:00.011Z"
+            },
+            "value": {
+                "low": -156,
+                "high": 0,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-03T19:54:00.157Z"
+            },
+            "quantity": {
+                "low": 6,
+                "high": 6,
+                "hdate": "2023-01-03T14:46:16.536Z",
+                "ldate": "2023-01-03T14:46:16.536Z"
+            }
+        },
+        "symbol": "IYR",
+        "draw": 240,
+        "quantity": 6,
+        "text": "+83 put, -83.50 put, -87 call, +87.50 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2023-01-03T14:46:16.326Z",
+        "closeDate": "2023-01-06T20:41:43.224Z",
+        "openPrice": 0.1,
+        "closePrice": 0.01,
+        "cost": -60,
+        "pnl": 54,
+        "created": "2023-01-03T14:45:23.125Z",
+        "status": "closed",
+        "upriceOpen": 85.31
+    },
+    {
+        "id": "dJANovrzd2167242140814280351",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd4116718191703991406",
+        "oid": "IYR_ironcondor_010623C86.5_010623C85.5_010623P81.5_010623P82.5",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -88,
+                "high": 156,
+                "hdate": "2023-01-04T15:01:00.185Z",
+                "ldate": "2023-01-03T14:43:00.238Z"
+            },
+            "ror": {
+                "low": -0.36065574,
+                "high": 0.63934426,
+                "hdate": "2023-01-04T15:01:00.185Z",
+                "ldate": "2023-01-03T14:43:00.238Z"
+            },
+            "draw": {
+                "low": 244,
+                "high": 244,
+                "hdate": "2022-12-30T17:30:20.084Z",
+                "ldate": "2022-12-30T17:30:20.084Z"
+            },
+            "gain": {
+                "low": -0.56410256,
+                "high": 1,
+                "hdate": "2023-01-04T15:01:00.185Z",
+                "ldate": "2023-01-03T14:43:00.238Z"
+            },
+            "price": {
+                "low": 0,
+                "high": 0.61,
+                "hdate": "2023-01-03T14:43:00.238Z",
+                "ldate": "2023-01-04T15:01:00.185Z"
+            },
+            "value": {
+                "low": -244,
+                "high": 0,
+                "hdate": "2023-01-04T15:01:00.185Z",
+                "ldate": "2023-01-03T14:43:00.238Z"
+            },
+            "quantity": {
+                "low": 4,
+                "high": 4,
+                "hdate": "2022-12-30T17:30:20.084Z",
+                "ldate": "2022-12-30T17:30:20.084Z"
+            }
+        },
+        "symbol": "IYR",
+        "draw": 244,
+        "quantity": 4,
+        "text": "+81.50 put, -82.50 put, -85.50 call, +86.50 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-30T17:30:19.994Z",
+        "closeDate": "2023-01-04T20:58:09.723Z",
+        "openPrice": 0.39,
+        "closePrice": 0.3,
+        "cost": -156,
+        "pnl": 36,
+        "created": "2022-12-30T17:30:08.142Z",
+        "status": "closed",
+        "upriceOpen": 84.13,
+        "upriceClose": 86.16
+    },
+    {
         "id": "dJANovrzd21672427718351423114",
         "type": "ironcondor",
         "iid": "BOTdJANovrzd4116718191703991406",
@@ -594,450 +1323,304 @@
         "upriceClose": 69.18
     },
     {
-        "id": "dJANovrzd2167242140811998950",
+        "id": "dJANovrzd21672429515571830140",
         "type": "ironcondor",
-        "iid": "BOTdJANovrzd4116718191611369765",
-        "oid": "XLE_ironcondor_010623C90.5_010623C89.5_010623P84_010623P85",
+        "iid": "BOTdJANovrzd42167151953183069929",
+        "oid": "XLK_ironcondor_010623C128_010623C126_010623P118.5_010623P120",
         "tags": "",
         "accountId": "sim11216714649420573231",
         "trail": {
             "pnl": {
-                "low": -100,
-                "high": 30,
-                "hdate": "2023-01-03T15:01:00.225Z",
-                "ldate": "2023-01-03T19:06:00.316Z"
+                "low": -82,
+                "high": 128,
+                "hdate": "2023-01-06T16:21:00.333Z",
+                "ldate": "2023-01-03T14:43:00.238Z"
             },
             "ror": {
-                "low": -0.33333333,
-                "high": 0.1,
-                "hdate": "2023-01-03T15:01:00.225Z",
-                "ldate": "2023-01-03T19:06:00.316Z"
+                "low": -0.30597015,
+                "high": 0.47761194,
+                "hdate": "2023-01-06T16:21:00.333Z",
+                "ldate": "2023-01-03T14:43:00.238Z"
+            },
+            "draw": {
+                "low": 268,
+                "high": 268,
+                "hdate": "2022-12-30T19:45:26.696Z",
+                "ldate": "2022-12-30T19:45:26.696Z"
+            },
+            "gain": {
+                "low": -0.62121212,
+                "high": 0.96969697,
+                "hdate": "2023-01-06T16:21:00.333Z",
+                "ldate": "2023-01-03T14:43:00.238Z"
+            },
+            "price": {
+                "low": 0.02,
+                "high": 1.07,
+                "hdate": "2023-01-03T14:43:00.238Z",
+                "ldate": "2023-01-06T16:21:00.333Z"
+            },
+            "value": {
+                "low": -214,
+                "high": -4,
+                "hdate": "2023-01-06T16:21:00.333Z",
+                "ldate": "2023-01-03T14:43:00.238Z"
+            },
+            "quantity": {
+                "low": 2,
+                "high": 2,
+                "hdate": "2022-12-30T19:45:26.696Z",
+                "ldate": "2022-12-30T19:45:26.696Z"
+            }
+        },
+        "symbol": "XLK",
+        "draw": 268,
+        "quantity": 2,
+        "text": "+118.50 put, -120 put, -126 call, +128 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-30T19:45:27.007Z",
+        "closeDate": "2023-01-06T16:39:21.829Z",
+        "openPrice": 0.66,
+        "closePrice": 0.03,
+        "cost": -132,
+        "pnl": 126,
+        "created": "2022-12-30T19:45:15.571Z",
+        "status": "closed",
+        "upriceOpen": 123.15,
+        "upriceClose": 123.23
+    },
+    {
+        "id": "dJANovrzd43167224050680068513",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151953183069929",
+        "oid": "XLK_ironcondor_010623C128.5_010623C126.5_010623P119.5_010623P121",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -32,
+                "high": 164,
+                "hdate": "2023-01-06T16:03:00.343Z",
+                "ldate": "2023-01-03T14:46:00.018Z"
+            },
+            "ror": {
+                "low": -0.13913043,
+                "high": 0.71304348,
+                "hdate": "2023-01-06T16:03:00.343Z",
+                "ldate": "2023-01-03T14:46:00.018Z"
+            },
+            "draw": {
+                "low": 230,
+                "high": 230,
+                "hdate": "2022-12-28T15:15:30.504Z",
+                "ldate": "2022-12-28T15:15:30.504Z"
+            },
+            "gain": {
+                "low": -0.18823529,
+                "high": 0.96470588,
+                "hdate": "2023-01-06T16:03:00.343Z",
+                "ldate": "2023-01-03T14:46:00.018Z"
+            },
+            "price": {
+                "low": 0.03,
+                "high": 1.01,
+                "hdate": "2023-01-03T14:46:00.018Z",
+                "ldate": "2023-01-06T16:03:00.343Z"
+            },
+            "value": {
+                "low": -202,
+                "high": -6,
+                "hdate": "2023-01-06T16:03:00.343Z",
+                "ldate": "2023-01-03T14:46:00.018Z"
+            },
+            "quantity": {
+                "low": 2,
+                "high": 2,
+                "hdate": "2022-12-28T15:15:30.504Z",
+                "ldate": "2022-12-28T15:15:30.504Z"
+            }
+        },
+        "symbol": "XLK",
+        "draw": 230,
+        "quantity": 2,
+        "text": "+119.50 put, -121 put, -126.50 call, +128.50 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-28T15:15:30.717Z",
+        "closeDate": "2023-01-06T16:27:32.772Z",
+        "openPrice": 0.85,
+        "closePrice": 0.04,
+        "cost": -170,
+        "pnl": 162,
+        "created": "2022-12-28T15:15:06.800Z",
+        "status": "closed",
+        "upriceOpen": 123.85,
+        "upriceClose": 123.03
+    },
+    {
+        "id": "dJANovrzd2167242140834761353",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151953183069929",
+        "oid": "XLV_ironcondor_010623C138_010623C137_010623P132.5_010623P133",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -52,
+                "high": 100,
+                "hdate": "2023-01-06T14:41:00.354Z",
+                "ldate": "2022-12-30T20:57:00.194Z"
+            },
+            "ror": {
+                "low": -0.17333333,
+                "high": 0.33333333,
+                "hdate": "2023-01-06T14:41:00.354Z",
+                "ldate": "2022-12-30T20:57:00.194Z"
             },
             "draw": {
                 "low": 300,
                 "high": 300,
-                "hdate": "2022-12-30T17:30:20.084Z",
-                "ldate": "2022-12-30T17:30:20.084Z"
+                "hdate": "2022-12-30T17:30:31.585Z",
+                "ldate": "2022-12-30T17:30:31.585Z"
             },
             "gain": {
-                "low": -0.5,
-                "high": 0.15,
-                "hdate": "2023-01-03T15:01:00.225Z",
-                "ldate": "2023-01-03T19:06:00.316Z"
-            },
-            "price": {
-                "low": 0.34,
-                "high": 0.6,
-                "hdate": "2023-01-03T19:06:00.316Z",
-                "ldate": "2023-01-03T15:01:00.225Z"
-            },
-            "value": {
-                "low": -300,
-                "high": -170,
-                "hdate": "2023-01-03T15:01:00.225Z",
-                "ldate": "2023-01-03T19:06:00.316Z"
-            },
-            "quantity": {
-                "low": 5,
-                "high": 5,
-                "hdate": "2022-12-30T17:30:20.084Z",
-                "ldate": "2022-12-30T17:30:20.084Z"
-            }
-        },
-        "symbol": "XLE",
-        "draw": 300,
-        "quantity": 5,
-        "text": "+84 put, -85 put, -89.50 call, +90.50 call",
-        "exits": {
-            "text": "Profits: 95%",
-            "nopdt": "on",
-            "epsdays": 0,
-            "expdays": 0,
-            "profits": 0.95,
-            "stoploss": 0
-        },
-        "expiration": "2023-01-06T21:00:00.000Z",
-        "openDate": "2022-12-30T17:30:19.994Z",
-        "closeDate": "2023-01-03T19:15:22.077Z",
-        "openPrice": 0.4,
-        "closePrice": 0.6,
-        "cost": -200,
-        "pnl": -100,
-        "created": "2022-12-30T17:30:08.120Z",
-        "status": "closed",
-        "upriceOpen": 87.25,
-        "upriceClose": 83.84
-    },
-    {
-        "id": "dJANovrzd43167224230690479529",
-        "type": "ironcondor",
-        "iid": "BOTdJANovrzd4116718191611369765",
-        "oid": "XLP_ironcondor_010623C76.5_010623C76_010623P74_010623P74.5",
-        "tags": "",
-        "accountId": "sim11216714649420573231",
-        "trail": {
-            "pnl": {
-                "low": -90,
-                "high": 216,
-                "hdate": "2022-12-30T14:41:00.301Z",
-                "ldate": "2023-01-03T16:14:00.143Z"
-            },
-            "ror": {
-                "low": -0.4,
-                "high": 0.96,
-                "hdate": "2022-12-30T14:41:00.301Z",
-                "ldate": "2023-01-03T16:14:00.143Z"
-            },
-            "draw": {
-                "low": 225,
-                "high": 225,
-                "hdate": "2022-12-28T15:45:28.442Z",
-                "ldate": "2022-12-28T15:45:28.442Z"
-            },
-            "gain": {
-                "low": -0.4,
-                "high": 0.96,
-                "hdate": "2022-12-30T14:41:00.301Z",
-                "ldate": "2023-01-03T16:14:00.143Z"
-            },
-            "price": {
-                "low": 0.01,
-                "high": 0.35,
-                "hdate": "2023-01-03T16:14:00.143Z",
-                "ldate": "2022-12-30T14:41:00.301Z"
-            },
-            "value": {
-                "low": -315,
-                "high": -9,
-                "hdate": "2022-12-30T14:41:00.301Z",
-                "ldate": "2023-01-03T16:14:00.143Z"
-            },
-            "quantity": {
-                "low": 9,
-                "high": 9,
-                "hdate": "2022-12-28T15:45:28.442Z",
-                "ldate": "2022-12-28T15:45:28.442Z"
-            }
-        },
-        "symbol": "XLP",
-        "draw": 225,
-        "quantity": 9,
-        "text": "+74 put, -74.50 put, -76 call, +76.50 call",
-        "exits": {
-            "text": "Profits: 95%",
-            "nopdt": "on",
-            "epsdays": 0,
-            "expdays": 0,
-            "profits": 0.95,
-            "stoploss": 0
-        },
-        "expiration": "2023-01-06T21:00:00.000Z",
-        "openDate": "2022-12-28T15:45:28.430Z",
-        "closeDate": "2023-01-03T16:15:28.119Z",
-        "openPrice": 0.25,
-        "closePrice": 0.35,
-        "cost": -225,
-        "pnl": -90,
-        "created": "2022-12-28T15:45:06.904Z",
-        "status": "closed",
-        "upriceOpen": 75.25,
-        "upriceClose": 73.66
-    },
-    {
-        "id": "dJANovrzd41167182021259965059",
-        "type": "ironcondor",
-        "iid": "BOTdJANovrzd4116718191611369765",
-        "oid": "XLU_ironcondor_123022C72.5_123022C72_123022P69_123022P69.5",
-        "tags": "",
-        "accountId": "sim11216714649420573231",
-        "trail": {
-            "pnl": {
-                "low": -48,
-                "high": 112,
-                "hdate": "2022-12-30T14:50:00.003Z",
-                "ldate": "2022-12-23T20:51:00.156Z"
-            },
-            "ror": {
-                "low": -0.16666667,
-                "high": 0.38888889,
-                "hdate": "2022-12-30T14:50:00.003Z",
-                "ldate": "2022-12-23T20:51:00.156Z"
-            },
-            "draw": {
-                "low": 288,
-                "high": 288,
-                "hdate": "2022-12-23T18:30:46.561Z",
-                "ldate": "2022-12-23T18:30:46.561Z"
-            },
-            "gain": {
-                "low": -0.42857143,
+                "low": -0.52,
                 "high": 1,
-                "hdate": "2022-12-30T14:50:00.003Z",
-                "ldate": "2022-12-23T20:51:00.156Z"
-            },
-            "price": {
-                "low": 0,
-                "high": 0.2,
-                "hdate": "2022-12-23T20:51:00.156Z",
-                "ldate": "2022-12-30T14:50:00.003Z"
-            },
-            "value": {
-                "low": -160,
-                "high": 0,
-                "hdate": "2022-12-30T14:50:00.003Z",
-                "ldate": "2022-12-23T20:51:00.156Z"
-            },
-            "quantity": {
-                "low": 8,
-                "high": 8,
-                "hdate": "2022-12-23T18:30:46.561Z",
-                "ldate": "2022-12-23T18:30:46.561Z"
-            }
-        },
-        "symbol": "XLU",
-        "draw": 288,
-        "quantity": 8,
-        "text": "+69 put, -69.50 put, -72 call, +72.50 call",
-        "exits": {
-            "text": "Profits: 95%",
-            "epsdays": 0,
-            "expdays": 0,
-            "profits": 0.95,
-            "stoploss": 0
-        },
-        "expiration": "2022-12-30T21:00:00.000Z",
-        "openDate": "2022-12-23T18:30:46.245Z",
-        "closeDate": "2022-12-30T19:08:00.449Z",
-        "openPrice": 0.14,
-        "closePrice": 0.01,
-        "cost": -112,
-        "pnl": 104,
-        "created": "2022-12-23T18:30:12.599Z",
-        "status": "closed",
-        "upriceOpen": 70.81,
-        "upriceClose": 70.05
-    },
-    {
-        "id": "dJANovrzd29167217031226027493",
-        "type": "ironcondor",
-        "iid": "BOTdJANovrzd4116718191611369765",
-        "oid": "XLP_ironcondor_123022C77_123022C76.5_123022P74_123022P74.5",
-        "tags": "",
-        "accountId": "sim11216714649420573231",
-        "trail": {
-            "pnl": {
-                "low": -168,
-                "high": 56,
-                "hdate": "2022-12-28T15:12:00.449Z",
-                "ldate": "2022-12-30T18:30:00.336Z"
-            },
-            "ror": {
-                "low": -0.57142857,
-                "high": 0.19047619,
-                "hdate": "2022-12-28T15:12:00.449Z",
-                "ldate": "2022-12-30T18:30:00.336Z"
-            },
-            "draw": {
-                "low": 294,
-                "high": 294,
-                "hdate": "2022-12-27T19:45:48.385Z",
-                "ldate": "2022-12-27T19:45:48.385Z"
-            },
-            "gain": {
-                "low": -3,
-                "high": 1,
-                "hdate": "2022-12-28T15:12:00.449Z",
-                "ldate": "2022-12-30T18:30:00.336Z"
-            },
-            "price": {
-                "low": 0,
-                "high": 0.32,
-                "hdate": "2022-12-30T18:30:00.336Z",
-                "ldate": "2022-12-28T15:12:00.449Z"
-            },
-            "value": {
-                "low": -224,
-                "high": 0,
-                "hdate": "2022-12-28T15:12:00.449Z",
-                "ldate": "2022-12-30T18:30:00.336Z"
-            },
-            "quantity": {
-                "low": 7,
-                "high": 7,
-                "hdate": "2022-12-27T19:45:48.385Z",
-                "ldate": "2022-12-27T19:45:48.385Z"
-            }
-        },
-        "symbol": "XLP",
-        "draw": 294,
-        "quantity": 7,
-        "text": "+74 put, -74.50 put, -76.50 call, +77 call",
-        "exits": {
-            "text": "Profits: 95%",
-            "epsdays": 0,
-            "expdays": 0,
-            "profits": 0.95,
-            "stoploss": 0
-        },
-        "expiration": "2022-12-30T21:00:00.000Z",
-        "openDate": "2022-12-27T19:45:48.064Z",
-        "closeDate": "2022-12-30T19:00:15.536Z",
-        "openPrice": 0.08,
-        "closePrice": 0.28,
-        "cost": -56,
-        "pnl": -140,
-        "created": "2022-12-27T19:45:12.260Z",
-        "status": "closed",
-        "upriceOpen": 75.38,
-        "upriceClose": 74.22
-    },
-    {
-        "id": "dJANovrzd41167182020666871555",
-        "type": "ironcondor",
-        "iid": "BOTdJANovrzd4116718191611369765",
-        "oid": "XLE_ironcondor_123022C90_123022C89_123022P83_123022P84",
-        "tags": "",
-        "accountId": "sim11216714649420573231",
-        "trail": {
-            "pnl": {
-                "low": -36,
-                "high": 116,
-                "hdate": "2022-12-30T15:36:00.180Z",
-                "ldate": "2022-12-27T18:50:00.355Z"
-            },
-            "ror": {
-                "low": -0.12676056,
-                "high": 0.4084507,
-                "hdate": "2022-12-30T15:36:00.180Z",
-                "ldate": "2022-12-27T18:50:00.355Z"
-            },
-            "draw": {
-                "low": 284,
-                "high": 284,
-                "hdate": "2022-12-23T18:30:30.055Z",
-                "ldate": "2022-12-23T18:30:30.055Z"
-            },
-            "gain": {
-                "low": -0.31034483,
-                "high": 1,
-                "hdate": "2022-12-30T15:36:00.180Z",
-                "ldate": "2022-12-27T18:50:00.355Z"
+                "hdate": "2023-01-06T14:41:00.354Z",
+                "ldate": "2022-12-30T20:57:00.194Z"
             },
             "price": {
                 "low": 0,
                 "high": 0.38,
-                "hdate": "2022-12-27T18:50:00.355Z",
-                "ldate": "2022-12-30T15:36:00.180Z"
+                "hdate": "2022-12-30T20:57:00.194Z",
+                "ldate": "2023-01-06T14:41:00.354Z"
             },
             "value": {
                 "low": -152,
                 "high": 0,
-                "hdate": "2022-12-30T15:36:00.180Z",
-                "ldate": "2022-12-27T18:50:00.355Z"
+                "hdate": "2023-01-06T14:41:00.354Z",
+                "ldate": "2022-12-30T20:57:00.194Z"
             },
             "quantity": {
                 "low": 4,
                 "high": 4,
-                "hdate": "2022-12-23T18:30:30.055Z",
-                "ldate": "2022-12-23T18:30:30.055Z"
+                "hdate": "2022-12-30T17:30:31.585Z",
+                "ldate": "2022-12-30T17:30:31.585Z"
             }
         },
-        "symbol": "XLE",
-        "draw": 284,
+        "symbol": "XLV",
+        "draw": 300,
         "quantity": 4,
-        "text": "+83 put, -84 put, -89 call, +90 call",
+        "text": "+132.50 put, -133 put, -137 call, +138 call",
         "exits": {
             "text": "Profits: 95%",
+            "nopdt": "on",
             "epsdays": 0,
             "expdays": 0,
             "profits": 0.95,
             "stoploss": 0
         },
-        "expiration": "2022-12-30T21:00:00.000Z",
-        "openDate": "2022-12-23T18:30:29.734Z",
-        "closeDate": "2022-12-30T16:48:00.361Z",
-        "openPrice": 0.29,
-        "closePrice": 0.01,
-        "cost": -116,
-        "pnl": 112,
-        "created": "2022-12-23T18:30:06.668Z",
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-30T17:30:31.496Z",
+        "closeDate": "2023-01-06T15:39:20.896Z",
+        "openPrice": 0.25,
+        "closePrice": 0.03,
+        "cost": -100,
+        "pnl": 88,
+        "created": "2022-12-30T17:30:08.347Z",
         "status": "closed",
-        "upriceOpen": 86.73,
-        "upriceClose": 86.95
+        "upriceOpen": 135.01,
+        "upriceClose": 134.62
     },
     {
-        "id": "dJANovrzd41167182021036859057",
+        "id": "dJANovrzd43167224051777645317",
         "type": "ironcondor",
-        "iid": "BOTdJANovrzd4116718191611369765",
-        "oid": "XLP_ironcondor_123022C76.5_123022C76_123022P73.5_123022P74",
+        "iid": "BOTdJANovrzd42167151953183069929",
+        "oid": "XLV_ironcondor_010623C140_010623C138.5_010623P134_010623P135",
         "tags": "",
         "accountId": "sim11216714649420573231",
         "trail": {
             "pnl": {
-                "low": -36,
-                "high": 78,
-                "hdate": "2022-12-27T14:40:00.197Z",
-                "ldate": "2022-12-27T16:31:00.174Z"
+                "low": -42,
+                "high": 87,
+                "hdate": "2023-01-04T16:56:00.286Z",
+                "ldate": "2023-01-05T14:55:00.113Z"
             },
             "ror": {
-                "low": -0.16216216,
-                "high": 0.35135135,
-                "hdate": "2022-12-27T14:40:00.197Z",
-                "ldate": "2022-12-27T16:31:00.174Z"
+                "low": -0.14583333,
+                "high": 0.30208333,
+                "hdate": "2023-01-04T16:56:00.286Z",
+                "ldate": "2023-01-05T14:55:00.113Z"
             },
             "draw": {
-                "low": 222,
-                "high": 222,
-                "hdate": "2022-12-23T18:30:23.553Z",
-                "ldate": "2022-12-23T18:30:23.553Z"
+                "low": 288,
+                "high": 288,
+                "hdate": "2022-12-28T15:15:38.006Z",
+                "ldate": "2022-12-28T15:15:38.006Z"
             },
             "gain": {
-                "low": -0.46153846,
-                "high": 1,
-                "hdate": "2022-12-27T14:40:00.197Z",
-                "ldate": "2022-12-27T16:31:00.174Z"
+                "low": -0.25925926,
+                "high": 0.53703704,
+                "hdate": "2023-01-04T16:56:00.286Z",
+                "ldate": "2023-01-05T14:55:00.113Z"
             },
             "price": {
-                "low": 0,
-                "high": 0.19,
-                "hdate": "2022-12-27T16:31:00.174Z",
-                "ldate": "2022-12-27T14:40:00.197Z"
+                "low": 0.25,
+                "high": 0.68,
+                "hdate": "2023-01-05T14:55:00.113Z",
+                "ldate": "2023-01-04T16:56:00.286Z"
             },
             "value": {
-                "low": -114,
-                "high": 0,
-                "hdate": "2022-12-27T14:40:00.197Z",
-                "ldate": "2022-12-27T16:31:00.174Z"
+                "low": -204,
+                "high": -75,
+                "hdate": "2023-01-04T16:56:00.286Z",
+                "ldate": "2023-01-05T14:55:00.113Z"
             },
             "quantity": {
-                "low": 6,
-                "high": 6,
-                "hdate": "2022-12-23T18:30:23.553Z",
-                "ldate": "2022-12-23T18:30:23.553Z"
+                "low": 3,
+                "high": 3,
+                "hdate": "2022-12-28T15:15:38.006Z",
+                "ldate": "2022-12-28T15:15:38.006Z"
             }
         },
-        "symbol": "XLP",
-        "draw": 222,
-        "quantity": 6,
-        "text": "+73.50 put, -74 put, -76 call, +76.50 call",
+        "symbol": "XLV",
+        "draw": 288,
+        "quantity": 3,
+        "text": "+134 put, -135 put, -138.50 call, +140 call",
         "exits": {
             "text": "Profits: 95%",
+            "nopdt": "on",
             "epsdays": 0,
             "expdays": 0,
             "profits": 0.95,
             "stoploss": 0
         },
-        "expiration": "2022-12-30T21:00:00.000Z",
-        "openDate": "2022-12-23T18:30:23.228Z",
-        "closeDate": "2022-12-28T14:52:00.626Z",
-        "openPrice": 0.13,
-        "closePrice": 0.01,
-        "cost": -78,
-        "pnl": 72,
-        "created": "2022-12-23T18:30:10.368Z",
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-28T15:15:37.721Z",
+        "closeDate": "2023-01-06T14:45:04.195Z",
+        "openPrice": 0.54,
+        "closePrice": 0.46,
+        "cost": -162,
+        "pnl": 24,
+        "created": "2022-12-28T15:15:17.776Z",
         "status": "closed",
-        "upriceOpen": 75.12,
-        "upriceClose": 75.66
+        "upriceOpen": 136.61,
+        "upriceClose": 133.93
     },
     {
         "id": "dJANovrzd41167181030561128329",
@@ -2145,6 +2728,531 @@
         "status": "closed",
         "upriceOpen": 59.34,
         "upriceClose": 60.13
+    },
+    {
+        "id": "dJANovrzd43167224050762339216",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "oid": "XLI_ironcondor_010623C101_010623C100_010623P96.5_010623P97",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -56,
+                "high": 148,
+                "hdate": "2023-01-06T15:04:00.046Z",
+                "ldate": "2023-01-06T15:43:00.418Z"
+            },
+            "ror": {
+                "low": -0.22222222,
+                "high": 0.58730159,
+                "hdate": "2023-01-06T15:04:00.046Z",
+                "ldate": "2023-01-06T15:43:00.418Z"
+            },
+            "draw": {
+                "low": 252,
+                "high": 252,
+                "hdate": "2022-12-28T15:15:31.504Z",
+                "ldate": "2022-12-28T15:15:31.504Z"
+            },
+            "gain": {
+                "low": -0.37837838,
+                "high": 1,
+                "hdate": "2023-01-06T15:04:00.046Z",
+                "ldate": "2023-01-06T15:43:00.418Z"
+            },
+            "price": {
+                "low": 0,
+                "high": 0.51,
+                "hdate": "2023-01-06T15:43:00.418Z",
+                "ldate": "2023-01-06T15:04:00.046Z"
+            },
+            "value": {
+                "low": -204,
+                "high": 0,
+                "hdate": "2023-01-06T15:04:00.046Z",
+                "ldate": "2023-01-06T15:43:00.418Z"
+            },
+            "quantity": {
+                "low": 4,
+                "high": 4,
+                "hdate": "2022-12-28T15:15:31.504Z",
+                "ldate": "2022-12-28T15:15:31.504Z"
+            }
+        },
+        "symbol": "XLI",
+        "draw": 252,
+        "quantity": 4,
+        "text": "+96.50 put, -97 put, -100 call, +101 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-28T15:15:31.718Z",
+        "closeDate": "2023-01-06T15:45:18.202Z",
+        "openPrice": 0.37,
+        "closePrice": 0.43,
+        "cost": -148,
+        "pnl": -24,
+        "created": "2022-12-28T15:15:07.623Z",
+        "status": "closed",
+        "upriceOpen": 98.72,
+        "upriceClose": 100.34
+    },
+    {
+        "id": "dJANovrzd13167275712325694515",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "oid": "GDX_ironcondor_010623C31.5_010623C31_010623P28.5_010623P29",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -189,
+                "high": 72,
+                "hdate": "2023-01-05T15:19:00.268Z",
+                "ldate": "2023-01-06T15:07:00.080Z"
+            },
+            "ror": {
+                "low": -0.58333333,
+                "high": 0.22222222,
+                "hdate": "2023-01-05T15:19:00.268Z",
+                "ldate": "2023-01-06T15:07:00.080Z"
+            },
+            "draw": {
+                "low": 324,
+                "high": 324,
+                "hdate": "2023-01-03T14:46:27.039Z",
+                "ldate": "2023-01-03T14:46:27.039Z"
+            },
+            "gain": {
+                "low": -1.5,
+                "high": 0.57142857,
+                "hdate": "2023-01-05T15:19:00.268Z",
+                "ldate": "2023-01-06T15:07:00.080Z"
+            },
+            "price": {
+                "low": 0.06,
+                "high": 0.35,
+                "hdate": "2023-01-06T15:07:00.080Z",
+                "ldate": "2023-01-05T15:19:00.268Z"
+            },
+            "value": {
+                "low": -315,
+                "high": -54,
+                "hdate": "2023-01-05T15:19:00.268Z",
+                "ldate": "2023-01-06T15:07:00.080Z"
+            },
+            "quantity": {
+                "low": 9,
+                "high": 9,
+                "hdate": "2023-01-03T14:46:27.039Z",
+                "ldate": "2023-01-03T14:46:27.039Z"
+            }
+        },
+        "symbol": "GDX",
+        "draw": 324,
+        "quantity": 9,
+        "text": "+28.50 put, -29 put, -31 call, +31.50 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2023-01-03T14:46:27.330Z",
+        "closeDate": "2023-01-06T15:15:32.344Z",
+        "openPrice": 0.14,
+        "closePrice": 0.31,
+        "cost": -126,
+        "pnl": -153,
+        "created": "2023-01-03T14:45:23.256Z",
+        "status": "closed",
+        "upriceOpen": 29.95,
+        "upriceClose": 31.45
+    },
+    {
+        "id": "dJANovrzd21167232601078423712",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "oid": "XLI_ironcondor_010623C100.5_010623C99.5_010623P96_010623P96.5",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -66,
+                "high": 87,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-04T19:05:00.109Z"
+            },
+            "ror": {
+                "low": -0.32352941,
+                "high": 0.42647059,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-04T19:05:00.109Z"
+            },
+            "draw": {
+                "low": 204,
+                "high": 204,
+                "hdate": "2022-12-29T15:00:33.490Z",
+                "ldate": "2022-12-29T15:00:33.490Z"
+            },
+            "gain": {
+                "low": -0.6875,
+                "high": 0.90625,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-04T19:05:00.109Z"
+            },
+            "price": {
+                "low": 0.03,
+                "high": 0.54,
+                "hdate": "2023-01-04T19:05:00.109Z",
+                "ldate": "2023-01-06T15:01:00.011Z"
+            },
+            "value": {
+                "low": -162,
+                "high": -9,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-04T19:05:00.109Z"
+            },
+            "quantity": {
+                "low": 3,
+                "high": 3,
+                "hdate": "2022-12-29T15:00:33.490Z",
+                "ldate": "2022-12-29T15:00:33.490Z"
+            }
+        },
+        "symbol": "XLI",
+        "draw": 204,
+        "quantity": 3,
+        "text": "+96 put, -96.50 put, -99.50 call, +100.50 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-29T15:00:33.132Z",
+        "closeDate": "2023-01-06T15:15:14.837Z",
+        "openPrice": 0.32,
+        "closePrice": 0.45,
+        "cost": -96,
+        "pnl": -39,
+        "created": "2022-12-29T15:00:10.784Z",
+        "status": "closed",
+        "upriceOpen": 98.16,
+        "upriceClose": 99.88
+    },
+    {
+        "id": "dJANovrzd43167224860549509158",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "oid": "XLY_ironcondor_010623C130_010623C129_010623P122_010623P124",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -48,
+                "high": 160,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-04T19:00:00.259Z"
+            },
+            "ror": {
+                "low": -0.2,
+                "high": 0.66666667,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-04T19:00:00.259Z"
+            },
+            "draw": {
+                "low": 240,
+                "high": 240,
+                "hdate": "2022-12-28T17:30:19.908Z",
+                "ldate": "2022-12-28T17:30:19.908Z"
+            },
+            "gain": {
+                "low": -0.3,
+                "high": 1,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-04T19:00:00.259Z"
+            },
+            "price": {
+                "low": 0,
+                "high": 1.04,
+                "hdate": "2023-01-04T19:00:00.259Z",
+                "ldate": "2023-01-06T15:01:00.011Z"
+            },
+            "value": {
+                "low": -208,
+                "high": 0,
+                "hdate": "2023-01-06T15:01:00.011Z",
+                "ldate": "2023-01-04T19:00:00.259Z"
+            },
+            "quantity": {
+                "low": 2,
+                "high": 2,
+                "hdate": "2022-12-28T17:30:19.908Z",
+                "ldate": "2022-12-28T17:30:19.908Z"
+            }
+        },
+        "symbol": "XLY",
+        "draw": 240,
+        "quantity": 2,
+        "text": "+122 put, -124 put, -129 call, +130 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-28T17:30:19.731Z",
+        "closeDate": "2023-01-06T15:01:32.767Z",
+        "openPrice": 0.8,
+        "closePrice": 0.04,
+        "cost": -160,
+        "pnl": 152,
+        "created": "2022-12-28T17:30:05.495Z",
+        "status": "closed",
+        "upriceOpen": 126.22,
+        "upriceClose": 128.63
+    },
+    {
+        "id": "dJANovrzd2167242140817256952",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "oid": "XLI_ironcondor_010623C100.5_010623C99.5_010623P95.5_010623P96.5",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -64,
+                "high": 88,
+                "hdate": "2023-01-06T14:47:00.073Z",
+                "ldate": "2023-01-04T19:05:00.109Z"
+            },
+            "ror": {
+                "low": -0.27118644,
+                "high": 0.37288136,
+                "hdate": "2023-01-06T14:47:00.073Z",
+                "ldate": "2023-01-04T19:05:00.109Z"
+            },
+            "draw": {
+                "low": 236,
+                "high": 236,
+                "hdate": "2022-12-30T17:30:19.584Z",
+                "ldate": "2022-12-30T17:30:19.584Z"
+            },
+            "gain": {
+                "low": -0.3902439,
+                "high": 0.53658537,
+                "hdate": "2023-01-06T14:47:00.073Z",
+                "ldate": "2023-01-04T19:05:00.109Z"
+            },
+            "price": {
+                "low": 0.19,
+                "high": 0.57,
+                "hdate": "2023-01-04T19:05:00.109Z",
+                "ldate": "2023-01-06T14:47:00.073Z"
+            },
+            "value": {
+                "low": -228,
+                "high": -76,
+                "hdate": "2023-01-06T14:47:00.073Z",
+                "ldate": "2023-01-04T19:05:00.109Z"
+            },
+            "quantity": {
+                "low": 4,
+                "high": 4,
+                "hdate": "2022-12-30T17:30:19.584Z",
+                "ldate": "2022-12-30T17:30:19.584Z"
+            }
+        },
+        "symbol": "XLI",
+        "draw": 236,
+        "quantity": 4,
+        "text": "+95.50 put, -96.50 put, -99.50 call, +100.50 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-30T17:30:19.493Z",
+        "closeDate": "2023-01-06T15:00:18.741Z",
+        "openPrice": 0.41,
+        "closePrice": 0.35,
+        "cost": -164,
+        "pnl": 24,
+        "created": "2022-12-30T17:30:08.172Z",
+        "status": "closed",
+        "upriceOpen": 98.05,
+        "upriceClose": 99.7
+    },
+    {
+        "id": "dJANovrzd13167275891429694840",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "oid": "XLY_ironcondor_010623C132_010623C130.5_010623P124_010623P125",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -54,
+                "high": 100,
+                "hdate": "2023-01-06T14:52:00.163Z",
+                "ldate": "2023-01-04T18:46:00.091Z"
+            },
+            "ror": {
+                "low": -0.27,
+                "high": 0.5,
+                "hdate": "2023-01-06T14:52:00.163Z",
+                "ldate": "2023-01-04T18:46:00.091Z"
+            },
+            "draw": {
+                "low": 200,
+                "high": 200,
+                "hdate": "2023-01-03T15:15:34.957Z",
+                "ldate": "2023-01-03T15:15:34.957Z"
+            },
+            "gain": {
+                "low": -0.54,
+                "high": 1,
+                "hdate": "2023-01-06T14:52:00.163Z",
+                "ldate": "2023-01-04T18:46:00.091Z"
+            },
+            "price": {
+                "low": 0,
+                "high": 0.77,
+                "hdate": "2023-01-04T18:46:00.091Z",
+                "ldate": "2023-01-06T14:52:00.163Z"
+            },
+            "value": {
+                "low": -154,
+                "high": 0,
+                "hdate": "2023-01-06T14:52:00.163Z",
+                "ldate": "2023-01-04T18:46:00.091Z"
+            },
+            "quantity": {
+                "low": 2,
+                "high": 2,
+                "hdate": "2023-01-03T15:15:34.957Z",
+                "ldate": "2023-01-03T15:15:34.957Z"
+            }
+        },
+        "symbol": "XLY",
+        "draw": 200,
+        "quantity": 2,
+        "text": "+124 put, -125 put, -130.50 call, +132 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2023-01-03T15:15:34.901Z",
+        "closeDate": "2023-01-06T14:52:22.433Z",
+        "openPrice": 0.5,
+        "closePrice": 0.03,
+        "cost": -100,
+        "pnl": 94,
+        "created": "2023-01-03T15:15:14.297Z",
+        "status": "closed",
+        "upriceOpen": 128.01,
+        "upriceClose": 128.3
+    },
+    {
+        "id": "dJANovrzd43167224051849030520",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd42167151952209125928",
+        "oid": "GDX_ironcondor_010623C31_010623C30.5_010623P27.5_010623P28",
+        "tags": "",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -189,
+                "high": 63,
+                "hdate": "2023-01-03T20:05:00.329Z",
+                "ldate": "2023-01-06T14:40:00.339Z"
+            },
+            "ror": {
+                "low": -0.6,
+                "high": 0.2,
+                "hdate": "2023-01-03T20:05:00.329Z",
+                "ldate": "2023-01-06T14:40:00.339Z"
+            },
+            "draw": {
+                "low": 315,
+                "high": 315,
+                "hdate": "2022-12-28T15:16:00.012Z",
+                "ldate": "2022-12-28T15:16:00.012Z"
+            },
+            "gain": {
+                "low": -1.4,
+                "high": 0.46666667,
+                "hdate": "2023-01-03T20:05:00.329Z",
+                "ldate": "2023-01-06T14:40:00.339Z"
+            },
+            "price": {
+                "low": 0.08,
+                "high": 0.36,
+                "hdate": "2023-01-06T14:40:00.339Z",
+                "ldate": "2023-01-03T20:05:00.329Z"
+            },
+            "value": {
+                "low": -324,
+                "high": -72,
+                "hdate": "2023-01-03T20:05:00.329Z",
+                "ldate": "2023-01-06T14:40:00.339Z"
+            },
+            "quantity": {
+                "low": 9,
+                "high": 9,
+                "hdate": "2022-12-28T15:16:00.012Z",
+                "ldate": "2022-12-28T15:16:00.012Z"
+            }
+        },
+        "symbol": "GDX",
+        "draw": 315,
+        "quantity": 9,
+        "text": "+27.50 put, -28 put, -30.50 call, +31 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-01-06T21:00:00.000Z",
+        "openDate": "2022-12-28T15:15:59.728Z",
+        "closeDate": "2023-01-06T14:45:23.709Z",
+        "openPrice": 0.15,
+        "closePrice": 0.34,
+        "cost": -135,
+        "pnl": -171,
+        "created": "2022-12-28T15:15:18.490Z",
+        "status": "closed",
+        "upriceOpen": 29.18,
+        "upriceClose": 30.7
     },
     {
         "id": "dJANovrzd29167216941670537187",
