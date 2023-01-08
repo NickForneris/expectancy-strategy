@@ -333,7 +333,7 @@ function App() {
           </Row>
           <Row className="mx-auto">
             <Collapse in={showBot} style={{ transition: 'none', maxHeight: 'calc(95vh - 45vh)', overflowY: 'scroll' }}>
-              <Container className="pt-0" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
+              <Container className="mt-3" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
                     <Table responsive size="sm" className="text-light border border-secondary">
                       <thead>
                         <tr>
