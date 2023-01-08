@@ -76,7 +76,7 @@ function App() {
   const buildChart = () => {
 
     const closedValuesPL = Object.entries((closedData || []).reduce((dv, { closeDate: d, pnl: v }) => ({ ...dv, [moment(d).format('MMM DD YYYY')]: (dv[moment(d).format('MMM DD YYYY')] || 0) + v }), {})).map(([closeDate, pnl]) => ({ closeDate, pnl })).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
-    const closedValuesTarget = Object.entries((closedData || []).reduce((dv, { closeDate: d, cost: v }) => ({ ...dv, [moment(d).format('MMM DD YYYY')]: (dv[moment(d).format('MMM DD YYYY')] || 0) + v }), {})).map(([closeDate, cost]) => ({ closeDate, cost })).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
+    const closedValuesTarget = Object.entries((closedData || []).reduce((dv, { closeDate: d, quantity: v }) => ({ ...dv, [moment(d).format('MMM DD YYYY')]: (dv[moment(d).format('MMM DD YYYY')] || 0) + (v / v) }), {})).map(([closeDate, quantity]) => ({ closeDate, quantity })).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
     categories = Array.from(closedValuesPL.map(({ closeDate }) => closeDate)).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
 
     seriesDataPL = Array.from(closedValuesPL.map(({ pnl }) => pnl)).reduce((acc, currentValue, currentIndex) => {
@@ -86,7 +86,7 @@ function App() {
       return [...acc, currentValue + acc[currentIndex - 1]];
     }, [])
 
-    seriesDataTarget = Array.from(closedValuesTarget.map(({ cost }) => cost * -1)).reduce((acc, currentValue, currentIndex) => {
+    seriesDataTarget = Array.from(closedValuesTarget.map(({ quantity }) => quantity * 25)).reduce((acc, currentValue, currentIndex) => {
       if (currentIndex === 0) {
         return [currentValue];
       }
@@ -108,29 +108,32 @@ function App() {
           }
         },
         tooltip: {
-          enabled: true,
+          enabled: true
         },
         xaxis: {
-          categories: categories
+          categories: categories,
+          tooltip: {
+            enabled: false
+          }
         },
         dataLabels: {
           enabled: false
         }
       },
       fill: {
-        type: 'gradient',
+        type: "gradient",
         gradient: {
           shadeIntensity: 1,
           opacityFrom: 0.7,
-          opacityTo: 0.9,
-          stops: [0, 100]
+          opacityTo: 0.5,
+          stops: [0, 50, 100]
         }
       },
       series: [
         {
           name: "Projected P/L",
           data: seriesDataTarget,
-          color: '#1589FF'
+          color: '#1589FF',
         },
         {
           name: "Actual P/L",
@@ -141,7 +144,7 @@ function App() {
     }
     return (
       <div className="pl-chart mb-3 text-white">
-      Ελπις (Elpis): Expectancy Strategy
+        Ελπις (Elpis): Expectancy Strategy
         <Chart
           options={chartData.options}
           series={chartData.series}
@@ -229,7 +232,7 @@ function App() {
           <td className='align-middle text-center'>{moment(pos.openDate).format('MMM D HH:mm')}</td>
           <td className='align-middle text-center'>{moment(pos.closeDate).format('MMM D HH:mm')}</td>
           <td className='align-middle text-center'>{dollarUS.format(pos.draw)}</td>
-          <td className='align-middle text-center'>{dollarUS.format(pos.cost * -1)}</td>
+          <td className='align-middle text-center'>{dollarUS.format("25")}</td>
           <td className={`align-middle text-center ${pos.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(pos.pnl)}</td>
         </tr>
       )
@@ -238,7 +241,7 @@ function App() {
   const dataClosedFoot = () => {
     const closedPositionCount = (closedData || []).length
     const risk = Object.values(closedData || []).reduce((t, { draw }) => t + draw, 0)
-    const target = (Object.values(closedData || []).reduce((t, { cost }) => t + cost, 0)) * -1
+    const target = (Object.values(closedData || []).reduce((t, { quantity }) => t + (quantity/quantity)*25, 0))
     const pnl = dollarUS.format(Math.round((Object.values(closedData || []).reduce((t, { pnl }) => t + pnl, 0))))
     return (
       <tr>
@@ -300,116 +303,109 @@ function App() {
     <>
       <Navbar bg="dark" sticky="top">
         <Container fluid>
-          <Navbar.Brand className="text-light p-0"><span><img src={process.env.PUBLIC_URL + "/OptionsAnalyzerS.png"} alt="logo - target with arrow" className="mt-1 mb-2" />&nbsp;<Button className="b-color mt-2 mb-2 pt-1 pb-1" href="https://optionalpha.com/">Data Sourced from Option Alpha</Button></span></Navbar.Brand>
+          <Navbar.Brand className="text-light p-0"><span><img src={process.env.PUBLIC_URL + "/OptionsAnalyzerS.png"} alt="logo - target with arrow" className="mt-1 mb-2" style={{ width: "2.25em" }} />&nbsp;<Button className="b-color mt-2 mb-2 p-2 text-center" href="https://optionalpha.com/">Data Sourced from Option Alpha</Button></span></Navbar.Brand>
         </Container>
       </Navbar>
 
       <Container fluid>
-        <Row className="overflow-hidden" >
+        <Row className="overflow-hidden">
 
-          <Col xs="12" md="10" lg="10">
             {buildChart()}
-          </Col>
+
+          <Col sm={2}>
+              <Table responsive size="sm" className="text-light border border-secondary mt-3">
+                <thead>
+                  <tr>
+                    <th className="text-center" colSpan='2'>METRICS</th>
+                  </tr>
+                </thead>
+                {metrics()}
+              </Table>
+            </Col>
 
           <Col>
-            <Table responsive size="sm" className="text-light border border-secondary mt-3">
-              <thead>
-                <tr>
-                  <th className="text-center" colSpan='2'>METRICS</th>
-                </tr>
-              </thead>
-              {metrics()}
-            </Table>
-          </Col>
-         
-            <Row className="d-flex aligns-items-center justify-content-center">
-              <ButtonGroup>
-                <Button variant="outline-secondary" size="small" className="mb-2 clearfix text-right" onClick={toggleShowBot}>Bot Details</Button>
-                <Button variant="outline-secondary" size="small" className="mb-2 clearfix text-right" onClick={toggleShowCurPos}>Current Positions</Button>
-                <Button variant="outline-secondary" size="small" className="mb-2 clearfix text-right" onClick={toggleShowClosed}>Closed Positions</Button>
-              </ButtonGroup>
+          <Row className="mx-auto mt-3">
+            <ButtonGroup>
+              <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowBot}>Bot Details</Button>
+              <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowCurPos}>Current Positions</Button>
+              <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowClosed}>Closed Positions</Button>
+            </ButtonGroup>
+          </Row>
+          <Row className="mx-auto">
+            <Collapse in={showBot} style={{ transition: 'none', maxHeight: 'calc(95vh - 45vh)', overflowY: 'scroll' }}>
+              <Container className="pt-0" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
+                    <Table responsive size="sm" className="text-light border border-secondary">
+                      <thead>
+                        <tr>
+                          <th>BOT</th>
+                          <th className="text-center">POSITIONS</th>
+                          <th className="text-center">ALLOCATION</th>
+                          <th className="text-center">CAP AT RISK</th>
+                          <th className="text-center">P/L</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {dataBotBody()}
+                      </tbody>
+                      <tfoot>
+                        {dataBotFoot()}
+                      </tfoot>
+                    </Table>
+
+              </Container>
+            </Collapse>
+
+            <Collapse in={showCurPos} style={{ transition: 'none', maxHeight: 'calc(95vh - 45vh)', overflowY: 'scroll' }}>
+              <Container className="mt-3" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
+
+                    <Table responsive size="sm" className="text-light border border-secondary">
+                      <thead>
+                        <tr>
+                          <th>CURRENT POSITIONS</th>
+                          <th className="text-center header">DAYS</th>
+                          <th className="text-center header">QTY</th>
+                          <th className="text-center header">CAP AT RISK</th>
+                          <th className="text-center header">P/L</th>
+                          <th className="text-center header">RETURN ON RISK</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {dataPosBody()}
+                      </tbody>
+                      <tfoot>
+                        {dataPosFoot()}
+                      </tfoot>
+                    </Table>
+
+              </Container>
+            </Collapse>
+
+            <Collapse in={showClosed} style={{ transition: 'none', maxHeight: 'calc(95vh - 45vh)', overflowY: 'scroll' }}>
+              <Container className="mt-3" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
+
+                    <Table responsive size="sm" className="text-light border border-secondary">
+                      <thead>
+                        <tr>
+                          <th>CLOSED POSITIONS</th>
+                          <th className="text-center header">OPEN DATE</th>
+                          <th className="text-center header">CLOSED DATE</th>
+                          <th className="text-center header">CAP RISKED</th>
+                          <th className="text-center header">TARGET P/L</th>
+                          <th className="text-center header">P/L</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {dataClosedBody()}
+                      </tbody>
+                      <tfoot>
+                        {dataClosedFoot()}
+                      </tfoot>
+                    </Table>
+
+              </Container>
+            </Collapse>
             </Row>
-  
-          <Collapse in={showBot} style={{ transition: 'none', maxHeight: 'calc(95vh - 65vh)', overflowY: 'scroll' }}>
-            <Container className="pt-0" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
-              <Row className="bg-dark d-flex aligns-items-center justify-content-center">
-                <Col>
-                  <Table responsive size="sm" className="text-light border border-secondary">
-                    <thead>
-                      <tr>
-                        <th>BOT</th>
-                        <th className="text-center">POSITIONS</th>
-                        <th className="text-center">ALLOCATION</th>
-                        <th className="text-center">CAP AT RISK</th>
-                        <th className="text-center">P/L</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {dataBotBody()}
-                    </tbody>
-                    <tfoot>
-                      {dataBotFoot()}
-                    </tfoot>
-                  </Table>
-                </Col>
-              </Row>
-            </Container>
-          </Collapse>
-
-          <Collapse in={showCurPos} style={{ transition: 'none', maxHeight: 'calc(95vh - 65vh)', overflowY: 'scroll' }}>
-            <Container className="mt-3" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
-              <Row className="bg-dark d-flex aligns-items-center justify-content-center">
-                <Col>
-                  <Table responsive size="sm" className="text-light border border-secondary">
-                    <thead>
-                      <tr>
-                        <th>CURRENT POSITIONS</th>
-                        <th className="text-center header">DAYS</th>
-                        <th className="text-center header">QTY</th>
-                        <th className="text-center header">CAP AT RISK</th>
-                        <th className="text-center header">P/L</th>
-                        <th className="text-center header">RETURN ON RISK</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {dataPosBody()}
-                    </tbody>
-                    <tfoot>
-                      {dataPosFoot()}
-                    </tfoot>
-                  </Table>
-                </Col>
-              </Row>
-            </Container>
-          </Collapse>
-
-          <Collapse in={showClosed} style={{ transition: 'none', maxHeight: 'calc(95vh - 65vh)', overflowY: 'scroll' }}>
-            <Container className="mt-3" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
-              <Row className="bg-dark d-flex aligns-items-center justify-content-center">
-                <Col>
-                  <Table responsive size="sm" className="text-light border border-secondary">
-                    <thead>
-                      <tr>
-                        <th>CLOSED POSITIONS</th>
-                        <th className="text-center header">OPEN DATE</th>
-                        <th className="text-center header">CLOSED DATE</th>
-                        <th className="text-center header">CAP RISKED</th>
-                        <th className="text-center header">TARGET P/L</th>
-                        <th className="text-center header">P/L</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {dataClosedBody()}
-                    </tbody>
-                    <tfoot>
-                      {dataClosedFoot()}
-                    </tfoot>
-                  </Table>
-                </Col>
-              </Row>
-            </Container>
-          </Collapse>
-
+            </Col>
         </Row>
       </Container>
     </>

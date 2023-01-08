@@ -1,3 +1,7 @@
+:root {
+    color-scheme: dark;
+}
+
 html, body {
     margin: 0; 
     height: 99vh; 
@@ -34,36 +38,16 @@ Table, .border {
     color: #DFE3E3!important;
 }
 
-.apexcharts-tooltip {
-    thenme: dark;
+.apexcharts-tooltip{
+    background-color: black !important;
+    color:white;
+   }
+   
+.apexcharts-tooltip-title{
+    background-color: black !important;
+    color:white;
+   }
+
+Button {
+    color: white!important;
 }
-
-/*
-.table-responsive {
-    height: 90vh;
-    overflow-y: scroll;
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
-} 
-
-.table-responsive::-webkit-scrollbar {
-        display: none;
-    }
-
-thead tr:nth-child(1) th{
-    background-color: #212529;
-    border: none;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-}
-
-tfoot tr:nth-child(1) td{
-    background-color: #212529;
-    border: none;
-    position: sticky;
-    bottom: 0;
-    z-index: 9999;
-}
-*/
-
