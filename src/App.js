@@ -154,7 +154,8 @@ function App() {
     )
   }
 
-  const dataBotBody = () => (botData || []).map((bot, i) => {
+  const dataBotBody = () => (botData || []).sort((a, b) =>
+  b.pnl - a.pnl).map((bot, i) => {
     return (
       <tr key={i}>
         <td className='align-middle gold'>{bot.name}</td>
@@ -186,7 +187,7 @@ function App() {
   }
 
   const dataPosBody = () => (posData || []).sort((a, b) =>
-    moment(b.closeDate).valueOf() - moment(a.openDate)).map((pos, i) => {
+    a.days - b.days).map((pos, i) => {
       return (
         <tr key={i}>
           <td className="gold">
