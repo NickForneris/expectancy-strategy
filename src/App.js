@@ -6,11 +6,13 @@ import {
   Col,
   Row,
   Button,
-  ButtonGroup
+  ButtonGroup,
+  Collapse
 } from 'react-bootstrap';
 import './App.css';
 import moment from 'moment';
-import Chart from 'react-apexcharts';
+import Chart from "react-apexcharts";
+
 
 function App() {
 
@@ -154,8 +156,7 @@ function App() {
     )
   }
 
-  const dataBotBody = () => (botData || []).sort((a, b) =>
-  b.pnl - a.pnl).map((bot, i) => {
+  const dataBotBody = () => (botData || []).map((bot, i) => {
     return (
       <tr key={i}>
         <td className='align-middle gold'>{bot.name}</td>
@@ -187,7 +188,7 @@ function App() {
   }
 
   const dataPosBody = () => (posData || []).sort((a, b) =>
-    a.days - b.days).map((pos, i) => {
+    moment(b.closeDate).valueOf() - moment(a.openDate)).map((pos, i) => {
       return (
         <tr key={i}>
           <td className="gold">
@@ -240,7 +241,7 @@ function App() {
   const dataClosedFoot = () => {
     const closedPositionCount = (closedData || []).length
     const risk = Object.values(closedData || []).reduce((t, { draw }) => t + draw, 0)
-    const target = (Object.values(closedData || []).reduce((t, { quantity }) => t + (quantity / quantity) * 25, 0))
+    const target = (Object.values(closedData || []).reduce((t, { quantity }) => t + (quantity/quantity)*25, 0))
     const pnl = dollarUS.format(Math.round((Object.values(closedData || []).reduce((t, { pnl }) => t + pnl, 0))))
     return (
       <tr>
@@ -275,11 +276,11 @@ function App() {
       <tbody>
         <tr>
           <td className='align-middle'>Win Percentage</td>
-          <td className='align-middle'>{Math.round(winPercent * 100)}%</td>
+          <td className='align-middle'>{winPercent * 100}%</td>
         </tr>
         <tr>
           <td className='align-middle'>Loss Percentage</td>
-          <td className='align-middle'>{Math.round(lossPercent * 100)}%</td>
+          <td className='align-middle'>{lossPercent * 100}%</td>
         </tr>
         <tr>
           <td className='align-middle'>Risk-to-Reward Ratio</td>
@@ -309,93 +310,102 @@ function App() {
       <Container fluid>
         <Row className="overflow-hidden">
 
-          {buildChart()}
+            {buildChart()}
 
           <Col sm={2}>
-            <Table size="sm" className="text-light border border-secondary mt-3">
-              <thead>
-                <tr>
-                  <th className="text-center" colSpan='2'>METRICS</th>
-                </tr>
-              </thead>
-              {metrics()}
-            </Table>
-          </Col>
+              <Table responsive size="sm" className="text-light border border-secondary mt-3">
+                <thead>
+                  <tr>
+                    <th className="text-center" colSpan='2'>METRICS</th>
+                  </tr>
+                </thead>
+                {metrics()}
+              </Table>
+            </Col>
 
           <Col>
-            <Row className="mx-auto mt-3">
-              <ButtonGroup>
-                <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowBot}>Bot Details</Button>
-                <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowCurPos}>Current Positions</Button>
-                <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowClosed}>Closed Positions</Button>
-              </ButtonGroup>
+          <Row className="mx-auto mt-3">
+            <ButtonGroup>
+              <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowBot}>Bot Details</Button>
+              <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowCurPos}>Current Positions</Button>
+              <Button variant="outline-secondary" size="small" className="mb-2" onClick={toggleShowClosed}>Closed Positions</Button>
+            </ButtonGroup>
+          </Row>
+          <Row className="mx-auto">
+            <Collapse in={showBot} style={{ transition: 'none', maxHeight: 'calc(95vh - 45vh)', overflowY: 'scroll' }}>
+              <Container className="mt-3" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
+                    <Table responsive size="sm" className="text-light border border-secondary">
+                      <thead>
+                        <tr>
+                          <th>BOT</th>
+                          <th className="text-center">POSITIONS</th>
+                          <th className="text-center">ALLOCATION</th>
+                          <th className="text-center">CAP AT RISK</th>
+                          <th className="text-center">P/L</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {dataBotBody()}
+                      </tbody>
+                      <tfoot>
+                        {dataBotFoot()}
+                      </tfoot>
+                    </Table>
+
+              </Container>
+            </Collapse>
+
+            <Collapse in={showCurPos} style={{ transition: 'none', maxHeight: 'calc(95vh - 45vh)', overflowY: 'scroll' }}>
+              <Container className="mt-3" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
+
+                    <Table responsive size="sm" className="text-light border border-secondary">
+                      <thead>
+                        <tr>
+                          <th>CURRENT POSITIONS</th>
+                          <th className="text-center header">DAYS</th>
+                          <th className="text-center header">QTY</th>
+                          <th className="text-center header">CAP AT RISK</th>
+                          <th className="text-center header">P/L</th>
+                          <th className="text-center header">RETURN ON RISK</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {dataPosBody()}
+                      </tbody>
+                      <tfoot>
+                        {dataPosFoot()}
+                      </tfoot>
+                    </Table>
+
+              </Container>
+            </Collapse>
+
+            <Collapse in={showClosed} style={{ transition: 'none', maxHeight: 'calc(95vh - 45vh)', overflowY: 'scroll' }}>
+              <Container className="mt-3" style={{ maxHeight: "50vh", overflowY: "scroll" }}>
+
+                    <Table responsive size="sm" className="text-light border border-secondary">
+                      <thead>
+                        <tr>
+                          <th>CLOSED POSITIONS</th>
+                          <th className="text-center header">OPEN DATE</th>
+                          <th className="text-center header">CLOSED DATE</th>
+                          <th className="text-center header">CAP RISKED</th>
+                          <th className="text-center header">TARGET P/L</th>
+                          <th className="text-center header">P/L</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {dataClosedBody()}
+                      </tbody>
+                      <tfoot>
+                        {dataClosedFoot()}
+                      </tfoot>
+                    </Table>
+
+              </Container>
+            </Collapse>
             </Row>
-
-            <Row className="mx-auto mt-3 mb-2 p-1">
-              {showBot ? (
-                <Table responsive size="sm" className="sticky text-light border border-secondary">
-                  <thead>
-                    <tr>
-                    <th className="text-left header align-middle">BOT</th>
-                    <th className="text-center align-middle">POSITIONS</th>
-                    <th className="text-center align-middle">ALLOCATION</th>
-                    <th className="text-center align-middle">CAP AT RISK</th>
-                    <th className="text-center align-middle">P/L</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {dataBotBody()}
-                  </tbody>
-                  <tfoot>
-                    {dataBotFoot()}
-                  </tfoot>
-                </Table>
-              ) : null}
-
-              {showCurPos ? (
-                <Table responsive size="sm" className="sticky text-light border border-secondary">
-                  <thead>
-                    <tr>
-                    <th className="text-left align-middle">CURRENT POSITIONS</th>
-                    <th className="text-center align-middle">DAYS</th>
-                    <th className="text-center align-middle">QTY</th>
-                    <th className="text-center align-middle">CAP AT RISK</th>
-                    <th className="text-center align-middle">P/L</th>
-                    <th className="text-center align-middle">RETURN ON RISK</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {dataPosBody()}
-                  </tbody>
-                  <tfoot>
-                    {dataPosFoot()}
-                  </tfoot>
-                </Table>
-              ) : null}
-
-              {showClosed ? (
-                <Table responsive size="sm" className="sticky text-light border border-secondary">
-                  <thead>
-                    <tr>
-                    <th className="text-left align-middle">CLOSED POSITIONS</th>
-                    <th className="text-center align-middle">OPEN DATE</th>
-                    <th className="text-center align-middle">CLOSED DATE</th>
-                    <th className="text-center align-middle">CAP RISKED</th>
-                    <th className="text-center align-middle">TARGET P/L</th>
-                    <th className="text-center align-middle">P/L</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {dataClosedBody()}
-                  </tbody>
-                  <tfoot>
-                    {dataClosedFoot()}
-                  </tfoot>
-                </Table>
-              ) : null}
-
-            </Row>
-          </Col>
+            </Col>
         </Row>
       </Container>
     </>
