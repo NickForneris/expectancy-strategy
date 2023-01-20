@@ -4,7 +4,7 @@
 
 html, body {
     margin: 0; 
-    height: 95vh;
+    height: 99vh; 
     font-size: 1.4vh;
 } 
 
@@ -50,28 +50,4 @@ Table, .border {
 
 Button {
     color: white!important;
-}
-
-.table-responsive {
-    height: 45vh!important;
-    max-height: 45vh!important;
-    overflow-y: scroll!important;
-    border: none!important;
-  }
-
-.table-responsive thead {
-    position: sticky!important;
-    top: -1px!important;
-    z-index: 1!important;
-    background-color: #212529!important;
-    box-shadow:  inset 0 -1px 0 #DFE3E3;
-}
-
-.table-responsive tfoot {
-    font-weight: 600!important;
-    position: sticky!important;
-    bottom: -1px!important;
-    z-index: 1!important;
-    background-color: #212529!important;
-    box-shadow: inset 0 1px 0 #DFE3E3;
 }
