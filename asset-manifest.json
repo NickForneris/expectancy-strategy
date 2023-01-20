@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/expectancy-strategy/static/css/main.3a774c8f.css",
+    "main.js": "/expectancy-strategy/static/js/main.19a3df6f.js",
+    "index.html": "/expectancy-strategy/index.html",
+    "main.3a774c8f.css.map": "/expectancy-strategy/static/css/main.3a774c8f.css.map",
+    "main.19a3df6f.js.map": "/expectancy-strategy/static/js/main.19a3df6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a774c8f.css",
+    "static/js/main.19a3df6f.js"
+  ]
+}
