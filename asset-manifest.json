@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/expectancy-strategy/static/css/main.3a774c8f.css",
-    "main.js": "/expectancy-strategy/static/js/main.19a3df6f.js",
+    "main.css": "/expectancy-strategy/static/css/main.540dcf4c.chunk.css",
+    "main.js": "/expectancy-strategy/static/js/main.a64e6605.chunk.js",
+    "main.js.map": "/expectancy-strategy/static/js/main.a64e6605.chunk.js.map",
+    "runtime-main.js": "/expectancy-strategy/static/js/runtime-main.daf823c7.js",
+    "runtime-main.js.map": "/expectancy-strategy/static/js/runtime-main.daf823c7.js.map",
+    "static/css/2.b8e408b6.chunk.css": "/expectancy-strategy/static/css/2.b8e408b6.chunk.css",
+    "static/js/2.7ab1b4e4.chunk.js": "/expectancy-strategy/static/js/2.7ab1b4e4.chunk.js",
+    "static/js/2.7ab1b4e4.chunk.js.map": "/expectancy-strategy/static/js/2.7ab1b4e4.chunk.js.map",
     "index.html": "/expectancy-strategy/index.html",
-    "main.3a774c8f.css.map": "/expectancy-strategy/static/css/main.3a774c8f.css.map",
-    "main.19a3df6f.js.map": "/expectancy-strategy/static/js/main.19a3df6f.js.map"
+    "static/css/2.b8e408b6.chunk.css.map": "/expectancy-strategy/static/css/2.b8e408b6.chunk.css.map",
+    "static/css/main.540dcf4c.chunk.css.map": "/expectancy-strategy/static/css/main.540dcf4c.chunk.css.map",
+    "static/js/2.7ab1b4e4.chunk.js.LICENSE.txt": "/expectancy-strategy/static/js/2.7ab1b4e4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.3a774c8f.css",
-    "static/js/main.19a3df6f.js"
+    "static/js/runtime-main.daf823c7.js",
+    "static/css/2.b8e408b6.chunk.css",
+    "static/js/2.7ab1b4e4.chunk.js",
+    "static/css/main.540dcf4c.chunk.css",
+    "static/js/main.a64e6605.chunk.js"
   ]
 }
