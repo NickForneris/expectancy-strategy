@@ -93,7 +93,25 @@ function App() {
 
     const chartData = {
       options: {
-        chart: {
+        annotations: {
+          xaxis: [
+            {
+              x: "Jan 24 2023",
+              strokeDashArray: 1,
+              borderColor: "#FF10F0",
+              label: {
+                orientation: 'horizontal',
+                borderColor: "#FF10F0",
+                style: {
+                  color: "#fff",
+                  background: "#FF10F0"
+                },
+                text: ["FIXED ROR ERROR", "START NEW POSITION STRATEGY"]
+              }
+            }
+          ]
+        },
+          chart: {
           id: 'area',
           type: 'area',
           foreColor: '#fff',
@@ -108,7 +126,8 @@ function App() {
         tooltip: {
           enabled: true
         },
-        xaxis: {
+        xaxis:
+        {
           categories: categories,
           tooltip: {
             enabled: false
@@ -138,7 +157,7 @@ function App() {
           data: seriesDataPL,
           color: '#16F529'
         }
-      ]
+      ],
     }
     return (
       <div className="pl-chart mb-3 text-white">
@@ -155,17 +174,17 @@ function App() {
   }
 
   const dataBotBody = () => (botData || []).sort((a, b) =>
-  b.pnl - a.pnl).map((bot, i) => {
-    return (
-      <tr key={i}>
-        <td className='align-middle gold'>{bot.name}</td>
-        <td className='align-middle text-center'>{bot.pcount}</td>
-        <td className='align-middle text-center'>{dollarUS.format(bot.seed)}</td>
-        <td className='align-middle text-center'>{dollarUS.format(bot.draw)}</td>
-        <td className={`align-middle text-center ${bot.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(bot.pnl)}<br></br>{Math.round(bot.roi * 100)}%</td>
-      </tr>
-    )
-  })
+    b.pnl - a.pnl).map((bot, i) => {
+      return (
+        <tr key={i}>
+          <td className='align-middle gold'>{bot.name}</td>
+          <td className='align-middle text-center'>{bot.pcount}</td>
+          <td className='align-middle text-center'>{dollarUS.format(bot.seed)}</td>
+          <td className='align-middle text-center'>{dollarUS.format(bot.draw)}</td>
+          <td className={`align-middle text-center ${bot.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(bot.pnl)}<br></br>{Math.round(bot.roi * 100)}%</td>
+        </tr>
+      )
+    })
 
   const dataBotFoot = () => {
     const positions = Object.values(botData || []).reduce((t, { pcount }) => t + pcount, 0)
@@ -336,11 +355,11 @@ function App() {
                 <Table responsive size="sm" className="sticky text-light border border-secondary">
                   <thead>
                     <tr>
-                    <th className="text-left header align-middle">BOT</th>
-                    <th className="text-center align-middle">POSITIONS</th>
-                    <th className="text-center align-middle">ALLOCATION</th>
-                    <th className="text-center align-middle">CAP AT RISK</th>
-                    <th className="text-center align-middle">P/L</th>
+                      <th className="text-left header align-middle">BOT</th>
+                      <th className="text-center align-middle">POSITIONS</th>
+                      <th className="text-center align-middle">ALLOCATION</th>
+                      <th className="text-center align-middle">CAP AT RISK</th>
+                      <th className="text-center align-middle">P/L</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -356,12 +375,12 @@ function App() {
                 <Table responsive size="sm" className="sticky text-light border border-secondary">
                   <thead>
                     <tr>
-                    <th className="text-left align-middle">CURRENT POSITIONS</th>
-                    <th className="text-center align-middle">DAYS</th>
-                    <th className="text-center align-middle">QTY</th>
-                    <th className="text-center align-middle">CAP AT RISK</th>
-                    <th className="text-center align-middle">P/L</th>
-                    <th className="text-center align-middle">RETURN ON RISK</th>
+                      <th className="text-left align-middle">CURRENT POSITIONS</th>
+                      <th className="text-center align-middle">DAYS</th>
+                      <th className="text-center align-middle">QTY</th>
+                      <th className="text-center align-middle">CAP AT RISK</th>
+                      <th className="text-center align-middle">P/L</th>
+                      <th className="text-center align-middle">RETURN ON RISK</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -377,12 +396,12 @@ function App() {
                 <Table responsive size="sm" className="sticky text-light border border-secondary">
                   <thead>
                     <tr>
-                    <th className="text-left align-middle">CLOSED POSITIONS</th>
-                    <th className="text-center align-middle">OPEN DATE</th>
-                    <th className="text-center align-middle">CLOSED DATE</th>
-                    <th className="text-center align-middle">CAP RISKED</th>
-                    <th className="text-center align-middle">TARGET P/L</th>
-                    <th className="text-center align-middle">P/L</th>
+                      <th className="text-left align-middle">CLOSED POSITIONS</th>
+                      <th className="text-center align-middle">OPEN DATE</th>
+                      <th className="text-center align-middle">CLOSED DATE</th>
+                      <th className="text-center align-middle">CAP RISKED</th>
+                      <th className="text-center align-middle">TARGET P/L</th>
+                      <th className="text-center align-middle">P/L</th>
                     </tr>
                   </thead>
                   <tbody>
