@@ -1,5 +1,161 @@
 [
     {
+        "id": "dJANovrzd351674669619631280496",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd4116718191611369765",
+        "oid": "XLP_ironcondor_020323C75_020323C73.5_020323P70_020323P71.5",
+        "tags": "theta vega assignment risk,delta gamma assignment risk,high assignment risk",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -495,
+                "high": 261,
+                "hdate": "2023-01-26T14:54:00.210Z",
+                "ldate": "2023-02-01T19:03:00.158Z"
+            },
+            "ror": {
+                "low": -0.55555556,
+                "high": 0.29292929,
+                "hdate": "2023-01-26T14:54:00.210Z",
+                "ldate": "2023-02-01T19:03:00.158Z"
+            },
+            "draw": {
+                "low": 891,
+                "high": 891,
+                "hdate": "2023-01-25T18:00:30.860Z",
+                "ldate": "2023-01-25T18:00:30.860Z"
+            },
+            "gain": {
+                "low": -1.07843137,
+                "high": 0.56862745,
+                "hdate": "2023-01-26T14:54:00.210Z",
+                "ldate": "2023-02-01T19:03:00.158Z"
+            },
+            "price": {
+                "low": 0.22,
+                "high": 1.06,
+                "hdate": "2023-02-01T19:03:00.158Z",
+                "ldate": "2023-01-26T14:54:00.210Z"
+            },
+            "value": {
+                "low": -954,
+                "high": -198,
+                "hdate": "2023-01-26T14:54:00.210Z",
+                "ldate": "2023-02-01T19:03:00.158Z"
+            },
+            "quantity": {
+                "low": 9,
+                "high": 9,
+                "hdate": "2023-01-25T18:00:30.860Z",
+                "ldate": "2023-01-25T18:00:30.860Z"
+            }
+        },
+        "symbol": "XLP",
+        "draw": 891,
+        "quantity": 9,
+        "text": "+70 put, -71.50 put, -73.50 call, +75 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-02-03T21:00:00.000Z",
+        "openDate": "2023-01-25T18:00:31.111Z",
+        "closeDate": "2023-02-01T20:45:34.903Z",
+        "openPrice": 0.51,
+        "closePrice": 1,
+        "cost": -459,
+        "pnl": -441,
+        "created": "2023-01-25T18:00:19.631Z",
+        "status": "closed",
+        "upriceOpen": 72.72,
+        "upriceClose": 74.53,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
+        "id": "dJANovrzd351674666020392800294",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd4116718191611369765",
+        "oid": "XLU_ironcondor_020323C71.5_020323C69.5_020323P65_020323P67",
+        "tags": "low assignment risk",
+        "accountId": "sim11216714649420573231",
+        "trail": {
+            "pnl": {
+                "low": -42,
+                "high": 469,
+                "hdate": "2023-02-01T15:46:00.496Z",
+                "ldate": "2023-01-25T19:26:00.484Z"
+            },
+            "ror": {
+                "low": -0.04511278,
+                "high": 0.5037594,
+                "hdate": "2023-02-01T15:46:00.496Z",
+                "ldate": "2023-01-25T19:26:00.484Z"
+            },
+            "draw": {
+                "low": 931,
+                "high": 931,
+                "hdate": "2023-01-25T17:00:39.391Z",
+                "ldate": "2023-01-25T17:00:39.391Z"
+            },
+            "gain": {
+                "low": -0.08955224,
+                "high": 1,
+                "hdate": "2023-02-01T15:46:00.496Z",
+                "ldate": "2023-01-25T19:26:00.484Z"
+            },
+            "price": {
+                "low": 0,
+                "high": 0.73,
+                "hdate": "2023-01-25T19:26:00.484Z",
+                "ldate": "2023-02-01T15:46:00.496Z"
+            },
+            "value": {
+                "low": -511,
+                "high": 0,
+                "hdate": "2023-02-01T15:46:00.496Z",
+                "ldate": "2023-01-25T19:26:00.484Z"
+            },
+            "quantity": {
+                "low": 7,
+                "high": 7,
+                "hdate": "2023-01-25T17:00:39.391Z",
+                "ldate": "2023-01-25T17:00:39.391Z"
+            }
+        },
+        "symbol": "XLU",
+        "draw": 931,
+        "quantity": 7,
+        "text": "+65 put, -67 put, -69.50 call, +71.50 call",
+        "exits": {
+            "text": "Profits: 95%",
+            "nopdt": "on",
+            "epsdays": 0,
+            "expdays": 0,
+            "profits": 0.95,
+            "stoploss": 0
+        },
+        "expiration": "2023-02-03T21:00:00.000Z",
+        "openDate": "2023-01-25T17:00:39.494Z",
+        "closeDate": "2023-02-01T15:46:00.813Z",
+        "openPrice": 0.67,
+        "closePrice": 0.01,
+        "cost": -469,
+        "pnl": 462,
+        "created": "2023-01-25T17:00:20.392Z",
+        "status": "closed",
+        "upriceOpen": 68.45,
+        "upriceClose": 68.78,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
         "id": "dJANovrzd10167405313076363121",
         "type": "ironcondor",
         "iid": "BOTdJANovrzd4116718191611369765",
@@ -72,7 +228,10 @@
         "created": "2023-01-18T14:45:30.763Z",
         "status": "closed",
         "upriceOpen": 91.03,
-        "upriceClose": 90.03
+        "upriceClose": 90.03,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd10167405492548174667",
@@ -147,7 +306,10 @@
         "created": "2023-01-18T15:15:25.481Z",
         "status": "closed",
         "upriceOpen": 74.19,
-        "upriceClose": 72.94
+        "upriceClose": 72.94,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167422682306278142",
@@ -222,7 +384,10 @@
         "created": "2023-01-20T15:00:23.062Z",
         "status": "closed",
         "upriceOpen": 89.66,
-        "upriceClose": 90.03
+        "upriceClose": 90.03,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd10167405314302404724",
@@ -297,7 +462,10 @@
         "created": "2023-01-18T14:45:43.024Z",
         "status": "closed",
         "upriceOpen": 71.09,
-        "upriceClose": 68.97
+        "upriceClose": 68.97,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673642719516646554",
@@ -372,7 +540,10 @@
         "created": "2023-01-13T20:45:19.516Z",
         "status": "closed",
         "upriceOpen": 71.44,
-        "upriceClose": 68.97
+        "upriceClose": 68.97,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673640016353740492",
@@ -447,7 +618,10 @@
         "created": "2023-01-13T20:00:16.353Z",
         "status": "closed",
         "upriceOpen": 74.52,
-        "upriceClose": 72.56
+        "upriceClose": 72.56,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673633719106842334",
@@ -522,7 +696,10 @@
         "created": "2023-01-13T18:15:19.106Z",
         "status": "closed",
         "upriceOpen": 89.6,
-        "upriceClose": 89.53
+        "upriceClose": 89.53,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327642858126231",
@@ -597,7 +774,10 @@
         "created": "2023-01-09T15:00:28.581Z",
         "status": "closed",
         "upriceOpen": 71.28,
-        "upriceClose": 71.34
+        "upriceClose": 71.34,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd441673035206817905294",
@@ -672,7 +852,10 @@
         "created": "2023-01-06T20:00:06.817Z",
         "status": "closed",
         "upriceOpen": 71.19,
-        "upriceClose": 71.34
+        "upriceClose": 71.34,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21167232601044444611",
@@ -747,7 +930,10 @@
         "created": "2022-12-29T15:00:10.444Z",
         "status": "closed",
         "upriceOpen": 75.03,
-        "upriceClose": 74.44
+        "upriceClose": 74.44,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd441673027107921777176",
@@ -822,7 +1008,10 @@
         "created": "2023-01-06T17:45:07.921Z",
         "status": "closed",
         "upriceOpen": 87.5,
-        "upriceClose": 89.85
+        "upriceClose": 89.85,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21167232602011940013",
@@ -897,7 +1086,10 @@
         "created": "2022-12-29T15:00:20.119Z",
         "status": "closed",
         "upriceOpen": 71.31,
-        "upriceClose": 71.25
+        "upriceClose": 71.25,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd28167336371611265141",
@@ -972,7 +1164,10 @@
         "created": "2023-01-10T15:15:16.112Z",
         "status": "closed",
         "upriceOpen": 75.19,
-        "upriceClose": 74.41
+        "upriceClose": 74.41,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd2116723251130951635",
@@ -1047,7 +1242,10 @@
         "created": "2022-12-29T14:45:13.095Z",
         "status": "closed",
         "upriceOpen": 86.48,
-        "upriceClose": 89.53
+        "upriceClose": 89.53,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327641539555228",
@@ -1122,7 +1320,10 @@
         "created": "2023-01-09T15:00:15.395Z",
         "status": "closed",
         "upriceOpen": 88.75,
-        "upriceClose": 88.97
+        "upriceClose": 88.97,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd44167301810656262937",
@@ -1197,7 +1398,10 @@
         "created": "2023-01-06T15:15:06.562Z",
         "status": "closed",
         "upriceOpen": 75.44,
-        "upriceClose": 74.53
+        "upriceClose": 74.53,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327821528364857",
@@ -1272,7 +1476,10 @@
         "created": "2023-01-09T15:30:15.283Z",
         "status": "closed",
         "upriceOpen": 75.8,
-        "upriceClose": 75.1
+        "upriceClose": 75.1,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224051777862318",
@@ -1347,7 +1554,10 @@
         "created": "2022-12-28T15:15:17.778Z",
         "status": "closed",
         "upriceOpen": 71.55,
-        "upriceClose": 71.22
+        "upriceClose": 71.22,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224050707622714",
@@ -1422,7 +1632,10 @@
         "created": "2022-12-28T15:15:07.076Z",
         "status": "closed",
         "upriceOpen": 86.37,
-        "upriceClose": 87.57
+        "upriceClose": 87.57,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21672427718928384115",
@@ -1497,7 +1710,10 @@
         "created": "2022-12-30T19:15:18.928Z",
         "status": "closed",
         "upriceOpen": 69.97,
-        "upriceClose": 70.69
+        "upriceClose": 70.69,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21672427716659636112",
@@ -1572,7 +1788,10 @@
         "created": "2022-12-30T19:15:16.659Z",
         "status": "closed",
         "upriceOpen": 74.13,
-        "upriceClose": 75.32
+        "upriceClose": 75.32,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd131672774215206297247",
@@ -1647,7 +1866,10 @@
         "created": "2023-01-03T19:30:15.206Z",
         "status": "closed",
         "upriceOpen": 83.65,
-        "upriceClose": 87.55
+        "upriceClose": 87.55,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd131672763417504094102",
@@ -1722,7 +1944,10 @@
         "created": "2023-01-03T16:30:17.504Z",
         "status": "closed",
         "upriceOpen": 73.75,
-        "upriceClose": 74.91
+        "upriceClose": 74.91,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd2167242140811998950",
@@ -1797,7 +2022,10 @@
         "created": "2022-12-30T17:30:08.120Z",
         "status": "closed",
         "upriceOpen": 87.25,
-        "upriceClose": 83.84
+        "upriceClose": 83.84,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224230690479529",
@@ -1872,7 +2100,10 @@
         "created": "2022-12-28T15:45:06.904Z",
         "status": "closed",
         "upriceOpen": 75.25,
-        "upriceClose": 73.66
+        "upriceClose": 73.66,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167182021259965059",
@@ -1946,7 +2177,10 @@
         "created": "2022-12-23T18:30:12.599Z",
         "status": "closed",
         "upriceOpen": 70.81,
-        "upriceClose": 70.05
+        "upriceClose": 70.05,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167217031226027493",
@@ -2020,7 +2254,10 @@
         "created": "2022-12-27T19:45:12.260Z",
         "status": "closed",
         "upriceOpen": 75.38,
-        "upriceClose": 74.22
+        "upriceClose": 74.22,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167182020666871555",
@@ -2094,7 +2331,10 @@
         "created": "2022-12-23T18:30:06.668Z",
         "status": "closed",
         "upriceOpen": 86.73,
-        "upriceClose": 86.95
+        "upriceClose": 86.95,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167182021036859057",
@@ -2168,7 +2408,10 @@
         "created": "2022-12-23T18:30:10.368Z",
         "status": "closed",
         "upriceOpen": 75.12,
-        "upriceClose": 75.66
+        "upriceClose": 75.66,
+        "botId": "BOTdJANovrzd4116718191611369765",
+        "botName": "Ελπις (Elpis) [ XLE | XLP | XLU ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673624718371603106",
@@ -2243,7 +2486,10 @@
         "created": "2023-01-13T15:45:18.371Z",
         "status": "closed",
         "upriceOpen": 107.56,
-        "upriceClose": 106.69
+        "upriceClose": 106.69,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd10167405313085061423",
@@ -2318,7 +2564,10 @@
         "created": "2023-01-18T14:45:30.850Z",
         "status": "closed",
         "upriceOpen": 108.47,
-        "upriceClose": 106.66
+        "upriceClose": 106.66,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167422772334321264",
@@ -2393,7 +2642,10 @@
         "created": "2023-01-20T15:15:23.343Z",
         "status": "closed",
         "upriceOpen": 87.98,
-        "upriceClose": 90.03
+        "upriceClose": 90.03,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167422682307169943",
@@ -2468,7 +2720,10 @@
         "created": "2023-01-20T15:00:23.071Z",
         "status": "closed",
         "upriceOpen": 70.42,
-        "upriceClose": 70.52
+        "upriceClose": 70.52,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167354101255288694",
@@ -2543,7 +2798,10 @@
         "created": "2023-01-12T16:30:12.552Z",
         "status": "closed",
         "upriceOpen": 89.52,
-        "upriceClose": 89.16
+        "upriceClose": 89.16,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd2167241330983801313",
@@ -2618,7 +2876,10 @@
         "created": "2022-12-30T15:15:09.838Z",
         "status": "closed",
         "upriceOpen": 68.97,
-        "upriceClose": 71.33
+        "upriceClose": 71.33,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673631918267007278",
@@ -2693,7 +2954,10 @@
         "created": "2023-01-13T17:45:18.267Z",
         "status": "closed",
         "upriceOpen": 89.85,
-        "upriceClose": 87.69
+        "upriceClose": 87.69,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673631918819116280",
@@ -2768,7 +3032,10 @@
         "created": "2023-01-13T17:45:18.819Z",
         "status": "closed",
         "upriceOpen": 69.58,
-        "upriceClose": 70.13
+        "upriceClose": 70.13,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd18167396672746985622",
@@ -2843,7 +3110,10 @@
         "created": "2023-01-17T14:45:27.469Z",
         "status": "closed",
         "upriceOpen": 70.96,
-        "upriceClose": 70.65
+        "upriceClose": 70.65,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167276251893193688",
@@ -2918,7 +3188,10 @@
         "created": "2023-01-03T16:15:18.931Z",
         "status": "closed",
         "upriceOpen": 68.86,
-        "upriceClose": 69.5
+        "upriceClose": 69.5,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd28167336281397764526",
@@ -2993,7 +3266,10 @@
         "created": "2023-01-10T15:00:13.977Z",
         "status": "closed",
         "upriceOpen": 104.5,
-        "upriceClose": 107.66
+        "upriceClose": 107.66,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327641545710929",
@@ -3068,7 +3344,10 @@
         "created": "2023-01-09T15:00:15.457Z",
         "status": "closed",
         "upriceOpen": 67.12,
-        "upriceClose": 69.53
+        "upriceClose": 69.53,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224050708653215",
@@ -3143,7 +3422,10 @@
         "created": "2022-12-28T15:15:07.086Z",
         "status": "closed",
         "upriceOpen": 84.59,
-        "upriceClose": 90.19
+        "upriceClose": 90.19,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327552096651314",
@@ -3218,7 +3500,10 @@
         "created": "2023-01-09T14:45:20.966Z",
         "status": "closed",
         "upriceOpen": 104.44,
-        "upriceClose": 107.59
+        "upriceClose": 107.59,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167284440897375225",
@@ -3293,7 +3578,10 @@
         "created": "2023-01-04T15:00:08.973Z",
         "status": "closed",
         "upriceOpen": 103.28,
-        "upriceClose": 107.35
+        "upriceClose": 107.35,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd37167344832516225414",
@@ -3368,7 +3656,10 @@
         "created": "2023-01-11T14:45:25.162Z",
         "status": "closed",
         "upriceOpen": 88.02,
-        "upriceClose": 89.52
+        "upriceClose": 89.52,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224051789726519",
@@ -3443,7 +3734,10 @@
         "created": "2022-12-28T15:15:17.897Z",
         "status": "closed",
         "upriceOpen": 100.3,
-        "upriceClose": 104.73
+        "upriceClose": 104.73,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167275712312496814",
@@ -3517,7 +3811,10 @@
         "pnl": 54,
         "created": "2023-01-03T14:45:23.125Z",
         "status": "closed",
-        "upriceOpen": 85.31
+        "upriceOpen": 85.31,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd2167242140814280351",
@@ -3592,7 +3889,10 @@
         "created": "2022-12-30T17:30:08.142Z",
         "status": "closed",
         "upriceOpen": 84.13,
-        "upriceClose": 86.16
+        "upriceClose": 86.16,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21672427718351423114",
@@ -3667,7 +3967,10 @@
         "created": "2022-12-30T19:15:18.351Z",
         "status": "closed",
         "upriceOpen": 99.78,
-        "upriceClose": 103.1
+        "upriceClose": 103.1,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd2167242141690483254",
@@ -3742,7 +4045,10 @@
         "created": "2022-12-30T17:30:16.904Z",
         "status": "closed",
         "upriceOpen": 99.52,
-        "upriceClose": 103.09
+        "upriceClose": 103.09,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167217030596214492",
@@ -3816,7 +4122,10 @@
         "created": "2022-12-27T19:45:05.962Z",
         "status": "closed",
         "upriceOpen": 84.22,
-        "upriceClose": 83.73
+        "upriceClose": 83.73,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167182021286633560",
@@ -3890,7 +4199,10 @@
         "created": "2022-12-23T18:30:12.866Z",
         "status": "closed",
         "upriceOpen": 102.16,
-        "upriceClose": 99.8
+        "upriceClose": 99.8,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167216851711891980",
@@ -3964,7 +4276,10 @@
         "created": "2022-12-27T19:15:17.119Z",
         "status": "closed",
         "upriceOpen": 100.16,
-        "upriceClose": 100.09
+        "upriceClose": 100.09,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167182020706741056",
@@ -4038,7 +4353,10 @@
         "created": "2022-12-23T18:30:07.067Z",
         "status": "closed",
         "upriceOpen": 84.3,
-        "upriceClose": 84.27
+        "upriceClose": 84.27,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167216851110100379",
@@ -4112,7 +4430,10 @@
         "created": "2022-12-27T19:15:11.101Z",
         "status": "closed",
         "upriceOpen": 69.58,
-        "upriceClose": 69.18
+        "upriceClose": 69.18,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167182021037762258",
@@ -4186,7 +4507,10 @@
         "created": "2022-12-23T18:30:10.377Z",
         "status": "closed",
         "upriceOpen": 69.31,
-        "upriceClose": 69.18
+        "upriceClose": 69.18,
+        "botId": "BOTdJANovrzd4116718191703991406",
+        "botName": "Ελπις (Elpis) [ IYR | USO | TLT ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd10167405315501468626",
@@ -4261,7 +4585,10 @@
         "created": "2023-01-18T14:45:55.014Z",
         "status": "closed",
         "upriceOpen": 31.8,
-        "upriceClose": 32.41
+        "upriceClose": 32.41,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd36167414222479552979",
@@ -4336,7 +4663,10 @@
         "created": "2023-01-19T15:30:24.795Z",
         "status": "closed",
         "upriceOpen": 98.44,
-        "upriceClose": 100.65
+        "upriceClose": 100.65,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673633719105353333",
@@ -4411,7 +4741,10 @@
         "created": "2023-01-13T18:15:19.105Z",
         "status": "closed",
         "upriceOpen": 138.86,
-        "upriceClose": 141.03
+        "upriceClose": 141.03,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd131674229523986811103",
@@ -4486,7 +4819,10 @@
         "created": "2023-01-20T15:45:23.986Z",
         "status": "closed",
         "upriceOpen": 31.96,
-        "upriceClose": 32.41
+        "upriceClose": 32.41,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd10167405313079108922",
@@ -4561,7 +4897,10 @@
         "created": "2023-01-18T14:45:30.791Z",
         "status": "closed",
         "upriceOpen": 141.24,
-        "upriceClose": 141.08
+        "upriceClose": 141.08,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd10167405314307106625",
@@ -4636,7 +4975,10 @@
         "created": "2023-01-18T14:45:43.071Z",
         "status": "closed",
         "upriceOpen": 101.9,
-        "upriceClose": 100.63
+        "upriceClose": 100.63,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673632819510336306",
@@ -4711,7 +5053,10 @@
         "created": "2023-01-13T18:00:19.510Z",
         "status": "closed",
         "upriceOpen": 32.7,
-        "upriceClose": 32.02
+        "upriceClose": 32.02,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd37167344832517245215",
@@ -4786,7 +5131,10 @@
         "created": "2023-01-11T14:45:25.172Z",
         "status": "closed",
         "upriceOpen": 101.7,
-        "upriceClose": 98.9
+        "upriceClose": 98.9,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd44167301901189675855",
@@ -4861,7 +5209,10 @@
         "created": "2023-01-06T15:30:11.896Z",
         "status": "closed",
         "upriceOpen": 31.34,
-        "upriceClose": 32.64
+        "upriceClose": 32.64,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd44167301900809465454",
@@ -4936,7 +5287,10 @@
         "created": "2023-01-06T15:30:08.094Z",
         "status": "closed",
         "upriceOpen": 100.07,
-        "upriceClose": 102.32
+        "upriceClose": 102.32,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327821527773856",
@@ -5011,7 +5365,10 @@
         "created": "2023-01-09T15:30:15.277Z",
         "status": "closed",
         "upriceOpen": 134.37,
-        "upriceClose": 138.81
+        "upriceClose": 138.81,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327641546786330",
@@ -5086,7 +5443,10 @@
         "created": "2023-01-09T15:00:15.467Z",
         "status": "closed",
         "upriceOpen": 31.66,
-        "upriceClose": 32.55
+        "upriceClose": 32.55,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd281673373610482847183",
@@ -5161,7 +5521,10 @@
         "created": "2023-01-10T18:00:10.482Z",
         "status": "closed",
         "upriceOpen": 31.57,
-        "upriceClose": 32.55
+        "upriceClose": 32.55,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd44167302170763784695",
@@ -5236,7 +5599,10 @@
         "created": "2023-01-06T16:15:07.637Z",
         "status": "closed",
         "upriceOpen": 130.32,
-        "upriceClose": 138.45
+        "upriceClose": 138.45,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21167232960967877732",
@@ -5311,7 +5677,10 @@
         "created": "2022-12-29T16:00:09.678Z",
         "status": "closed",
         "upriceOpen": 129.44,
-        "upriceClose": 138.43
+        "upriceClose": 138.43,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd2116723251133621016",
@@ -5386,7 +5755,10 @@
         "created": "2022-12-29T14:45:13.362Z",
         "status": "closed",
         "upriceOpen": 29.18,
-        "upriceClose": 31.62
+        "upriceClose": 31.62,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224050762339216",
@@ -5461,7 +5833,10 @@
         "created": "2022-12-28T15:15:07.623Z",
         "status": "closed",
         "upriceOpen": 98.72,
-        "upriceClose": 100.34
+        "upriceClose": 100.34,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167275712325694515",
@@ -5536,7 +5911,10 @@
         "created": "2023-01-03T14:45:23.256Z",
         "status": "closed",
         "upriceOpen": 29.95,
-        "upriceClose": 31.45
+        "upriceClose": 31.45,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21167232601078423712",
@@ -5611,7 +5989,10 @@
         "created": "2022-12-29T15:00:10.784Z",
         "status": "closed",
         "upriceOpen": 98.16,
-        "upriceClose": 99.88
+        "upriceClose": 99.88,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224860549509158",
@@ -5686,7 +6067,10 @@
         "created": "2022-12-28T17:30:05.495Z",
         "status": "closed",
         "upriceOpen": 126.22,
-        "upriceClose": 128.63
+        "upriceClose": 128.63,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd2167242140817256952",
@@ -5761,7 +6145,10 @@
         "created": "2022-12-30T17:30:08.172Z",
         "status": "closed",
         "upriceOpen": 98.05,
-        "upriceClose": 99.7
+        "upriceClose": 99.7,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167275891429694840",
@@ -5836,7 +6223,10 @@
         "created": "2023-01-03T15:15:14.297Z",
         "status": "closed",
         "upriceOpen": 128.01,
-        "upriceClose": 128.3
+        "upriceClose": 128.3,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224051849030520",
@@ -5911,7 +6301,10 @@
         "created": "2022-12-28T15:15:18.490Z",
         "status": "closed",
         "upriceOpen": 29.18,
-        "upriceClose": 30.7
+        "upriceClose": 30.7,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167216941670537187",
@@ -5985,7 +6378,10 @@
         "created": "2022-12-27T19:30:16.705Z",
         "status": "closed",
         "upriceOpen": 29.55,
-        "upriceClose": 28.59
+        "upriceClose": 28.59,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167216850573428278",
@@ -6059,7 +6455,10 @@
         "created": "2022-12-27T19:15:05.734Z",
         "status": "closed",
         "upriceOpen": 128,
-        "upriceClose": 128.49
+        "upriceClose": 128.49,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd5167163662534300012",
@@ -6133,7 +6532,10 @@
         "created": "2022-12-21T15:30:25.343Z",
         "status": "closed",
         "upriceOpen": 60.14,
-        "upriceClose": 60.23
+        "upriceClose": 60.23,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167216940621144486",
@@ -6207,7 +6609,10 @@
         "created": "2022-12-27T19:30:06.211Z",
         "status": "closed",
         "upriceOpen": 98.45,
-        "upriceClose": 98.12
+        "upriceClose": 98.12,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167181300690598044",
@@ -6281,7 +6686,10 @@
         "created": "2022-12-23T16:30:06.906Z",
         "status": "closed",
         "upriceOpen": 266.03,
-        "upriceClose": 263.98
+        "upriceClose": 263.98,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167181120620661037",
@@ -6355,7 +6763,10 @@
         "created": "2022-12-23T16:00:06.206Z",
         "status": "closed",
         "upriceOpen": 380.7,
-        "upriceClose": 381.67
+        "upriceClose": 381.67,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167180850708092914",
@@ -6429,7 +6840,10 @@
         "created": "2022-12-23T15:15:07.081Z",
         "status": "closed",
         "upriceOpen": 379.63,
-        "upriceClose": 381.65
+        "upriceClose": 381.65,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd516716366128888855",
@@ -6503,7 +6917,10 @@
         "created": "2022-12-21T15:30:12.888Z",
         "status": "closed",
         "upriceOpen": 175.5,
-        "upriceClose": 173.94
+        "upriceClose": 173.94,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd171671558320068645143",
@@ -6577,7 +6994,10 @@
         "created": "2022-12-20T17:45:20.068Z",
         "status": "expired",
         "upriceOpen": 134.56,
-        "upriceClose": 134.99
+        "upriceClose": 134.99,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154841514779131",
@@ -6651,7 +7071,10 @@
         "created": "2022-12-20T15:00:15.147Z",
         "status": "closed",
         "upriceOpen": 33.64,
-        "upriceClose": 33.97
+        "upriceClose": 33.97,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154753914013312",
@@ -6724,7 +7147,10 @@
         "pnl": 81,
         "created": "2022-12-20T14:45:39.140Z",
         "status": "closed",
-        "upriceOpen": 133.91
+        "upriceOpen": 133.91,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154842348810234",
@@ -6797,7 +7223,10 @@
         "pnl": -222,
         "created": "2022-12-20T15:00:23.488Z",
         "status": "closed",
-        "upriceOpen": 66.21
+        "upriceOpen": 66.21,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154755515505815",
@@ -6871,7 +7300,10 @@
         "created": "2022-12-20T14:45:55.155Z",
         "status": "closed",
         "upriceOpen": 79,
-        "upriceClose": 80.41
+        "upriceClose": 80.41,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd1716715475143717197",
@@ -6945,7 +7377,10 @@
         "created": "2022-12-20T14:45:14.371Z",
         "status": "closed",
         "upriceOpen": 171.47,
-        "upriceClose": 173.24
+        "upriceClose": 173.24,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd171671558310789530133",
@@ -7019,7 +7454,10 @@
         "created": "2022-12-20T17:45:10.789Z",
         "status": "closed",
         "upriceOpen": 173.09,
-        "upriceClose": 173.75
+        "upriceClose": 173.75,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154756810337418",
@@ -7093,7 +7531,10 @@
         "created": "2022-12-20T14:46:08.103Z",
         "status": "closed",
         "upriceOpen": 103.3,
-        "upriceClose": 102.47
+        "upriceClose": 102.47,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167155291556729284",
@@ -7167,7 +7608,10 @@
         "created": "2022-12-20T16:15:15.567Z",
         "status": "closed",
         "upriceOpen": 59.39,
-        "upriceClose": 60.11
+        "upriceClose": 60.11,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd171671558319898610141",
@@ -7241,7 +7685,10 @@
         "created": "2022-12-20T17:45:19.898Z",
         "status": "closed",
         "upriceOpen": 59.39,
-        "upriceClose": 60.13
+        "upriceClose": 60.13,
+        "botId": "BOTdJANovrzd42167151952209125928",
+        "botName": "Ελπις (Elpis) [ XLY | XLI | GDX ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167422682306109441",
@@ -7316,7 +7763,10 @@
         "created": "2023-01-20T15:00:23.061Z",
         "status": "closed",
         "upriceOpen": 34.95,
-        "upriceClose": 35.88
+        "upriceClose": 35.88,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd131674233121908762183",
@@ -7391,7 +7841,10 @@
         "created": "2023-01-20T16:45:21.908Z",
         "status": "closed",
         "upriceOpen": 129.49,
-        "upriceClose": 134.18
+        "upriceClose": 134.18,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd10167405492553460568",
@@ -7466,7 +7919,10 @@
         "created": "2023-01-18T15:15:25.534Z",
         "status": "closed",
         "upriceOpen": 134.94,
-        "upriceClose": 133.06
+        "upriceClose": 133.06,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd361674143123448538102",
@@ -7541,7 +7997,10 @@
         "created": "2023-01-19T15:45:23.448Z",
         "status": "closed",
         "upriceOpen": 132.93,
-        "upriceClose": 133.05
+        "upriceClose": 133.05,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd18167396672746111621",
@@ -7616,7 +8075,10 @@
         "created": "2023-01-17T14:45:27.461Z",
         "status": "closed",
         "upriceOpen": 130.75,
-        "upriceClose": 129.75
+        "upriceClose": 129.75,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673640017203209496",
@@ -7691,7 +8153,10 @@
         "created": "2023-01-13T20:00:17.203Z",
         "status": "closed",
         "upriceOpen": 130.14,
-        "upriceClose": 129.69
+        "upriceClose": 129.69,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd291673552718391904285",
@@ -7766,7 +8231,10 @@
         "created": "2023-01-12T19:45:18.391Z",
         "status": "closed",
         "upriceOpen": 130.16,
-        "upriceClose": 129.7
+        "upriceClose": 129.7,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673631918335988279",
@@ -7841,7 +8309,10 @@
         "created": "2023-01-13T17:45:18.336Z",
         "status": "closed",
         "upriceOpen": 135.5,
-        "upriceClose": 133.03
+        "upriceClose": 133.03,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd18167396852279132163",
@@ -7916,7 +8387,10 @@
         "created": "2023-01-17T15:15:22.791Z",
         "status": "closed",
         "upriceOpen": 35.97,
-        "upriceClose": 34.73
+        "upriceClose": 34.73,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd181673632819438203305",
@@ -7991,7 +8465,10 @@
         "created": "2023-01-13T18:00:19.438Z",
         "status": "closed",
         "upriceOpen": 36,
-        "upriceClose": 34.75
+        "upriceClose": 34.75,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21672432215896464177",
@@ -8066,7 +8543,10 @@
         "created": "2022-12-30T20:30:15.896Z",
         "status": "closed",
         "upriceOpen": 34.03,
-        "upriceClose": 35.94
+        "upriceClose": 35.94,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd44167301990721266468",
@@ -8141,7 +8621,10 @@
         "created": "2023-01-06T15:45:07.212Z",
         "status": "closed",
         "upriceOpen": 134.63,
-        "upriceClose": 135.24
+        "upriceClose": 135.24,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327552089652013",
@@ -8216,7 +8699,10 @@
         "created": "2023-01-09T14:45:20.896Z",
         "status": "closed",
         "upriceOpen": 126.56,
-        "upriceClose": 130.07
+        "upriceClose": 130.07,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd25167327554099965815",
@@ -8291,7 +8777,10 @@
         "created": "2023-01-09T14:45:40.999Z",
         "status": "closed",
         "upriceOpen": 135.64,
-        "upriceClose": 135.38
+        "upriceClose": 135.38,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21167232691091469918",
@@ -8366,7 +8855,10 @@
         "created": "2022-12-29T15:15:10.914Z",
         "status": "closed",
         "upriceOpen": 136.53,
-        "upriceClose": 134.75
+        "upriceClose": 134.75,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd251673295312470353286",
@@ -8441,7 +8933,10 @@
         "created": "2023-01-09T20:15:12.470Z",
         "status": "closed",
         "upriceOpen": 35.3,
-        "upriceClose": 35.28
+        "upriceClose": 35.28,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd441673023506540609123",
@@ -8516,7 +9011,10 @@
         "created": "2023-01-06T16:45:06.540Z",
         "status": "closed",
         "upriceOpen": 123.19,
-        "upriceClose": 130.05
+        "upriceClose": 130.05,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21167232781161188123",
@@ -8591,7 +9089,10 @@
         "created": "2022-12-29T15:30:11.611Z",
         "status": "closed",
         "upriceOpen": 124.19,
-        "upriceClose": 130.01
+        "upriceClose": 130.01,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd13167275712312255813",
@@ -8666,7 +9167,10 @@
         "created": "2023-01-03T14:45:23.122Z",
         "status": "closed",
         "upriceOpen": 34.56,
-        "upriceClose": 35.75
+        "upriceClose": 35.75,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd21672429515571830140",
@@ -8741,7 +9245,10 @@
         "created": "2022-12-30T19:45:15.571Z",
         "status": "closed",
         "upriceOpen": 123.15,
-        "upriceClose": 123.23
+        "upriceClose": 123.23,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224050680068513",
@@ -8816,7 +9323,10 @@
         "created": "2022-12-28T15:15:06.800Z",
         "status": "closed",
         "upriceOpen": 123.85,
-        "upriceClose": 123.03
+        "upriceClose": 123.03,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd2167242140834761353",
@@ -8891,7 +9401,10 @@
         "created": "2022-12-30T17:30:08.347Z",
         "status": "closed",
         "upriceOpen": 135.01,
-        "upriceClose": 134.62
+        "upriceClose": 134.62,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd43167224051777645317",
@@ -8966,7 +9479,10 @@
         "created": "2022-12-28T15:15:17.776Z",
         "status": "closed",
         "upriceOpen": 136.61,
-        "upriceClose": 133.93
+        "upriceClose": 133.93,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167181030561128329",
@@ -9040,7 +9556,10 @@
         "created": "2022-12-23T15:45:05.611Z",
         "status": "closed",
         "upriceOpen": 59.59,
-        "upriceClose": 60.25
+        "upriceClose": 60.25,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd41167180850716670316",
@@ -9114,7 +9633,10 @@
         "created": "2022-12-23T15:15:07.166Z",
         "status": "closed",
         "upriceOpen": 59.19,
-        "upriceClose": 60.25
+        "upriceClose": 60.25,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd5167163662447849610",
@@ -9188,7 +9710,10 @@
         "created": "2022-12-21T15:30:24.478Z",
         "status": "closed",
         "upriceOpen": 60.86,
-        "upriceClose": 60.16
+        "upriceClose": 60.16,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd29167216850572465977",
@@ -9262,7 +9787,10 @@
         "created": "2022-12-27T19:15:05.724Z",
         "status": "closed",
         "upriceOpen": 123.41,
-        "upriceClose": 123.15
+        "upriceClose": 123.15,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd516716366131858826",
@@ -9336,7 +9864,10 @@
         "created": "2022-12-21T15:30:13.185Z",
         "status": "closed",
         "upriceOpen": 135.89,
-        "upriceClose": 135.7
+        "upriceClose": 135.7,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd171671558316660409136",
@@ -9409,7 +9940,10 @@
         "pnl": 48,
         "created": "2022-12-20T17:45:16.660Z",
         "status": "closed",
-        "upriceOpen": 134.55
+        "upriceOpen": 134.55,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd171671558319738686137",
@@ -9483,7 +10017,10 @@
         "created": "2022-12-20T17:45:19.738Z",
         "status": "closed",
         "upriceOpen": 33.61,
-        "upriceClose": 33.97
+        "upriceClose": 33.97,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd1716715475380757899",
@@ -9557,7 +10094,10 @@
         "created": "2022-12-20T14:45:38.075Z",
         "status": "closed",
         "upriceOpen": 33.59,
-        "upriceClose": 33.97
+        "upriceClose": 33.97,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd1716715475141856776",
@@ -9630,7 +10170,10 @@
         "pnl": 81,
         "created": "2022-12-20T14:45:14.185Z",
         "status": "closed",
-        "upriceOpen": 133.91
+        "upriceOpen": 133.91,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154841166769027",
@@ -9703,7 +10246,10 @@
         "pnl": -224,
         "created": "2022-12-20T15:00:11.667Z",
         "status": "closed",
-        "upriceOpen": 66.15
+        "upriceOpen": 66.15,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154755402123913",
@@ -9777,7 +10323,10 @@
         "created": "2022-12-20T14:45:54.021Z",
         "status": "closed",
         "upriceOpen": 78.98,
-        "upriceClose": 80.41
+        "upriceClose": 80.41,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154757368169519",
@@ -9851,7 +10400,10 @@
         "created": "2022-12-20T14:46:13.681Z",
         "status": "closed",
         "upriceOpen": 168.26,
-        "upriceClose": 167.47
+        "upriceClose": 167.47,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167154756766621716",
@@ -9925,7 +10477,10 @@
         "created": "2022-12-20T14:46:07.666Z",
         "status": "closed",
         "upriceOpen": 103.3,
-        "upriceClose": 102.47
+        "upriceClose": 102.47,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd17167155291083331180",
@@ -9999,7 +10554,10 @@
         "created": "2022-12-20T16:15:10.833Z",
         "status": "closed",
         "upriceOpen": 59.39,
-        "upriceClose": 60.11
+        "upriceClose": 60.11,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     },
     {
         "id": "dJANovrzd171671558310449504131",
@@ -10073,6 +10631,9 @@
         "created": "2022-12-20T17:45:10.449Z",
         "status": "closed",
         "upriceOpen": 59.34,
-        "upriceClose": 60.13
+        "upriceClose": 60.13,
+        "botId": "BOTdJANovrzd42167151953183069929",
+        "botName": "Ελπις (Elpis) [ XLK | XLF | XLV ]",
+        "botIcon": "fas-box-open bg-orange"
     }
 ]
