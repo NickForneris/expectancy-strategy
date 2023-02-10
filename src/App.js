@@ -250,7 +250,6 @@ function App() {
           <td className='align-middle text-center'>{moment(pos.openDate).format('MMM D HH:mm')}</td>
           <td className='align-middle text-center'>{moment(pos.closeDate).format('MMM D HH:mm')}</td>
           <td className='align-middle text-center'>{dollarUS.format(pos.draw)}</td>
-          <td className='align-middle text-center'>{dollarUS.format("25")}</td>
           <td className={`align-middle text-center ${pos.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(pos.pnl)}</td>
         </tr>
       )
@@ -265,7 +264,6 @@ function App() {
       <tr>
         <td className='align-middle' colSpan='3'>TOTALS: {closedPositionCount} Closed Positions</td>
         <td className='align-middle text-center'>{dollarUS.format(risk)}</td>
-        <td className='align-middle text-center'>{dollarUS.format(target)}</td>
         <td className={`align-middle text-center ${pnl < 0 ? "red" : "green"}`}>{pnl}</td>
       </tr>
     )
@@ -400,7 +398,6 @@ function App() {
                       <th className="text-center align-middle">OPEN DATE</th>
                       <th className="text-center align-middle">CLOSED DATE</th>
                       <th className="text-center align-middle">CAP RISKED</th>
-                      <th className="text-center align-middle">TARGET P/L</th>
                       <th className="text-center align-middle">P/L</th>
                     </tr>
                   </thead>
