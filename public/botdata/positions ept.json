@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "dJANovrzd301676652598716529196",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": 67.06,
+    "changePct": 0.55421488,
+    "multiplier": 100,
+    "oid": "WMT_ironcondor_022423C150_022423C147_022423P138_022423P141",
+    "symbol": "WMT",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (WMT, Feb 24, +138 put, -141 put, -147 call, +150 call)",
+    "expiration": "2023-02-24T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 55%",
+      "dtype": "short",
+      "epsdays": 0,
+      "expdays": 0,
+      "pretext": "",
+      "profits": 0.55,
+      "stoploss": 0,
+      "smprofits": "normal"
+    },
+    "ndate": 20230224,
+    "quantity": 1,
+    "active": 1,
+    "text": "+138 put, -141 put, -147 call, +150 call",
+    "openDate": "2023-02-17T16:50:09.562Z",
+    "openPrice": 1.79,
+    "closePrice": 0,
+    "cost": -179,
+    "pnl": 54,
+    "draw": 121,
+    "value": -125,
+    "gain": 0.30167598,
+    "priceChange": -0.54,
+    "priceChangePct": -0.30167598,
+    "ror": 0.44628099,
+    "currentPrice": 1.25,
+    "totalPnl": 54,
+    "trail": {
+      "pnl": {
+        "low": -17,
+        "high": 95,
+        "hdate": "2023-02-21T14:51:00.365Z",
+        "ldate": "2023-02-17T20:58:00.490Z"
+      },
+      "ror": {
+        "low": -0.14049587,
+        "high": 0.78512397,
+        "hdate": "2023-02-21T14:51:00.365Z",
+        "ldate": "2023-02-17T20:58:00.490Z"
+      },
+      "draw": {
+        "low": 121,
+        "high": 121,
+        "hdate": "2023-02-17T16:50:09.774Z",
+        "ldate": "2023-02-17T16:50:09.774Z"
+      },
+      "gain": {
+        "low": -0.09497207,
+        "high": 0.53072626,
+        "hdate": "2023-02-21T14:51:00.365Z",
+        "ldate": "2023-02-17T20:58:00.490Z"
+      },
+      "price": {
+        "low": 0.84,
+        "high": 1.96,
+        "hdate": "2023-02-17T20:58:00.490Z",
+        "ldate": "2023-02-21T14:51:00.365Z"
+      },
+      "value": {
+        "low": -196,
+        "high": -84,
+        "hdate": "2023-02-21T14:51:00.365Z",
+        "ldate": "2023-02-17T20:58:00.490Z"
+      },
+      "quantity": {
+        "low": 1,
+        "high": 1,
+        "hdate": "2023-02-17T16:50:09.774Z",
+        "ldate": "2023-02-17T16:50:09.774Z"
+      }
+    },
+    "maintenance": 300,
+    "upriceOpen": 145.25,
+    "delta": -0.26049563,
+    "theta": 0.06412792,
+    "gamma": -0.03442224,
+    "vega": -0.02351563,
+    "days": 3,
+    "bid": 1.2,
+    "ask": 1.33,
+    "markClose": 1.25,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "WMT",
+      "description": "Wal Mart Stores Inc",
+      "last": 147.385,
+      "change": 0.945,
+      "changePercent": 0.00645315,
+      "bid": 147.38,
+      "ask": 147.39,
+      "open": 142.88,
+      "high": 148.34,
+      "low": 142.15,
+      "close": 146.44,
+      "sd": 0.01057968,
+      "av": 0.16794721,
+      "edays": 0
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd30167664572595680324",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": 569.29,
+    "changePct": 0.62353779,
+    "multiplier": 100,
+    "oid": "OIH_ironcondor_031023C347.5_031023C335_031023P287.5_031023P292.5",
+    "symbol": "OIH",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (OIH, Mar 10, +287.50 put, -292.50 put, -335 call, +347.50 call)",
+    "expiration": "2023-03-10T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 40%",
+      "dtype": "short",
+      "epsdays": 0,
+      "expdays": 0,
+      "pretext": "",
+      "profits": 0.4,
+      "stoploss": 0,
+      "smprofits": "normal"
+    },
+    "ndate": 20230310,
+    "quantity": 1,
+    "active": 1,
+    "text": "+287.50 put, -292.50 put, -335 call, +347.50 call",
+    "openDate": "2023-02-17T14:55:37.201Z",
+    "openPrice": 3.37,
+    "closePrice": 0,
+    "cost": -337,
+    "pnl": 77,
+    "draw": 913,
+    "value": -260,
+    "gain": 0.22848665,
+    "priceChange": -0.77,
+    "priceChangePct": -0.22848665,
+    "ror": 0.08433735,
+    "currentPrice": 2.6,
+    "totalPnl": 77,
+    "trail": {
+      "pnl": {
+        "low": -61,
+        "high": 87,
+        "hdate": "2023-02-21T20:42:00.111Z",
+        "ldate": "2023-02-17T15:23:00.197Z"
+      },
+      "ror": {
+        "low": -0.06681271,
+        "high": 0.09529025,
+        "hdate": "2023-02-21T20:42:00.111Z",
+        "ldate": "2023-02-17T15:23:00.197Z"
+      },
+      "draw": {
+        "low": 913,
+        "high": 913,
+        "hdate": "2023-02-17T14:55:37.112Z",
+        "ldate": "2023-02-17T14:55:37.112Z"
+      },
+      "gain": {
+        "low": -0.1810089,
+        "high": 0.25816024,
+        "hdate": "2023-02-21T20:42:00.111Z",
+        "ldate": "2023-02-17T15:23:00.197Z"
+      },
+      "price": {
+        "low": 2.5,
+        "high": 3.98,
+        "hdate": "2023-02-17T15:23:00.197Z",
+        "ldate": "2023-02-21T20:42:00.111Z"
+      },
+      "value": {
+        "low": -398,
+        "high": -250,
+        "hdate": "2023-02-21T20:42:00.111Z",
+        "ldate": "2023-02-17T15:23:00.197Z"
+      },
+      "quantity": {
+        "low": 1,
+        "high": 1,
+        "hdate": "2023-02-17T14:55:37.112Z",
+        "ldate": "2023-02-17T14:55:37.112Z"
+      }
+    },
+    "maintenance": 1250,
+    "upriceOpen": 316.2,
+    "delta": -0.03402832,
+    "theta": 0.09657013,
+    "gamma": -0.00534129,
+    "vega": -0.09609269,
+    "days": 17,
+    "bid": 1.9,
+    "ask": 3.3,
+    "markClose": 2.6,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "OIH",
+      "description": "VanEck Vectors Oil Services ETF",
+      "last": 307.38,
+      "change": -5.1,
+      "changePercent": -0.01632104,
+      "bid": 307.34,
+      "ask": 307.5,
+      "open": 310.81,
+      "high": 316.02,
+      "low": 306.44,
+      "close": 312.48,
+      "sd": 0.02065397,
+      "av": 0.32787161
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd30167664551631514023",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": 897.12,
+    "changePct": 1.54943005,
+    "multiplier": 100,
+    "oid": "OIH_ironcondor_032423C347.5_032423C335_032423P280_032423P292.5",
+    "symbol": "OIH",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (OIH, Mar 24, +280 put, -292.50 put, -335 call, +347.50 call)",
+    "expiration": "2023-03-24T20:00:00.000Z",
+    "exits": {
+      "text": "Profits: 25%",
+      "dtype": "short",
+      "epsdays": 0,
+      "expdays": 0,
+      "pretext": "",
+      "profits": 0.25,
+      "stoploss": 0,
+      "smprofits": "normal"
+    },
+    "ndate": 20230324,
+    "quantity": 1,
+    "active": 1,
+    "text": "+280 put, -292.50 put, -335 call, +347.50 call",
+    "openDate": "2023-02-17T14:52:07.498Z",
+    "openPrice": 6.71,
+    "closePrice": 0,
+    "cost": -671,
+    "pnl": 118,
+    "draw": 579,
+    "value": -553,
+    "gain": 0.17585693,
+    "priceChange": -1.18,
+    "priceChangePct": -0.17585693,
+    "ror": 0.20379965,
+    "currentPrice": 5.53,
+    "totalPnl": 118,
+    "trail": {
+      "pnl": {
+        "low": -17,
+        "high": 139,
+        "hdate": "2023-02-21T20:09:00.029Z",
+        "ldate": "2023-02-17T14:56:00.116Z"
+      },
+      "ror": {
+        "low": -0.02936097,
+        "high": 0.24006908,
+        "hdate": "2023-02-21T20:09:00.029Z",
+        "ldate": "2023-02-17T14:56:00.116Z"
+      },
+      "draw": {
+        "low": 579,
+        "high": 579,
+        "hdate": "2023-02-17T14:52:07.585Z",
+        "ldate": "2023-02-17T14:52:07.585Z"
+      },
+      "gain": {
+        "low": -0.02533532,
+        "high": 0.2071535,
+        "hdate": "2023-02-21T20:09:00.029Z",
+        "ldate": "2023-02-17T14:56:00.116Z"
+      },
+      "price": {
+        "low": 5.32,
+        "high": 6.88,
+        "hdate": "2023-02-17T14:56:00.116Z",
+        "ldate": "2023-02-21T20:09:00.029Z"
+      },
+      "value": {
+        "low": -688,
+        "high": -532,
+        "hdate": "2023-02-21T20:09:00.029Z",
+        "ldate": "2023-02-17T14:56:00.116Z"
+      },
+      "quantity": {
+        "low": 1,
+        "high": 1,
+        "hdate": "2023-02-17T14:52:07.585Z",
+        "ldate": "2023-02-17T14:52:07.585Z"
+      }
+    },
+    "maintenance": 1250,
+    "upriceOpen": 316.87,
+    "delta": 0.00951187,
+    "theta": 0.07361739,
+    "gamma": -0.00405929,
+    "vega": -0.1291851,
+    "days": 31,
+    "bid": 4.5,
+    "ask": 6.55,
+    "markClose": 5.53,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "OIH",
+      "description": "VanEck Vectors Oil Services ETF",
+      "last": 307.38,
+      "change": -5.1,
+      "changePercent": -0.01632104,
+      "bid": 307.34,
+      "ask": 307.5,
+      "open": 310.81,
+      "high": 316.02,
+      "low": 306.44,
+      "close": 312.48,
+      "sd": 0.02065397,
+      "av": 0.32787161
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd471676054770995483375",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": -5,
+    "changePct": -0.0203252,
+    "tags": "",
+    "multiplier": 100,
+    "oid": "TGT_ironcondor_030323C185_030323C180_030323P155_030323P160",
+    "symbol": "TGT",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (TGT, Mar 3, +155 put, -160 put, -180 call, +185 call)",
+    "expiration": "2023-03-03T21:00:00.000Z",
+    "exits": {
+      "text": "Profits: 40%",
+      "dtype": "short",
+      "epsdays": 0,
+      "expdays": 0,
+      "pretext": "",
+      "profits": 0.4,
+      "stoploss": 0,
+      "smprofits": "normal"
+    },
+    "ndate": 20230303,
+    "quantity": 1,
+    "active": 1,
+    "text": "+155 put, -160 put, -180 call, +185 call",
+    "openDate": "2023-02-10T18:46:22.053Z",
+    "openPrice": 2.54,
+    "closePrice": 0,
+    "cost": -254,
+    "pnl": 9,
+    "draw": 246,
+    "value": -245,
+    "gain": 0.03543307,
+    "priceChange": -0.09,
+    "priceChangePct": -0.03543307,
+    "ror": 0.03658537,
+    "currentPrice": 2.45,
+    "totalPnl": 9,
+    "trail": {
+      "pnl": {
+        "low": -26,
+        "high": 32,
+        "hdate": "2023-02-21T14:43:00.419Z",
+        "ldate": "2023-02-16T19:05:00.308Z"
+      },
+      "ror": {
+        "low": -0.10569106,
+        "high": 0.1300813,
+        "hdate": "2023-02-21T14:43:00.419Z",
+        "ldate": "2023-02-16T19:05:00.308Z"
+      },
+      "draw": {
+        "low": 246,
+        "high": 246,
+        "hdate": "2023-02-10T18:46:21.930Z",
+        "ldate": "2023-02-10T18:46:21.930Z"
+      },
+      "gain": {
+        "low": -0.1023622,
+        "high": 0.12598425,
+        "hdate": "2023-02-21T14:43:00.419Z",
+        "ldate": "2023-02-16T19:05:00.308Z"
+      },
+      "price": {
+        "low": 2.22,
+        "high": 2.8,
+        "hdate": "2023-02-16T19:05:00.308Z",
+        "ldate": "2023-02-21T14:43:00.419Z"
+      },
+      "value": {
+        "low": -280,
+        "high": -222,
+        "hdate": "2023-02-21T14:43:00.419Z",
+        "ldate": "2023-02-16T19:05:00.308Z"
+      },
+      "quantity": {
+        "low": 1,
+        "high": 1,
+        "hdate": "2023-02-10T18:46:21.930Z",
+        "ldate": "2023-02-10T18:46:21.930Z"
+      }
+    },
+    "maintenance": 500,
+    "upriceOpen": 170.63,
+    "delta": 0.0141887,
+    "theta": 0.0849224,
+    "gamma": -0.00652241,
+    "vega": -0.03359735,
+    "days": 10,
+    "bid": 2.27,
+    "ask": 2.63,
+    "markClose": 2.45,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "TGT",
+      "description": "Target Corp",
+      "last": 166.925,
+      "change": -6.295,
+      "changePercent": -0.03634107,
+      "bid": 166.91,
+      "ask": 166.95,
+      "open": 169.52,
+      "high": 170.99,
+      "low": 166.84,
+      "close": 173.22,
+      "sd": 0.01518737,
+      "av": 0.24109202,
+      "edays": 7
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd471676056809248944417",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": 102.41,
+    "changePct": 0.27236702,
+    "tags": "",
+    "multiplier": 100,
+    "oid": "SPY_ironcondor_031723C418_031723C410_031723P361_031723P369",
+    "symbol": "SPY",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (SPY, Mar 17, +361 put, -369 put, -410 call, +418 call)",
+    "expiration": "2023-03-17T20:00:00.000Z",
+    "exits": {
+      "text": "Profits: 45%",
+      "dtype": "short",
+      "epsdays": 0,
+      "expdays": 0,
+      "pretext": "",
+      "profits": 0.45,
+      "stoploss": 0,
+      "smprofits": "normal"
+    },
+    "ndate": 20230317,
+    "quantity": 1,
+    "active": 1,
+    "text": "+361 put, -369 put, -410 call, +418 call",
+    "openDate": "2023-02-10T19:20:41.893Z",
+    "openPrice": 4.24,
+    "closePrice": 0,
+    "cost": -424,
+    "pnl": 143,
+    "draw": 376,
+    "value": -281,
+    "gain": 0.33726415,
+    "priceChange": -1.43,
+    "priceChangePct": -0.33726415,
+    "ror": 0.38031915,
+    "currentPrice": 2.81,
+    "totalPnl": 143,
+    "trail": {
+      "pnl": {
+        "low": -90,
+        "high": 146,
+        "hdate": "2023-02-21T19:53:00.085Z",
+        "ldate": "2023-02-14T15:13:00.161Z"
+      },
+      "ror": {
+        "low": -0.2393617,
+        "high": 0.38829787,
+        "hdate": "2023-02-21T19:53:00.085Z",
+        "ldate": "2023-02-14T15:13:00.161Z"
+      },
+      "draw": {
+        "low": 376,
+        "high": 376,
+        "hdate": "2023-02-10T19:20:41.853Z",
+        "ldate": "2023-02-10T19:20:41.853Z"
+      },
+      "gain": {
+        "low": -0.21226415,
+        "high": 0.34433962,
+        "hdate": "2023-02-21T19:53:00.085Z",
+        "ldate": "2023-02-14T15:13:00.161Z"
+      },
+      "price": {
+        "low": 2.78,
+        "high": 5.14,
+        "hdate": "2023-02-14T15:13:00.161Z",
+        "ldate": "2023-02-21T19:53:00.085Z"
+      },
+      "value": {
+        "low": -514,
+        "high": -278,
+        "hdate": "2023-02-21T19:53:00.085Z",
+        "ldate": "2023-02-14T15:13:00.161Z"
+      },
+      "quantity": {
+        "low": 1,
+        "high": 1,
+        "hdate": "2023-02-10T19:20:41.853Z",
+        "ldate": "2023-02-10T19:20:41.853Z"
+      }
+    },
+    "maintenance": 800,
+    "upriceOpen": 406.83,
+    "delta": -0.11043894,
+    "theta": 0.0709451,
+    "gamma": -0.00640322,
+    "vega": -0.16552928,
+    "days": 24,
+    "bid": 2.79,
+    "ask": 2.85,
+    "markClose": 2.81,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "SPY",
+      "description": "SPDR S&P 500 ETF Trust",
+      "last": 399.835,
+      "change": -7.425,
+      "changePercent": -0.0182316,
+      "bid": 399.84,
+      "ask": 399.85,
+      "open": 403.06,
+      "high": 404.16,
+      "low": 398.82,
+      "close": 407.26,
+      "sd": 0.00970263,
+      "av": 0.15402448
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd471676055578279981376",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": 68,
+    "changePct": 0.13793103,
+    "tags": "",
+    "multiplier": 100,
+    "oid": "TGT_ironcondor_031723C185_031723C175_031723P145_031723P155",
+    "symbol": "TGT",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (TGT, Mar 17, +145 put, -155 put, -175 call, +185 call)",
+    "expiration": "2023-03-17T20:00:00.000Z",
+    "exits": {
+      "text": "Profits: 30%",
+      "dtype": "short",
+      "epsdays": 0,
+      "expdays": 0,
+      "pretext": "",
+      "profits": 0.3,
+      "stoploss": 0,
+      "smprofits": "normal"
+    },
+    "ndate": 20230317,
+    "quantity": 1,
+    "active": 1,
+    "text": "+145 put, -155 put, -175 call, +185 call",
+    "openDate": "2023-02-10T18:59:49.255Z",
+    "openPrice": 5.07,
+    "closePrice": 0,
+    "cost": -507,
+    "pnl": 40,
+    "draw": 493,
+    "value": -467,
+    "gain": 0.07889546,
+    "priceChange": -0.4,
+    "priceChangePct": -0.07889546,
+    "ror": 0.0811359,
+    "currentPrice": 4.67,
+    "totalPnl": 40,
+    "trail": {
+      "pnl": {
+        "low": -79,
+        "high": 44,
+        "hdate": "2023-02-21T19:26:00.038Z",
+        "ldate": "2023-02-16T17:53:00.265Z"
+      },
+      "ror": {
+        "low": -0.16024341,
+        "high": 0.08924949,
+        "hdate": "2023-02-21T19:26:00.038Z",
+        "ldate": "2023-02-16T17:53:00.265Z"
+      },
+      "draw": {
+        "low": 493,
+        "high": 493,
+        "hdate": "2023-02-10T18:59:49.565Z",
+        "ldate": "2023-02-10T18:59:49.565Z"
+      },
+      "gain": {
+        "low": -0.15581854,
+        "high": 0.08678501,
+        "hdate": "2023-02-21T19:26:00.038Z",
+        "ldate": "2023-02-16T17:53:00.265Z"
+      },
+      "price": {
+        "low": 4.63,
+        "high": 5.86,
+        "hdate": "2023-02-16T17:53:00.265Z",
+        "ldate": "2023-02-21T19:26:00.038Z"
+      },
+      "value": {
+        "low": -586,
+        "high": -463,
+        "hdate": "2023-02-21T19:26:00.038Z",
+        "ldate": "2023-02-16T17:53:00.265Z"
+      },
+      "quantity": {
+        "low": 1,
+        "high": 1,
+        "hdate": "2023-02-10T18:59:49.565Z",
+        "ldate": "2023-02-10T18:59:49.565Z"
+      }
+    },
+    "maintenance": 1000,
+    "upriceOpen": 170.44,
+    "delta": -0.04246836,
+    "theta": 0.07866864,
+    "gamma": -0.00940486,
+    "vega": -0.0863193,
+    "days": 24,
+    "bid": 4.47,
+    "ask": 4.85,
+    "markClose": 4.67,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "TGT",
+      "description": "Target Corp",
+      "last": 166.925,
+      "change": -6.295,
+      "changePercent": -0.03634107,
+      "bid": 166.91,
+      "ask": 166.95,
+      "open": 169.52,
+      "high": 170.99,
+      "low": 166.84,
+      "close": 173.22,
+      "sd": 0.01518737,
+      "av": 0.24109202,
+      "edays": 7
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd9167699412572974485",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": -6,
+    "changePct": -0.01001669,
+    "multiplier": 100,
+    "oid": "BA_ironcondor_032423C225_032423C215_032423P180_032423P190",
+    "symbol": "BA",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (BA, Mar 24, +180 put, -190 put, -215 call, +225 call)",
+    "expiration": "2023-03-24T20:00:00.000Z",
+    "exits": {
+      "profits": 0.25,
+      "smprofits": "normal",
+      "stoploss": 0,
+      "expdays": 0,
+      "epsdays": 0,
+      "pretext": "",
+      "text": "Profits: 25%",
+      "dtype": "short"
+    },
+    "ndate": 20230324,
+    "quantity": 1,
+    "active": 1,
+    "text": "+180 put, -190 put, -215 call, +225 call",
+    "openDate": "2023-02-21T15:42:16.945Z",
+    "openPrice": 4.01,
+    "closePrice": 0,
+    "cost": -401,
+    "pnl": -6,
+    "draw": 599,
+    "value": -407,
+    "gain": -0.01496259,
+    "priceChange": 0.06,
+    "priceChangePct": 0.01496259,
+    "ror": -0.01001669,
+    "currentPrice": 4.07,
+    "totalPnl": -6,
+    "trail": {
+      "quantity": {
+        "high": 1,
+        "hdate": "2023-02-21T15:42:16.817Z",
+        "low": 1,
+        "ldate": "2023-02-21T15:42:16.817Z"
+      },
+      "price": {
+        "high": 4.23,
+        "hdate": "2023-02-21T16:04:00.319Z",
+        "low": 3.95,
+        "ldate": "2023-02-21T19:18:00.455Z"
+      },
+      "gain": {
+        "high": 0.01496259,
+        "hdate": "2023-02-21T19:18:00.455Z",
+        "low": -0.05486284,
+        "ldate": "2023-02-21T16:04:00.319Z"
+      },
+      "draw": {
+        "high": 599,
+        "hdate": "2023-02-21T15:42:16.817Z",
+        "low": 599,
+        "ldate": "2023-02-21T15:42:16.817Z"
+      },
+      "pnl": {
+        "high": 6,
+        "hdate": "2023-02-21T19:18:00.455Z",
+        "low": -22,
+        "ldate": "2023-02-21T16:04:00.319Z"
+      },
+      "ror": {
+        "high": 0.01001669,
+        "hdate": "2023-02-21T19:18:00.455Z",
+        "low": -0.03672788,
+        "ldate": "2023-02-21T16:04:00.319Z"
+      },
+      "value": {
+        "high": -395,
+        "hdate": "2023-02-21T19:18:00.455Z",
+        "low": -423,
+        "ldate": "2023-02-21T16:04:00.319Z"
+      }
+    },
+    "maintenance": 1000,
+    "upriceOpen": 206.97,
+    "delta": -0.06737694,
+    "theta": 0.06439297,
+    "gamma": -0.00960417,
+    "vega": -0.12443172,
+    "days": 31,
+    "bid": 3.68,
+    "ask": 4.44,
+    "markClose": 4.07,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "BA",
+      "description": "Boeing Co",
+      "last": 206.06,
+      "change": -5.6,
+      "changePercent": -0.02645753,
+      "bid": 206.06,
+      "ask": 206.09,
+      "open": 208.99,
+      "high": 210.84,
+      "low": 205.05,
+      "close": 211.66,
+      "sd": 0.01413875,
+      "av": 0.2244457,
+      "edays": 64
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd91676994816256141107",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": 33,
+    "changePct": 0.04471545,
+    "multiplier": 100,
+    "oid": "SPY_ironcondor_032423C420_032423C408_032423P382_032423P384",
+    "symbol": "SPY",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (SPY, Mar 24, +382 put, -384 put, -408 call, +420 call)",
+    "expiration": "2023-03-24T20:00:00.000Z",
+    "exits": {
+      "profits": 0.3,
+      "smprofits": "normal",
+      "stoploss": 0,
+      "expdays": 0,
+      "epsdays": 0,
+      "pretext": "",
+      "text": "Profits: 30%",
+      "dtype": "short"
+    },
+    "ndate": 20230324,
+    "quantity": 1,
+    "active": 1,
+    "text": "+382 put, -384 put, -408 call, +420 call",
+    "openDate": "2023-02-21T15:53:47.049Z",
+    "openPrice": 4.62,
+    "closePrice": 0,
+    "cost": -462,
+    "pnl": 33,
+    "draw": 738,
+    "value": -429,
+    "gain": 0.07142857,
+    "priceChange": -0.33,
+    "priceChangePct": -0.07142857,
+    "ror": 0.04471545,
+    "currentPrice": 4.29,
+    "totalPnl": 33,
+    "trail": {
+      "quantity": {
+        "high": 1,
+        "hdate": "2023-02-21T15:53:47.191Z",
+        "low": 1,
+        "ldate": "2023-02-21T15:53:47.191Z"
+      },
+      "price": {
+        "high": 4.69,
+        "hdate": "2023-02-21T16:01:00.284Z",
+        "low": 4.19,
+        "ldate": "2023-02-21T19:25:00.026Z"
+      },
+      "gain": {
+        "high": 0.09307359,
+        "hdate": "2023-02-21T19:25:00.026Z",
+        "low": -0.01515152,
+        "ldate": "2023-02-21T16:01:00.284Z"
+      },
+      "draw": {
+        "high": 738,
+        "hdate": "2023-02-21T15:53:47.191Z",
+        "low": 738,
+        "ldate": "2023-02-21T15:53:47.191Z"
+      },
+      "pnl": {
+        "high": 43,
+        "hdate": "2023-02-21T19:25:00.026Z",
+        "low": -7,
+        "ldate": "2023-02-21T16:01:00.284Z"
+      },
+      "ror": {
+        "high": 0.05826558,
+        "hdate": "2023-02-21T19:25:00.026Z",
+        "low": -0.00948509,
+        "ldate": "2023-02-21T16:01:00.284Z"
+      },
+      "value": {
+        "high": -419,
+        "hdate": "2023-02-21T19:25:00.026Z",
+        "low": -469,
+        "ldate": "2023-02-21T16:01:00.284Z"
+      }
+    },
+    "maintenance": 1200,
+    "upriceOpen": 401.37,
+    "delta": -0.1807871,
+    "theta": 0.05816859,
+    "gamma": -0.00468495,
+    "vega": -0.1657947,
+    "days": 31,
+    "bid": 4.25,
+    "ask": 4.35,
+    "markClose": 4.29,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "SPY",
+      "description": "SPDR S&P 500 ETF Trust",
+      "last": 399.835,
+      "change": -7.425,
+      "changePercent": -0.0182316,
+      "bid": 399.84,
+      "ask": 399.85,
+      "open": 403.06,
+      "high": 404.16,
+      "low": 398.82,
+      "close": 407.26,
+      "sd": 0.00970263,
+      "av": 0.15402448
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd91676999428069376213",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": 8,
+    "changePct": 0.02730375,
+    "multiplier": 100,
+    "oid": "DIA_ironcondor_032423C346_032423C340_032423P317_032423P323",
+    "symbol": "DIA",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (DIA, Mar 24, +317 put, -323 put, -340 call, +346 call)",
+    "expiration": "2023-03-24T20:00:00.000Z",
+    "exits": {
+      "profits": 0.5,
+      "smprofits": "normal",
+      "stoploss": 0,
+      "expdays": 0,
+      "epsdays": 0,
+      "pretext": "",
+      "text": "Profits: 50%",
+      "dtype": "short"
+    },
+    "ndate": 20230324,
+    "quantity": 1,
+    "active": 1,
+    "text": "+317 put, -323 put, -340 call, +346 call",
+    "openDate": "2023-02-21T17:10:39.290Z",
+    "openPrice": 3.07,
+    "closePrice": 0,
+    "cost": -307,
+    "pnl": 8,
+    "draw": 293,
+    "value": -299,
+    "gain": 0.02605863,
+    "priceChange": -0.08,
+    "priceChangePct": -0.02605863,
+    "ror": 0.02730375,
+    "currentPrice": 2.99,
+    "totalPnl": 8,
+    "trail": {
+      "quantity": {
+        "high": 1,
+        "hdate": "2023-02-21T17:10:39.255Z",
+        "low": 1,
+        "ldate": "2023-02-21T17:10:39.255Z"
+      },
+      "price": {
+        "high": 3.14,
+        "hdate": "2023-02-21T17:21:00.356Z",
+        "low": 2.93,
+        "ldate": "2023-02-21T19:38:00.482Z"
+      },
+      "gain": {
+        "high": 0.04560261,
+        "hdate": "2023-02-21T19:38:00.482Z",
+        "low": -0.0228013,
+        "ldate": "2023-02-21T17:21:00.356Z"
+      },
+      "draw": {
+        "high": 293,
+        "hdate": "2023-02-21T17:10:39.255Z",
+        "low": 293,
+        "ldate": "2023-02-21T17:10:39.255Z"
+      },
+      "pnl": {
+        "high": 14,
+        "hdate": "2023-02-21T19:38:00.482Z",
+        "low": -7,
+        "ldate": "2023-02-21T17:21:00.356Z"
+      },
+      "ror": {
+        "high": 0.04778157,
+        "hdate": "2023-02-21T19:38:00.482Z",
+        "low": -0.02389078,
+        "ldate": "2023-02-21T17:21:00.356Z"
+      },
+      "value": {
+        "high": -293,
+        "hdate": "2023-02-21T19:38:00.482Z",
+        "low": -314,
+        "ldate": "2023-02-21T17:21:00.356Z"
+      }
+    },
+    "maintenance": 600,
+    "upriceOpen": 332.77,
+    "delta": -0.0450266,
+    "theta": 0.03689002,
+    "gamma": -0.00841637,
+    "vega": -0.1449731,
+    "days": 31,
+    "bid": 2.84,
+    "ask": 3.13,
+    "markClose": 2.99,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "DIA",
+      "description": "SPDR Dow Jones Industrial Average ETF Trust",
+      "last": 331.95,
+      "change": -6.34,
+      "changePercent": -0.01874132,
+      "bid": 331.91,
+      "ask": 331.94,
+      "open": 334.72,
+      "high": 335.94,
+      "low": 331.1,
+      "close": 338.29,
+      "sd": 0.00761131,
+      "av": 0.1208258
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  },
+  {
+    "id": "dJANovrzd91676999487326047214",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd216753049876224682",
+    "accountId": "sim1716747472358625671",
+    "change": -2,
+    "changePct": -0.00696864,
+    "multiplier": 100,
+    "oid": "V_ironcondor_033123C235_033123C230_033123P205_033123P210",
+    "symbol": "V",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (V, Mar 31, +205 put, -210 put, -230 call, +235 call)",
+    "expiration": "2023-03-31T20:00:00.000Z",
+    "exits": {
+      "profits": 0.5,
+      "smprofits": "normal",
+      "stoploss": 0,
+      "expdays": 0,
+      "epsdays": 0,
+      "pretext": "",
+      "text": "Profits: 50%",
+      "dtype": "short"
+    },
+    "ndate": 20230331,
+    "quantity": 1,
+    "active": 1,
+    "text": "+205 put, -210 put, -230 call, +235 call",
+    "openDate": "2023-02-21T17:11:38.344Z",
+    "openPrice": 2.13,
+    "closePrice": 0,
+    "cost": -213,
+    "pnl": -2,
+    "draw": 287,
+    "value": -215,
+    "gain": -0.00938967,
+    "priceChange": 0.02,
+    "priceChangePct": 0.00938967,
+    "ror": -0.00696864,
+    "currentPrice": 2.15,
+    "totalPnl": -2,
+    "trail": {
+      "quantity": {
+        "high": 1,
+        "hdate": "2023-02-21T17:11:38.264Z",
+        "low": 1,
+        "ldate": "2023-02-21T17:11:38.264Z"
+      },
+      "price": {
+        "high": 2.23,
+        "hdate": "2023-02-21T17:42:00.110Z",
+        "low": 2.09,
+        "ldate": "2023-02-21T19:58:00.147Z"
+      },
+      "gain": {
+        "high": 0.01877934,
+        "hdate": "2023-02-21T19:58:00.147Z",
+        "low": -0.04694836,
+        "ldate": "2023-02-21T17:42:00.110Z"
+      },
+      "draw": {
+        "high": 287,
+        "hdate": "2023-02-21T17:11:38.264Z",
+        "low": 287,
+        "ldate": "2023-02-21T17:11:38.264Z"
+      },
+      "pnl": {
+        "high": 4,
+        "hdate": "2023-02-21T19:58:00.147Z",
+        "low": -10,
+        "ldate": "2023-02-21T17:42:00.110Z"
+      },
+      "ror": {
+        "high": 0.01393728,
+        "hdate": "2023-02-21T19:58:00.147Z",
+        "low": -0.03484321,
+        "ldate": "2023-02-21T17:42:00.110Z"
+      },
+      "value": {
+        "high": -209,
+        "hdate": "2023-02-21T19:58:00.147Z",
+        "low": -223,
+        "ldate": "2023-02-21T17:42:00.110Z"
+      }
+    },
+    "maintenance": 500,
+    "upriceOpen": 220.68,
+    "delta": -0.0307801,
+    "theta": 0.02546921,
+    "gamma": -0.00830453,
+    "vega": -0.0953343,
+    "days": 38,
+    "bid": 1.82,
+    "ask": 2.46,
+    "markClose": 2.15,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "V",
+      "description": "Visa Inc",
+      "last": 220.64,
+      "change": -2.92,
+      "changePercent": -0.01306137,
+      "bid": 220.63,
+      "ask": 220.66,
+      "open": 220.16,
+      "high": 222.44,
+      "low": 219.99,
+      "close": 223.56,
+      "sd": 0.00930134,
+      "av": 0.14765419,
+      "edays": 64
+    },
+    "bot": {
+      "id": "BOTdJANovrzd216753049876224682",
+      "name": "Ελπις (Elpis) [EPT]",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim1716747472358625671"
+    }
+  }
+]
