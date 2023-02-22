@@ -6,7 +6,8 @@ import {
   Col,
   Row,
   Button,
-  ButtonGroup
+  ButtonGroup,
+  Dropdown
 } from 'react-bootstrap';
 import './App.css';
 import moment from 'moment';
@@ -21,6 +22,9 @@ function App() {
   const [showBot, setShowBot] = useState(true)
   const [showCurPos, setShowCurPos] = useState(false)
   const [showClosed, setShowClosed] = useState(false)
+
+  const [selectedStrat, setSelectedStrat] = useState('Elpis Auto Expectancy');
+  const stratNames = ['Elpis Auto Expectancy', 'Elpis Trade Ideas'];
 
   const toggleShowBot = () => {
     setShowBot(!showBot)
@@ -38,9 +42,9 @@ function App() {
     setShowBot(false)
   };
 
-  const bots = process.env.PUBLIC_URL + '/botdata/bots.json'
-  const positions = process.env.PUBLIC_URL + '/botdata/positions.json'
-  const closed = process.env.PUBLIC_URL + '/botdata/closed.json'
+  const bots = process.env.PUBLIC_URL + '/botdata/'+ selectedStrat + ' Total.json'
+  const positions = process.env.PUBLIC_URL + '/botdata/'+ selectedStrat + ' Open.json'
+  const closed = process.env.PUBLIC_URL + '/botdata/'+ selectedStrat + ' Closed.json'
 
   useEffect(() => {
     fetch(bots)
@@ -60,7 +64,7 @@ function App() {
             setClosedData(data)
           )
       )
-  }, [bots, closed, positions])
+  }, [bots, closed, positions, selectedStrat])
 
   const dollarUS = Intl.NumberFormat("en-US", {
     style: "currency",
@@ -70,6 +74,7 @@ function App() {
   let categories = []
   let seriesDataPL = []
   let seriesDataTarget = []
+  let ept = selectedStrat === "Elpis Trade Ideas" ? 50 : 25
 
   const buildChart = () => {
 
@@ -84,7 +89,7 @@ function App() {
       return [...acc, currentValue + acc[currentIndex - 1]];
     }, [])
 
-    seriesDataTarget = Array.from(closedValuesTarget.map(({ quantity }) => quantity * 25)).reduce((acc, currentValue, currentIndex) => {
+    seriesDataTarget = Array.from(closedValuesTarget.map(({ quantity }) => quantity * ept)).reduce((acc, currentValue, currentIndex) => {
       if (currentIndex === 0) {
         return [currentValue];
       }
@@ -111,7 +116,7 @@ function App() {
             }
           ]
         },
-          chart: {
+        chart: {
           id: 'area',
           type: 'area',
           foreColor: '#fff',
@@ -161,7 +166,7 @@ function App() {
     }
     return (
       <div className="pl-chart mb-3 text-white">
-        Ελπις (Elpis): Expectancy Strategy
+        {selectedStrat}
         <Chart
           options={chartData.options}
           series={chartData.series}
@@ -317,11 +322,29 @@ function App() {
 
   return (
     <>
-      <Navbar bg="dark" sticky="top">
-        <Container fluid>
-          <Navbar.Brand className="text-light p-0"><span><img src={process.env.PUBLIC_URL + "/OptionsAnalyzerS.png"} alt="logo - target with arrow" className="mt-1 mb-2" style={{ width: "2.25em" }} />&nbsp;<Button className="b-color mt-2 mb-2 p-2 text-center" href="https://optionalpha.com/">Data Sourced from Option Alpha</Button></span></Navbar.Brand>
-        </Container>
-      </Navbar>
+<Navbar bg="dark" sticky="top">
+  <Container fluid>
+    <Navbar.Brand className="text-light p-0" style={{ display: "flex", alignItems: "center" }}>
+      <img src={process.env.PUBLIC_URL + "/OptionsAnalyzerS.png"} alt="logo - target with arrow" className="mt-1 mb-2" style={{ width: "2.25em" }} />
+      <Button className="b-color m-2 p-2 text-center mr-auto" href="https://optionalpha.com/">Data Sourced from Option Alpha</Button>
+      <Dropdown>
+        <Dropdown.Toggle variant="primary" id="bot-select" className="b-color m-2 p-2 text-center">
+          {selectedStrat}
+        </Dropdown.Toggle>
+        <Dropdown.Menu>
+          {stratNames.map((strat) => (
+            <Dropdown.Item
+              key={strat}
+              onClick={() => setSelectedStrat(strat)}
+            >
+              {strat}
+            </Dropdown.Item>
+          ))}
+        </Dropdown.Menu>
+      </Dropdown>
+    </Navbar.Brand>
+  </Container>
+</Navbar>
 
       <Container fluid>
         <Row className="overflow-hidden">
