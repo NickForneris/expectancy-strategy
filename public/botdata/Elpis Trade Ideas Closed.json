@@ -1,5 +1,322 @@
 [
     {
+        "id": "dJANovrzd471676056809248944417",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd216753049876224682",
+        "oid": "SPY_ironcondor_031723C418_031723C410_031723P361_031723P369",
+        "tags": "",
+        "accountId": "sim1716747472358625671",
+        "trail": {
+            "pnl": {
+                "low": -90,
+                "high": 194,
+                "hdate": "2023-02-23T16:22:00.361Z",
+                "ldate": "2023-02-14T15:13:00.161Z"
+            },
+            "ror": {
+                "low": -0.2393617,
+                "high": 0.51595745,
+                "hdate": "2023-02-23T16:22:00.361Z",
+                "ldate": "2023-02-14T15:13:00.161Z"
+            },
+            "draw": {
+                "low": 376,
+                "high": 376,
+                "hdate": "2023-02-10T19:20:41.853Z",
+                "ldate": "2023-02-10T19:20:41.853Z"
+            },
+            "gain": {
+                "low": -0.21226415,
+                "high": 0.45754717,
+                "hdate": "2023-02-23T16:22:00.361Z",
+                "ldate": "2023-02-14T15:13:00.161Z"
+            },
+            "price": {
+                "low": 2.3,
+                "high": 5.14,
+                "hdate": "2023-02-14T15:13:00.161Z",
+                "ldate": "2023-02-23T16:22:00.361Z"
+            },
+            "value": {
+                "low": -514,
+                "high": -230,
+                "hdate": "2023-02-23T16:22:00.361Z",
+                "ldate": "2023-02-14T15:13:00.161Z"
+            },
+            "quantity": {
+                "low": 1,
+                "high": 1,
+                "hdate": "2023-02-10T19:20:41.853Z",
+                "ldate": "2023-02-10T19:20:41.853Z"
+            }
+        },
+        "symbol": "SPY",
+        "draw": 376,
+        "quantity": 1,
+        "text": "+361 put, -369 put, -410 call, +418 call",
+        "exits": {
+            "text": "Profits: 45%",
+            "dtype": "short",
+            "epsdays": 0,
+            "expdays": 0,
+            "pretext": "",
+            "profits": 0.45,
+            "stoploss": 0,
+            "smprofits": "normal"
+        },
+        "expiration": "2023-03-17T20:00:00.000Z",
+        "openDate": "2023-02-10T19:20:41.893Z",
+        "closeDate": "2023-02-23T16:22:22.403Z",
+        "openPrice": 4.24,
+        "closePrice": 2.32,
+        "cost": -424,
+        "pnl": 192,
+        "created": "2023-02-10T19:20:09.249Z",
+        "status": "closed",
+        "upriceOpen": 406.83,
+        "upriceClose": 398.13,
+        "botId": "BOTdJANovrzd216753049876224682",
+        "botName": "Ελπις (Elpis) [EPT]",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
+        "id": "dJANovrzd30167664551631514023",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd216753049876224682",
+        "oid": "OIH_ironcondor_032423C347.5_032423C335_032423P280_032423P292.5",
+        "accountId": "sim1716747472358625671",
+        "trail": {
+            "pnl": {
+                "low": -17,
+                "high": 176,
+                "hdate": "2023-02-23T16:00:00.220Z",
+                "ldate": "2023-02-17T14:56:00.116Z"
+            },
+            "ror": {
+                "low": -0.02936097,
+                "high": 0.30397237,
+                "hdate": "2023-02-23T16:00:00.220Z",
+                "ldate": "2023-02-17T14:56:00.116Z"
+            },
+            "draw": {
+                "low": 579,
+                "high": 579,
+                "hdate": "2023-02-17T14:52:07.585Z",
+                "ldate": "2023-02-17T14:52:07.585Z"
+            },
+            "gain": {
+                "low": -0.02533532,
+                "high": 0.26229508,
+                "hdate": "2023-02-23T16:00:00.220Z",
+                "ldate": "2023-02-17T14:56:00.116Z"
+            },
+            "price": {
+                "low": 4.95,
+                "high": 6.88,
+                "hdate": "2023-02-17T14:56:00.116Z",
+                "ldate": "2023-02-23T16:00:00.220Z"
+            },
+            "value": {
+                "low": -688,
+                "high": -495,
+                "hdate": "2023-02-23T16:00:00.220Z",
+                "ldate": "2023-02-17T14:56:00.116Z"
+            },
+            "quantity": {
+                "low": 1,
+                "high": 1,
+                "hdate": "2023-02-17T14:52:07.585Z",
+                "ldate": "2023-02-17T14:52:07.585Z"
+            }
+        },
+        "symbol": "OIH",
+        "draw": 579,
+        "quantity": 1,
+        "text": "+280 put, -292.50 put, -335 call, +347.50 call",
+        "exits": {
+            "text": "Profits: 25%",
+            "dtype": "short",
+            "epsdays": 0,
+            "expdays": 0,
+            "pretext": "",
+            "profits": 0.25,
+            "stoploss": 0,
+            "smprofits": "normal"
+        },
+        "expiration": "2023-03-24T20:00:00.000Z",
+        "openDate": "2023-02-17T14:52:07.498Z",
+        "closeDate": "2023-02-23T16:00:30.368Z",
+        "openPrice": 6.71,
+        "closePrice": 4.99,
+        "cost": -671,
+        "pnl": 172,
+        "created": "2023-02-17T14:51:56.315Z",
+        "status": "closed",
+        "upriceOpen": 316.87,
+        "upriceClose": 303.81,
+        "botId": "BOTdJANovrzd216753049876224682",
+        "botName": "Ελπις (Elpis) [EPT]",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
+        "id": "dJANovrzd30167664572595680324",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd216753049876224682",
+        "oid": "OIH_ironcondor_031023C347.5_031023C335_031023P287.5_031023P292.5",
+        "accountId": "sim1716747472358625671",
+        "trail": {
+            "pnl": {
+                "low": -61,
+                "high": 206,
+                "hdate": "2023-02-23T14:40:00.284Z",
+                "ldate": "2023-02-17T15:23:00.197Z"
+            },
+            "ror": {
+                "low": -0.06681271,
+                "high": 0.22562979,
+                "hdate": "2023-02-23T14:40:00.284Z",
+                "ldate": "2023-02-17T15:23:00.197Z"
+            },
+            "draw": {
+                "low": 913,
+                "high": 913,
+                "hdate": "2023-02-17T14:55:37.112Z",
+                "ldate": "2023-02-17T14:55:37.112Z"
+            },
+            "gain": {
+                "low": -0.1810089,
+                "high": 0.61127596,
+                "hdate": "2023-02-23T14:40:00.284Z",
+                "ldate": "2023-02-17T15:23:00.197Z"
+            },
+            "price": {
+                "low": 1.31,
+                "high": 3.98,
+                "hdate": "2023-02-17T15:23:00.197Z",
+                "ldate": "2023-02-23T14:40:00.284Z"
+            },
+            "value": {
+                "low": -398,
+                "high": -131,
+                "hdate": "2023-02-23T14:40:00.284Z",
+                "ldate": "2023-02-17T15:23:00.197Z"
+            },
+            "quantity": {
+                "low": 1,
+                "high": 1,
+                "hdate": "2023-02-17T14:55:37.112Z",
+                "ldate": "2023-02-17T14:55:37.112Z"
+            }
+        },
+        "symbol": "OIH",
+        "draw": 913,
+        "quantity": 1,
+        "text": "+287.50 put, -292.50 put, -335 call, +347.50 call",
+        "exits": {
+            "text": "Profits: 40%",
+            "dtype": "short",
+            "epsdays": 0,
+            "expdays": 0,
+            "pretext": "",
+            "profits": 0.4,
+            "stoploss": 0,
+            "smprofits": "normal"
+        },
+        "expiration": "2023-03-10T21:00:00.000Z",
+        "openDate": "2023-02-17T14:55:37.201Z",
+        "closeDate": "2023-02-23T14:40:03.450Z",
+        "openPrice": 3.37,
+        "closePrice": 1.33,
+        "cost": -337,
+        "pnl": 204,
+        "created": "2023-02-17T14:55:25.956Z",
+        "status": "closed",
+        "upriceOpen": 316.2,
+        "upriceClose": 306.3,
+        "botId": "BOTdJANovrzd216753049876224682",
+        "botName": "Ελπις (Elpis) [EPT]",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
+        "id": "dJANovrzd36167707833245269943",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd216753049876224682",
+        "oid": "OIH_ironcondor_022423C315_022423C310_022423P287.5_022423P292.5",
+        "accountId": "sim1716747472358625671",
+        "trail": {
+            "pnl": {
+                "low": -11,
+                "high": 84,
+                "hdate": "2023-02-23T14:40:00.284Z",
+                "ldate": "2023-02-22T15:26:00.042Z"
+            },
+            "ror": {
+                "low": -0.03503185,
+                "high": 0.26751592,
+                "hdate": "2023-02-23T14:40:00.284Z",
+                "ldate": "2023-02-22T15:26:00.042Z"
+            },
+            "draw": {
+                "low": 314,
+                "high": 314,
+                "hdate": "2023-02-22T15:05:43.315Z",
+                "ldate": "2023-02-22T15:05:43.315Z"
+            },
+            "gain": {
+                "low": -0.05913978,
+                "high": 0.4516129,
+                "hdate": "2023-02-23T14:40:00.284Z",
+                "ldate": "2023-02-22T15:26:00.042Z"
+            },
+            "price": {
+                "low": 1.02,
+                "high": 1.97,
+                "hdate": "2023-02-22T15:26:00.042Z",
+                "ldate": "2023-02-23T14:40:00.284Z"
+            },
+            "value": {
+                "low": -197,
+                "high": -102,
+                "hdate": "2023-02-23T14:40:00.284Z",
+                "ldate": "2023-02-22T15:26:00.042Z"
+            },
+            "quantity": {
+                "low": 1,
+                "high": 1,
+                "hdate": "2023-02-22T15:05:43.315Z",
+                "ldate": "2023-02-22T15:05:43.315Z"
+            }
+        },
+        "symbol": "OIH",
+        "draw": 314,
+        "quantity": 1,
+        "text": "+287.50 put, -292.50 put, -310 call, +315 call",
+        "exits": {
+            "text": "Profits: 40%",
+            "dtype": "short",
+            "epsdays": 0,
+            "expdays": 0,
+            "pretext": "",
+            "profits": 0.4,
+            "stoploss": 0,
+            "smprofits": "normal"
+        },
+        "expiration": "2023-02-24T21:00:00.000Z",
+        "openDate": "2023-02-22T15:05:43.714Z",
+        "closeDate": "2023-02-23T14:40:02.450Z",
+        "openPrice": 1.86,
+        "closePrice": 1.06,
+        "cost": -186,
+        "pnl": 80,
+        "created": "2023-02-22T15:05:32.452Z",
+        "status": "closed",
+        "upriceOpen": 301.59,
+        "upriceClose": 306.3,
+        "botId": "BOTdJANovrzd216753049876224682",
+        "botName": "Ελπις (Elpis) [EPT]",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
         "id": "dJANovrzd301676652598716529196",
         "type": "ironcondor",
         "iid": "BOTdJANovrzd216753049876224682",
