@@ -1,5 +1,242 @@
 [
     {
+        "id": "dJANovrzd9167699412572974485",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd216753049876224682",
+        "oid": "BA_ironcondor_032423C225_032423C215_032423P180_032423P190",
+        "accountId": "sim1716747472358625671",
+        "trail": {
+            "pnl": {
+                "low": -22,
+                "high": 104,
+                "hdate": "2023-02-27T14:46:00.177Z",
+                "ldate": "2023-02-21T16:04:00.319Z"
+            },
+            "ror": {
+                "low": -0.03672788,
+                "high": 0.1736227,
+                "hdate": "2023-02-27T14:46:00.177Z",
+                "ldate": "2023-02-21T16:04:00.319Z"
+            },
+            "draw": {
+                "low": 599,
+                "high": 599,
+                "hdate": "2023-02-21T15:42:16.817Z",
+                "ldate": "2023-02-21T15:42:16.817Z"
+            },
+            "gain": {
+                "low": -0.05486284,
+                "high": 0.25935162,
+                "hdate": "2023-02-27T14:46:00.177Z",
+                "ldate": "2023-02-21T16:04:00.319Z"
+            },
+            "price": {
+                "low": 2.97,
+                "high": 4.23,
+                "hdate": "2023-02-21T16:04:00.319Z",
+                "ldate": "2023-02-27T14:46:00.177Z"
+            },
+            "value": {
+                "low": -423,
+                "high": -297,
+                "hdate": "2023-02-27T14:46:00.177Z",
+                "ldate": "2023-02-21T16:04:00.319Z"
+            },
+            "quantity": {
+                "low": 1,
+                "high": 1,
+                "hdate": "2023-02-21T15:42:16.817Z",
+                "ldate": "2023-02-21T15:42:16.817Z"
+            }
+        },
+        "symbol": "BA",
+        "draw": 599,
+        "quantity": 1,
+        "text": "+180 put, -190 put, -215 call, +225 call",
+        "exits": {
+            "text": "Profits: 25%",
+            "dtype": "short",
+            "epsdays": 0,
+            "expdays": 0,
+            "pretext": "",
+            "profits": 0.25,
+            "stoploss": 0,
+            "smprofits": "normal"
+        },
+        "expiration": "2023-03-24T20:00:00.000Z",
+        "openDate": "2023-02-21T15:42:16.945Z",
+        "closeDate": "2023-02-27T14:46:26.592Z",
+        "openPrice": 4.01,
+        "closePrice": 2.99,
+        "cost": -401,
+        "pnl": 102,
+        "created": "2023-02-21T15:42:05.729Z",
+        "status": "closed",
+        "upriceOpen": 206.97,
+        "upriceClose": 199.93,
+        "botId": "BOTdJANovrzd216753049876224682",
+        "botName": "Elpis Hybrid Paper",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
+        "id": "dJANovrzd391677168243245375128",
+        "type": "shortcallspread",
+        "iid": "BOTdJANovrzd216753049876224682",
+        "oid": "AAPL_shortcallspread_040623C160_040623C155",
+        "accountId": "sim1716747472358625671",
+        "trail": {
+            "pnl": {
+                "low": -39,
+                "high": 92,
+                "hdate": "2023-02-24T15:51:00.500Z",
+                "ldate": "2023-02-23T16:21:00.347Z"
+            },
+            "ror": {
+                "low": -0.13131313,
+                "high": 0.30976431,
+                "hdate": "2023-02-24T15:51:00.500Z",
+                "ldate": "2023-02-23T16:21:00.347Z"
+            },
+            "draw": {
+                "low": 297,
+                "high": 297,
+                "hdate": "2023-02-23T16:04:03.643Z",
+                "ldate": "2023-02-23T16:04:03.643Z"
+            },
+            "gain": {
+                "low": -0.19211823,
+                "high": 0.45320197,
+                "hdate": "2023-02-24T15:51:00.500Z",
+                "ldate": "2023-02-23T16:21:00.347Z"
+            },
+            "price": {
+                "low": 1.11,
+                "high": 2.42,
+                "hdate": "2023-02-23T16:21:00.347Z",
+                "ldate": "2023-02-24T15:51:00.500Z"
+            },
+            "value": {
+                "low": -242,
+                "high": -111,
+                "hdate": "2023-02-24T15:51:00.500Z",
+                "ldate": "2023-02-23T16:21:00.347Z"
+            },
+            "quantity": {
+                "low": 1,
+                "high": 1,
+                "hdate": "2023-02-23T16:04:03.643Z",
+                "ldate": "2023-02-23T16:04:03.643Z"
+            }
+        },
+        "symbol": "AAPL",
+        "draw": 297,
+        "quantity": 1,
+        "text": "-155 call, +160 call",
+        "exits": {
+            "text": "Profits: 45%",
+            "dtype": "short",
+            "epsdays": 0,
+            "expdays": 0,
+            "pretext": "",
+            "profits": 0.45,
+            "stoploss": 0,
+            "smprofits": "normal"
+        },
+        "expiration": "2023-04-06T20:00:00.000Z",
+        "openDate": "2023-02-23T16:04:03.505Z",
+        "closeDate": "2023-02-24T17:27:00.515Z",
+        "openPrice": 2.03,
+        "closePrice": 1.12,
+        "cost": -203,
+        "pnl": 91,
+        "created": "2023-02-23T16:04:03.245Z",
+        "status": "closed",
+        "upriceOpen": 148.19,
+        "upriceClose": 146.18,
+        "botId": "BOTdJANovrzd216753049876224682",
+        "botName": "Elpis Hybrid Paper",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
+        "id": "dJANovrzd91676994816256141107",
+        "type": "ironcondor",
+        "iid": "BOTdJANovrzd216753049876224682",
+        "oid": "SPY_ironcondor_032423C420_032423C408_032423P382_032423P384",
+        "accountId": "sim1716747472358625671",
+        "trail": {
+            "pnl": {
+                "low": -7,
+                "high": 151,
+                "hdate": "2023-02-24T14:43:00.361Z",
+                "ldate": "2023-02-21T16:01:00.284Z"
+            },
+            "ror": {
+                "low": -0.00948509,
+                "high": 0.20460705,
+                "hdate": "2023-02-24T14:43:00.361Z",
+                "ldate": "2023-02-21T16:01:00.284Z"
+            },
+            "draw": {
+                "low": 738,
+                "high": 738,
+                "hdate": "2023-02-21T15:53:47.191Z",
+                "ldate": "2023-02-21T15:53:47.191Z"
+            },
+            "gain": {
+                "low": -0.01515152,
+                "high": 0.32683983,
+                "hdate": "2023-02-24T14:43:00.361Z",
+                "ldate": "2023-02-21T16:01:00.284Z"
+            },
+            "price": {
+                "low": 3.11,
+                "high": 4.69,
+                "hdate": "2023-02-21T16:01:00.284Z",
+                "ldate": "2023-02-24T14:43:00.361Z"
+            },
+            "value": {
+                "low": -469,
+                "high": -311,
+                "hdate": "2023-02-24T14:43:00.361Z",
+                "ldate": "2023-02-21T16:01:00.284Z"
+            },
+            "quantity": {
+                "low": 1,
+                "high": 1,
+                "hdate": "2023-02-21T15:53:47.191Z",
+                "ldate": "2023-02-21T15:53:47.191Z"
+            }
+        },
+        "symbol": "SPY",
+        "draw": 738,
+        "quantity": 1,
+        "text": "+382 put, -384 put, -408 call, +420 call",
+        "exits": {
+            "text": "Profits: 30%",
+            "dtype": "short",
+            "epsdays": 0,
+            "expdays": 0,
+            "pretext": "",
+            "profits": 0.3,
+            "stoploss": 0,
+            "smprofits": "normal"
+        },
+        "expiration": "2023-03-24T20:00:00.000Z",
+        "openDate": "2023-02-21T15:53:47.049Z",
+        "closeDate": "2023-02-24T14:43:23.455Z",
+        "openPrice": 4.62,
+        "closePrice": 3.12,
+        "cost": -462,
+        "pnl": 150,
+        "created": "2023-02-21T15:53:36.256Z",
+        "status": "closed",
+        "upriceOpen": 401.37,
+        "upriceClose": 395.19,
+        "botId": "BOTdJANovrzd216753049876224682",
+        "botName": "Elpis Hybrid Paper",
+        "botIcon": "fas-box-open bg-orange"
+    },
+    {
         "id": "dJANovrzd471676056809248944417",
         "type": "ironcondor",
         "iid": "BOTdJANovrzd216753049876224682",
@@ -76,7 +313,7 @@
         "upriceOpen": 406.83,
         "upriceClose": 398.13,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -155,7 +392,7 @@
         "upriceOpen": 316.87,
         "upriceClose": 303.81,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -234,7 +471,7 @@
         "upriceOpen": 316.2,
         "upriceClose": 306.3,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -313,7 +550,7 @@
         "upriceOpen": 301.59,
         "upriceClose": 306.3,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -392,7 +629,7 @@
         "upriceOpen": 145.25,
         "upriceClose": 145.99,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -471,7 +708,7 @@
         "upriceOpen": 252.45,
         "upriceClose": 251.25,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -552,7 +789,7 @@
         "upriceOpen": 59.86,
         "upriceClose": 74.79,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -631,7 +868,7 @@
         "upriceOpen": 172.93,
         "upriceClose": 173.06,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -711,7 +948,7 @@
         "upriceOpen": 407.57,
         "upriceClose": 410.57,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -790,7 +1027,7 @@
         "upriceOpen": 411.94,
         "upriceClose": 410.64,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -871,7 +1108,7 @@
         "upriceOpen": 80.03,
         "upriceClose": 81.43,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     },
     {
@@ -951,7 +1188,7 @@
         "upriceOpen": 110.56,
         "upriceClose": 113.53,
         "botId": "BOTdJANovrzd216753049876224682",
-        "botName": "Ελπις (Elpis) [EPT]",
+        "botName": "Elpis Hybrid Paper",
         "botIcon": "fas-box-open bg-orange"
     }
 ]
