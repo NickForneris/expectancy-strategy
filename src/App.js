@@ -263,7 +263,6 @@ function App() {
   const dataClosedFoot = () => {
     const closedPositionCount = (closedData || []).length
     const risk = Object.values(closedData || []).reduce((t, { draw }) => t + draw, 0)
-    const target = (Object.values(closedData || []).reduce((t, { quantity }) => t + (quantity / quantity) * 25, 0))
     const pnl = dollarUS.format(Math.round((Object.values(closedData || []).reduce((t, { pnl }) => t + pnl, 0))))
     return (
       <tr>
@@ -289,9 +288,8 @@ function App() {
     const avgLoss = (closedData || []).filter(({ pnl }) => pnl < 0).reduce((t, { pnl }) => t + pnl, 0) * -1 / (closedData || []).filter(({ pnl }) => pnl < 0).length
     const expectancy = (winPercent * avgWin) - (lossPercent * avgLoss)
     const risk = Object.values(closedData || []).reduce((t, { draw }) => t + draw, 0)
-    const target = (Object.values(closedData || []).reduce((t, { cost }) => t + cost, 0)) * -1
     const pnl = Math.round((Object.values(closedData || []).reduce((t, { pnl }) => t + pnl, 0)))
-    const riskReward = target / risk
+    const calmarRatio = (pnl / Math.max(...(closedData || []).map(({ draw }) => draw))).toFixed(2)
     const ror = pnl / risk
     return (
       <tbody>
@@ -304,8 +302,8 @@ function App() {
           <td className='align-middle'>{Math.round(lossPercent * 100)}%</td>
         </tr>
         <tr>
-          <td className='align-middle'>Risk-to-Reward Ratio</td>
-          <td className='align-middle'>{Math.round(riskReward * 100)}%</td>
+          <td className='align-middle'>Calmar Ratio</td>
+          <td className='align-middle'>{calmarRatio}</td>
         </tr>
         <tr>
           <td className='align-middle'>Return on Risk</td>
@@ -317,7 +315,7 @@ function App() {
         </tr>
       </tbody>
     )
-  }
+}
 
 
   return (
