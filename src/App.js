@@ -210,29 +210,32 @@ function App() {
     )
   }
 
-  const dataPosBody = () => (posData || []).sort((a, b) =>
-    a.days - b.days).map((pos, i) => {
-      return (
-        <tr key={i}>
-          <td className="gold">
-            <div className="text-white">{pos.symbol} | {pos.strategy}</div>
-            <div>{pos.text}</div>
-            <div className="grey">{moment(pos.expiration).format('MMM D')} </div>
-          </td>
-          <td className='align-middle text-center'>{pos.days}</td>
-          <td className='align-middle text-center'>{pos.quantity}</td>
-          <td className='align-middle text-center'>{dollarUS.format(pos.draw)}</td>
-          <td className={`align-middle text-center ${pos.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(pos.pnl)}</td>
-          <td className={`align-middle text-center ${pos.ror < 0 ? "red" : "green"}`}>{Math.round(pos.ror * 100)}%</td>
-        </tr>
-      )
-    })
+  const dataPosBody = () => (posData || [])
+  .filter(pos => !isNaN(pos.days) && pos.days !== '')
+  .sort((a, b) => a.days - b.days)
+  .map((pos, i) => {
+    return (
+      <tr key={i}>
+        <td className="gold">
+          <div className="text-white">{pos.symbol} | {pos.strategy}</div>
+          <div>{pos.text}</div>
+          <div className="grey">{moment(pos.expiration).format('MMM D')} </div>
+        </td>
+        <td className='align-middle text-center'>{pos.days}</td>
+        <td className='align-middle text-center'>{pos.quantity}</td>
+        <td className='align-middle text-center'>{dollarUS.format(pos.draw)}</td>
+        <td className={`align-middle text-center ${pos.pnl < 0 ? "red" : "green"}`}>{dollarUS.format(pos.pnl)}</td>
+        <td className={`align-middle text-center ${pos.ror < 0 ? "red" : "green"}`}>{Math.round(pos.ror * 100)}%</td>
+      </tr>
+    )
+  })
+
 
   const dataPosFoot = () => {
     const currentPositionCount = (posData || []).length
-    const risk = Object.values(posData || []).reduce((t, { draw }) => t + draw, 0)
-    const pl = Object.values(posData || []).reduce((t, { pnl }) => t + pnl, 0)
-    const plPerc = Math.round((100 * pl / risk))
+    const risk = Object.values(posData || []).reduce((t, { draw }) => t + (isNaN(draw) ? 0 : draw), 0)
+    const pl = Object.values(posData || []).reduce((t, { pnl }) => t + (isNaN(pnl) ? 0 : pnl), 0)
+    const plPerc = isNaN(pl) || isNaN(risk) ? 0 : isNaN(Math.round(100 * pl / risk)) ? 0 : Math.round(100 * pl / risk)
     return (
       <tr>
         <td className='align-middle' colSpan='3'>TOTALS: {currentPositionCount} Current Positions</td>
@@ -242,8 +245,8 @@ function App() {
       </tr>
     )
   }
-
-  const dataClosedBody = () => (closedData || []).sort((a, b) =>
+  
+  const dataClosedBody = () => (closedData || []).filter((pos) => pos.status !== "cancelled").sort((a, b) =>
     moment(b.closeDate).valueOf() - moment(a.closeDate)).map((pos, i) => {
       return (
         <tr key={i}>
@@ -261,7 +264,7 @@ function App() {
     })
 
   const dataClosedFoot = () => {
-    const closedPositionCount = (closedData || []).length
+    const closedPositionCount = (closedData || []).filter((pos) => pos.status !== "cancelled").length
     const risk = Object.values(closedData || []).reduce((t, { draw }) => t + draw, 0)
     const pnl = dollarUS.format(Math.round((Object.values(closedData || []).reduce((t, { pnl }) => t + pnl, 0))))
     return (
@@ -274,7 +277,7 @@ function App() {
   }
 
   const metrics = () => {
-    const winLossCount = (closedData || []).reduce((acc, { pnl }) => {
+    const winLossCount = (closedData || []).filter((pos) => pos.status !== "cancelled").reduce((acc, { pnl }) => {
       if (pnl > 0) {
         acc.wins++;
       } else if (pnl < 0) {
