@@ -23,8 +23,8 @@ function App() {
   const [showCurPos, setShowCurPos] = useState(false)
   const [showClosed, setShowClosed] = useState(false)
 
-  const [selectedStrat, setSelectedStrat] = useState('Elpis Auto Expectancy');
-  const stratNames = ['Elpis Auto Expectancy', 'Elpis Trade Ideas'];
+  const [selectedStrat, setSelectedStrat] = useState('Ελπις (Elpis)');
+  const stratNames = ['Ελπις (Elpis)', '(Κασσάνδρα) Cassandra'];
 
   const toggleShowBot = () => {
     setShowBot(!showBot)
@@ -74,7 +74,7 @@ function App() {
   let categories = []
   let seriesDataPL = []
   let seriesDataTarget = []
-  let ept = selectedStrat === "Elpis Trade Ideas" ? 50 : 25
+  let ept = selectedStrat === "(Κασσάνδρα) Cassandra" ? 50 : 25
 
   const buildChart = () => {
 
