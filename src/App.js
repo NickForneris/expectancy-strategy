@@ -24,7 +24,7 @@ function App() {
   const [showClosed, setShowClosed] = useState(false)
 
   const [selectedStrat, setSelectedStrat] = useState('Ελπις (Elpis)');
-  const stratNames = ['Ελπις (Elpis)', '(Κασσάνδρα) Cassandra'];
+  const stratNames = ['Ελπις (Elpis)', 'Κασσάνδρα (Cassandra)'];
 
   const toggleShowBot = () => {
     setShowBot(!showBot)
@@ -74,7 +74,7 @@ function App() {
   let categories = []
   let seriesDataPL = []
   let seriesDataTarget = []
-  let ept = selectedStrat === "(Κασσάνδρα) Cassandra" ? 50 : 25
+  let ept = selectedStrat === "Κασσάνδρα (Cassandra)" ? 50 : 25
 
   const buildChart = () => {
 
