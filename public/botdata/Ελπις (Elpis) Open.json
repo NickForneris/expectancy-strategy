@@ -1,3 +1,246 @@
 [
-  {}
+  {
+    "id": "dJANovrzd4167839380937495694",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191703991406",
+    "accountId": "sim11216714649420573231",
+    "change": 56.54,
+    "changePct": 0.08711864,
+    "tags": "",
+    "multiplier": 100,
+    "oid": "SPY_ironcondor_031423C406_031423C398_031423P376_031423P386",
+    "symbol": "SPY",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (SPY, Mar 14, +376 put, -386 put, -398 call, +406 call)",
+    "expiration": "2023-03-14T20:00:00.000Z",
+    "exits": {
+      "text": "Profits: 75%",
+      "dtype": "short",
+      "epsdays": 0,
+      "expdays": 0,
+      "pretext": "",
+      "profits": 0.75,
+      "stoploss": 0,
+      "smprofits": "normal"
+    },
+    "ndate": 20230314,
+    "quantity": 1,
+    "active": 1,
+    "text": "+376 put, -386 put, -398 call, +406 call",
+    "openDate": "2023-03-09T20:30:12.383Z",
+    "openPrice": 3.51,
+    "closePrice": 0,
+    "cost": -351,
+    "pnl": 33,
+    "draw": 649,
+    "value": -318,
+    "gain": 0.09401709,
+    "priceChange": -0.33,
+    "priceChangePct": -0.09401709,
+    "ror": 0.05084746,
+    "currentPrice": 3.18,
+    "totalPnl": 33,
+    "trail": {
+      "pnl": {
+        "low": -150,
+        "high": 86,
+        "hdate": "2023-03-13T18:35:00.146Z",
+        "ldate": "2023-03-13T13:44:00.458Z"
+      },
+      "ror": {
+        "low": -0.23112481,
+        "high": 0.13251156,
+        "hdate": "2023-03-13T18:35:00.146Z",
+        "ldate": "2023-03-13T13:44:00.458Z"
+      },
+      "draw": {
+        "low": 649,
+        "high": 649,
+        "hdate": "2023-03-09T20:30:18.947Z",
+        "ldate": "2023-03-09T20:30:18.947Z"
+      },
+      "gain": {
+        "low": -0.42735043,
+        "high": 0.24501425,
+        "hdate": "2023-03-13T18:35:00.146Z",
+        "ldate": "2023-03-13T13:44:00.458Z"
+      },
+      "price": {
+        "low": 2.65,
+        "high": 5.01,
+        "hdate": "2023-03-13T13:44:00.458Z",
+        "ldate": "2023-03-13T18:35:00.146Z"
+      },
+      "value": {
+        "low": -501,
+        "high": -265,
+        "hdate": "2023-03-13T18:35:00.146Z",
+        "ldate": "2023-03-13T13:44:00.458Z"
+      },
+      "quantity": {
+        "low": 1,
+        "high": 1,
+        "hdate": "2023-03-09T20:30:18.947Z",
+        "ldate": "2023-03-09T20:30:18.947Z"
+      }
+    },
+    "maintenance": 1000,
+    "upriceOpen": 391.3,
+    "delta": 0.22885959,
+    "theta": 0.6410152,
+    "gamma": -0.03934781,
+    "vega": -0.11481962,
+    "days": 1,
+    "bid": 3.16,
+    "ask": 3.21,
+    "markClose": 3.18,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "SPY",
+      "description": "SPDR S&P 500 ETF Trust",
+      "last": 386.78,
+      "change": 0.87,
+      "changePercent": 0.00225441,
+      "bid": 386.78,
+      "ask": 386.79,
+      "open": 381.81,
+      "high": 390.39,
+      "low": 380.65,
+      "close": 385.91,
+      "sd": 0.01044096,
+      "av": 0.1657451
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191703991406",
+      "name": "PAPER | Ελπις (Elpis)",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  },
+  {
+    "id": "dJANovrzd4167839020958422077",
+    "type": "ironcondor",
+    "status": "open",
+    "iid": "BOTdJANovrzd4116718191703991406",
+    "accountId": "sim11216714649420573231",
+    "change": 189.13,
+    "changePct": 0.18988956,
+    "tags": "",
+    "multiplier": 100,
+    "oid": "QQQ_ironcondor_031423C308_031423C300_031423P281_031423P289",
+    "symbol": "QQQ",
+    "strategy": "Iron Condor",
+    "desc": "Iron Condor (QQQ, Mar 14, +281 put, -289 put, -300 call, +308 call)",
+    "expiration": "2023-03-14T20:00:00.000Z",
+    "exits": {
+      "text": "Profits: 75%",
+      "dtype": "short",
+      "epsdays": 0,
+      "expdays": 0,
+      "pretext": "",
+      "profits": 0.75,
+      "stoploss": 0,
+      "smprofits": "normal"
+    },
+    "ndate": 20230314,
+    "quantity": 2,
+    "active": 1,
+    "text": "+281 put, -289 put, -300 call, +308 call",
+    "openDate": "2023-03-09T19:30:10.141Z",
+    "openPrice": 3.02,
+    "closePrice": 0,
+    "cost": -604,
+    "pnl": 180,
+    "draw": 996,
+    "value": -424,
+    "gain": 0.29801325,
+    "priceChange": -0.9,
+    "priceChangePct": -0.29801325,
+    "ror": 0.18072289,
+    "currentPrice": 2.12,
+    "totalPnl": 180,
+    "trail": {
+      "pnl": {
+        "low": -156,
+        "high": 208,
+        "hdate": "2023-03-13T18:33:00.131Z",
+        "ldate": "2023-03-13T13:42:00.411Z"
+      },
+      "ror": {
+        "low": -0.15662651,
+        "high": 0.20883534,
+        "hdate": "2023-03-13T18:33:00.131Z",
+        "ldate": "2023-03-13T13:42:00.411Z"
+      },
+      "draw": {
+        "low": 996,
+        "high": 996,
+        "hdate": "2023-03-09T19:30:16.209Z",
+        "ldate": "2023-03-09T19:30:16.209Z"
+      },
+      "gain": {
+        "low": -0.25827815,
+        "high": 0.34437086,
+        "hdate": "2023-03-13T18:33:00.131Z",
+        "ldate": "2023-03-13T13:42:00.411Z"
+      },
+      "price": {
+        "low": 1.98,
+        "high": 3.8,
+        "hdate": "2023-03-13T13:42:00.411Z",
+        "ldate": "2023-03-13T18:33:00.131Z"
+      },
+      "value": {
+        "low": -760,
+        "high": -396,
+        "hdate": "2023-03-13T18:33:00.131Z",
+        "ldate": "2023-03-13T13:42:00.411Z"
+      },
+      "quantity": {
+        "low": 2,
+        "high": 2,
+        "hdate": "2023-03-09T19:30:16.209Z",
+        "ldate": "2023-03-09T19:30:16.209Z"
+      }
+    },
+    "maintenance": 1600,
+    "upriceOpen": 294.69,
+    "delta": 0.11279052,
+    "theta": 0.65081899,
+    "gamma": -0.05309774,
+    "vega": -0.10151976,
+    "days": 1,
+    "bid": 2.1,
+    "ask": 2.15,
+    "markClose": 2.12,
+    "isShort": true,
+    "isLong": false,
+    "isSpread": true,
+    "isLastTradingDay": false,
+    "under": {
+      "symbol": "QQQ",
+      "description": "Investco QQQ Trust",
+      "last": 292.35,
+      "change": 3.8,
+      "changePercent": 0.01316929,
+      "bid": 292.34,
+      "ask": 292.36,
+      "open": 286.73,
+      "high": 294.47,
+      "low": 285.19,
+      "close": 288.55,
+      "sd": 0.01488124,
+      "av": 0.23623236
+    },
+    "bot": {
+      "id": "BOTdJANovrzd4116718191703991406",
+      "name": "PAPER | Ελπις (Elpis)",
+      "icon": "fas-box-open bg-orange",
+      "accountId": "sim11216714649420573231"
+    }
+  }
 ]
