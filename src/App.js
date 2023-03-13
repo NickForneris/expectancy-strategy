@@ -61,7 +61,7 @@ function App() {
         fetch(closed)
           .then((response) => response.json())
           .then((data) =>
-            setClosedData(data)
+            setClosedData(data.filter((pos) => pos.status !== "canceled"))
           )
       )
   }, [bots, closed, positions, selectedStrat])
@@ -78,8 +78,8 @@ function App() {
 
   const buildChart = () => {
 
-    const closedValuesPL = Object.entries((closedData || []).filter((pos) => pos.status !== "canceled").reduce((dv, { closeDate: d, pnl: v }) => ({ ...dv, [moment(d).format('MMM DD YYYY')]: (dv[moment(d).format('MMM DD YYYY')] || 0) + v }), {})).map(([closeDate, pnl]) => ({ closeDate, pnl })).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
-    const closedValuesTarget = Object.entries((closedData || []).filter((pos) => pos.status !== "canceled").reduce((dv, { closeDate: d, quantity: v }) => ({ ...dv, [moment(d).format('MMM DD YYYY')]: (dv[moment(d).format('MMM DD YYYY')] || 0) + (v / v) }), {})).map(([closeDate, quantity]) => ({ closeDate, quantity })).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
+    const closedValuesPL = Object.entries((closedData || []).reduce((dv, { closeDate: d, pnl: v }) => ({ ...dv, [moment(d).format('MMM DD YYYY')]: (dv[moment(d).format('MMM DD YYYY')] || 0) + v }), {})).map(([closeDate, pnl]) => ({ closeDate, pnl })).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
+    const closedValuesTarget = Object.entries((closedData || []).reduce((dv, { closeDate: d, quantity: v }) => ({ ...dv, [moment(d).format('MMM DD YYYY')]: (dv[moment(d).format('MMM DD YYYY')] || 0) + (v / v) }), {})).map(([closeDate, quantity]) => ({ closeDate, quantity })).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
     categories = Array.from(closedValuesPL.map(({ closeDate }) => closeDate)).sort((a, b) => { const dateA = new Date(a.closeDate); const dateB = new Date(b.closeDate); return dateA - dateB })
 
     seriesDataPL = Array.from(closedValuesPL.map(({ pnl }) => pnl)).reduce((acc, currentValue, currentIndex) => {
@@ -246,7 +246,7 @@ function App() {
     )
   }
   
-  const dataClosedBody = () => (closedData || []).filter((pos) => pos.status !== "canceled").sort((a, b) =>
+  const dataClosedBody = () => (closedData || []).sort((a, b) =>
     moment(b.closeDate).valueOf() - moment(a.closeDate)).map((pos, i) => {
       return (
         <tr key={i}>
@@ -264,7 +264,7 @@ function App() {
     })
 
   const dataClosedFoot = () => {
-    const closedPositionCount = (closedData || []).filter((pos) => pos.status !== "canceled").length
+    const closedPositionCount = (closedData || []).length
     const risk = Object.values(closedData || []).reduce((t, { draw }) => t + draw, 0)
     const pnl = dollarUS.format(Math.round((Object.values(closedData || []).reduce((t, { pnl }) => t + pnl, 0))))
     return (
@@ -277,7 +277,7 @@ function App() {
   }
 
   const metrics = () => {
-    const winLossCount = (closedData || []).filter((pos) => pos.status !== "canceled").reduce((acc, { pnl }) => {
+    const winLossCount = (closedData || []).reduce((acc, { pnl }) => {
       if (pnl > 0) {
         acc.wins++;
       } else if (pnl < 0) {
